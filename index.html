@@ -53,36 +53,52 @@
 		}
 
 		.hero-carousel .carousel-item-1 {
-			background: url("./assets/images/header-img.svg") no-repeat center center;
+			background: url("./assets/images/her1.png") no-repeat center center;
 			background-size: cover;
 			background-position: top;
-			filter: blur(0.7px);
+			filter: blur(6px) opacity(0.7);
 		}
 
-		/* 
-		<-- google colors --> 
-		.theme-bg-primary{
-			background:#4285F4
+		.hero-text-block {
+			text-align: right;
 		}
-		.btn-primary {background: #4285F4}
+
+		/* <-- google colors -->  */
+		.theme-bg-primary {
+			background: #4285F4
+		}
+
+		.btn-primary {
+			background: #4285F4
+		}
+
 		a {
 			color: #4285F4;
 		}
+
 		.btn-primary:hover {
 			background: rgb(40, 121, 201);
 		}
+
 		.btn-primary.disabled {
 			background: #6295e8;
 		}
+
 		a:hover {
 			color: #2f66bf;
 		}
+
 		.pricing .heading {
 			background: #4285F4;
-		} */
+		}
+
 		@media screen and (min-width: 768px) {
 			#speakerCarousel {
 				width: 60%;
+			}
+
+			.hero-text-block {
+				float: right;
 			}
 		}
 
@@ -101,25 +117,30 @@
 		<div class="branding">
 			<div class="container-fluid">
 				<nav class="main-nav navbar navbar-expand-lg">
-					<div class="site-logo"><a target="_blank" class="scrollto" href="#hero-section"
-							style="color: white; text-decoration:none;"><img class="logo-icon"
-								src="assets/images/logo.png" alt="devfest logo"> Dev Fest 2022 </a>
+					<div class="site-logo fw-bold"><a target="_blank" class="scrollto fs-4" href="#hero-section"
+							style="color: white; text-decoration:none;"><img class="logo-icon mx-3"
+								src="assets/images/logo.png" alt="devfest logo">IWD 2023</a>
 					</div>
 					<!-- <div class="navbar-btn order-lg-2"><a target="_blank" class="btn btn-secondary"
 							href="https://www.townscript.com/e/devfest-goa-2022" target="_blank">Tickets</a></div> -->
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation"
+					<button class="navbar-toggler border text-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navigation"
 						aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
+						<span class="navbar-toggler-icon text-warning"></span>
 					</button>
 					<div id="navigation" class="navbar-collapse collapse  justify-content-lg-end me-lg-3">
 						<ul class="nav navbar-nav">
-							<li class="nav-item"><a class="nav-link scrollto" href="#about-section">About</a></li>
-							<li class="nav-item"><a class="nav-link scrollto" href="#speakers-section">Speakers</a></li>
-							<li class="nav-item"><a class="nav-link scrollto" href="#schedule-section">Schedule</a></li>
+							<li class="nav-item"><a class="nav-link text-warning scrollto"
+									href="#about-section">About</a></li>
+							<li class="nav-item"><a class="nav-link text-warning scrollto"
+									href="#speakers-section">Speakers</a></li>
+							<li class="nav-item"><a class="nav-link text-warning scrollto"
+									href="#schedule-section">Schedule</a></li>
 							<!-- <li class="nav-item"><a class="nav-link scrollto" href="#tickets-section">Tickets</a></li> -->
-							<li class="nav-item"><a class="nav-link scrollto" href="#venue-section">Venue</a></li>
+							<li class="nav-item"><a class="nav-link text-warning scrollto"
+									href="#venue-section">Venue</a></li>
 							<!-- <li class="nav-item"><a class="nav-link scrollto" href="#sponsors-section">Sponsors</a></li> -->
-							<li class="nav-item"><a class="nav-link scrollto" href="#Organiser-section">Team</a>
+							<li class="nav-item"><a class="nav-link text-warning scrollto"
+									href="#Organiser-section">Team</a>
 							</li>
 						</ul>
 						<!--//nav-->
@@ -146,13 +167,15 @@
 			<!-- <div class="hero-block-mask"></div> -->
 			<div class="container">
 				<div class="hero-text-block">
-					<h1 class="hero-heading mb-1">International Women’s Day</h1>
-					<div class="hero-meta mb-3"><i class="far fa-calendar-alt me-2"></i>21st April<i
-							class="fas fa-map-marker-alt mx-2"></i><a target="_blank"
+					<h1 class="hero-heading mb-1 text-black">International Women’s Day</h1>
+					<div class="hero-meta mb-3 text-black fs-5"><i class="far fa-calendar-alt me-2 fs-5"></i>21st
+						April<i class="fas fa-map-marker-alt mx-2"></i><a target="_blank"
 							href="https://goo.gl/maps/FRHeFXjZTnjyJuUx6" target="_blank"
-							style="text-decoration: none; color: white;">Padre Conceicao College of Engineering</a>
+							style="text-decoration: none; color: black; font-size: 1.2rem;">Padre Conceicao College of
+							Engineering</a>
 					</div>
-					<div class="hero-intro mb-4">International Women’s Day (IWD) is Women Techmakers’ largest annual
+					<div class="hero-intro mb-4 fs-6 text-black">International Women’s Day (IWD) is Women Techmakers’
+						largest annual
 						event campaign to celebrate women and the allies. It marks a moment to celebrate and provide
 						visibility for the incredible contributions of women around the world and is a call to action
 						for accelerating gender parity.<br></div>
@@ -240,7 +263,7 @@
 			<!-- <div class="about-cta text-center mb-5"><a target="_blank" class="btn btn-secondary btn-lg  mb-5"
 					href="https://www.townscript.com/e/devfest-goa-2022" target="_blank">Get Your Ticket Today</a></div>
 		</div> -->
-		<!--//container-->
+			<!--//container-->
 
 	</section>
 	<!--//about-section-->
@@ -510,8 +533,8 @@
 						</div>
 					</div> -->
 
-					<!-- Welcome Note -->
-					<!-- <div class="item item-talk mb-3">
+				<!-- Welcome Note -->
+				<!-- <div class="item item-talk mb-3">
 						<div class="meta">
 							<h4 class="time mb-3">9:15 - 9:30</h4>
 							<a href=""></a>
@@ -531,8 +554,8 @@
 						</div>
 					</div> -->
 
-					<!-- Dark Web : Investigation and challenges -->
-					<!-- <div class="item item-talk mb-3">
+				<!-- Dark Web : Investigation and challenges -->
+				<!-- <div class="item item-talk mb-3">
 						<div class="meta">
 							<h4 class="time mb-3">9:30 - 10:00</h4>
 							<div class="profile">
@@ -558,8 +581,8 @@
 
 					<br><br> -->
 
-					<!-- Build your distributed applications 10x faster - ORKES.io -->
-					<!-- <div class="item item-talk mb-3">
+				<!-- Build your distributed applications 10x faster - ORKES.io -->
+				<!-- <div class="item item-talk mb-3">
 						<div class="meta">
 							<h4 class="time mb-3">10:10 - 10:40</h4>
 							<div class="profile">
@@ -585,8 +608,8 @@
 					</div>
 					<br> -->
 
-					<!-- Building modern web apps with Angular and Firebase -->
-					<!-- <div class="item item-talk mb-3">
+				<!-- Building modern web apps with Angular and Firebase -->
+				<!-- <div class="item item-talk mb-3">
 						<div class="meta">
 							<h4 class="time mb-3">10:45 - 11:15</h4>
 							<div class="profile">
@@ -612,8 +635,8 @@
 						</div>
 					</div> -->
 
-					<!-- Unlock Graph Databases with GCloud and Neo4j -->
-					<!-- <div class="item item-talk mb-3">
+				<!-- Unlock Graph Databases with GCloud and Neo4j -->
+				<!-- <div class="item item-talk mb-3">
 						<div class="meta">
 							<h4 class="time mb-3">11:20 - 11:50</h4>
 							<div class="profile">
@@ -639,8 +662,8 @@
 						</div>
 					</div> -->
 
-					<!-- Showcase your website with Firebase Hosting -->
-					<!-- <div class="item item-talk mb-3">
+				<!-- Showcase your website with Firebase Hosting -->
+				<!-- <div class="item item-talk mb-3">
 						<div class="meta">
 							<h4 class="time mb-3">11:55 - 12:25</h4>
 							<div class="profile">
@@ -687,8 +710,8 @@
 						</div>
 					</div> -->
 
-					<!-- Internal Working of RecyclerView -->
-					<!-- <div class="item item-talk mb-3">
+				<!-- Internal Working of RecyclerView -->
+				<!-- <div class="item item-talk mb-3">
 						<div class="meta">
 							<h4 class="time mb-3">12:30 - 12:45</h4>
 							<div class="profile">
@@ -715,8 +738,8 @@
 						</div>
 					</div> -->
 
-					<!-- Orchestration with serverless microservices -->
-					<!-- <div class="item item-talk mb-3">
+				<!-- Orchestration with serverless microservices -->
+				<!-- <div class="item item-talk mb-3">
 						<div class="meta">
 							<h4 class="time mb-3">12:50 - 13:05</h4>
 							<div class="profile">
@@ -742,8 +765,8 @@
 						</div>
 					</div> -->
 
-					<!-- Lunch -->
-					<!-- <div class="item item-other">
+				<!-- Lunch -->
+				<!-- <div class="item item-other">
 						<div class="meta">
 							<h4 class="time mb-3">13:10 - 13:45</h4>
 						</div>
@@ -752,8 +775,8 @@
 						</div>
 					</div> -->
 
-					<!-- Welcome Jetpack DataStore, GoodBye SharedPreferences -->
-					<!-- <div class="item item-talk mb-3">
+				<!-- Welcome Jetpack DataStore, GoodBye SharedPreferences -->
+				<!-- <div class="item item-talk mb-3">
 						<div class="meta">
 							<h4 class="time mb-3">13:45 - 14:15</h4>
 							<div class="profile">
@@ -779,8 +802,8 @@
 						</div>
 					</div> -->
 
-					<!-- The State of Compose -->
-					<!-- <div class="item item-talk mb-3">
+				<!-- The State of Compose -->
+				<!-- <div class="item item-talk mb-3">
 						<div class="meta">
 							<h4 class="time mb-3">14:20 - 14:50</h4>
 							<div class="profile">
@@ -808,8 +831,8 @@
 						</div>
 					</div> -->
 
-					<!-- Angular + Security -->
-					<!-- <div class="item item-talk mb-5">
+				<!-- Angular + Security -->
+				<!-- <div class="item item-talk mb-5">
 						<div class="meta">
 							<h4 class="time mb-3">14:55 - 15:25</h4>
 							<div class="profile">
@@ -836,8 +859,8 @@
 						</div>
 					</div> -->
 
-					<!-- Accessibility: Technology and Beyond -->
-					<!-- <div class="item item-talk mb-5">
+				<!-- Accessibility: Technology and Beyond -->
+				<!-- <div class="item item-talk mb-5">
 						<div class="meta">
 							<h4 class="time mb-3">15:30 - 16:00</h4>
 							<div class="profile">
@@ -864,8 +887,8 @@
 						</div>
 					</div> -->
 
-					<!-- Platform Channel - Communicating Flutter with Native Code -->
-					<!-- <div class="item item-talk mb-5">
+				<!-- Platform Channel - Communicating Flutter with Native Code -->
+				<!-- <div class="item item-talk mb-5">
 						<div class="meta">
 							<h4 class="time mb-3">16:05 - 16:35</h4>
 							<div class="profile">
@@ -889,8 +912,8 @@
 						</div>
 					</div> -->
 
-					<!-- High Tea -->
-					<!-- <div class="item item-other">
+				<!-- High Tea -->
+				<!-- <div class="item item-other">
 						<div class="meta">
 							<h4 class="time mb-3">16:35 - 17:00</h4>
 						</div>
@@ -899,8 +922,8 @@
 						</div>
 					</div> -->
 
-					<!-- Firebase and Beyond -->
-					<!-- <div class="item item-talk mb-3">
+				<!-- Firebase and Beyond -->
+				<!-- <div class="item item-talk mb-3">
 						<div class="meta">
 							<h4 class="time mb-3">17:00 - 17:30</h4>
 							<div class="profile">
@@ -938,8 +961,8 @@
 						</div>
 					</div> -->
 
-					<!-- Closing Note -->
-					<!-- <div class="item item-talk mb-3">
+				<!-- Closing Note -->
+				<!-- <div class="item item-talk mb-3">
 						<div class="meta">
 							<h4 class="time mb-3">17:30 - 18:30</h4>
 							<a href=""></a>
@@ -1438,7 +1461,7 @@
 					class="btn btn-warning btn-lg text-decoration-none"
 					href="https://www.townscript.com/e/devfest-goa-2022" target="_blank">Get Tickets</a></div>
 		</div> -->
-		<!--//container-->
+			<!--//container-->
 	</section>
 	<!--//Volunteers-section-->
 
