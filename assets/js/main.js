@@ -26,7 +26,7 @@ function headerAnimation () {
 
     var scrollTop = window.scrollY;
 	
-	if ( scrollTop > 100 ) {	    
+	if ( scrollTop >= -100 ) {	    
 	    header.classList.add('header-shrink');    
 	    	    
 	} else {
