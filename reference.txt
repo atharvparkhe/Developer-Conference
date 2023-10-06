@@ -1,0 +1,2210 @@
+// SPEAKERs section
+
+<section id="speakers-section" class="speakers-section section">
+		<div class="container">
+			<h3 class="section-heading text-center mb-3">Speakers</h3>
+			<div class="section-intro text-center single-col-max mx-auto mb-5">Here is the list of our Expert Speakers
+				of the Event</div>
+			<div class="speakers-container row mx-auto">
+				<!-- DEV_REF DEV_REF_SPEAKERS paste speakers below (detele siblings to this comments before adding new data)-->
+				<!-- DEV_REF Start -->
+
+				<!-- Prof. (Dr.) Naveen Kumar Chaudhary START -->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a target="_blank" href="#modal-speaker-17" data-bs-toggle="modal"
+							data-bs-target="#modal-speaker-17"><img src="assets/images/speakers/speaker-17.jpg"
+								class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Prof. (Dr.) Naveen Kumar Chaudhary</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Campus Director, NFSU Goa Campus, served as director of Ministry of
+									External Affairs, Gov of India</div>
+								<div class="meta"></div>
+							</div>
+							<a target="_blank" href="#modal-speaker-17" data-bs-toggle="modal"
+								data-bs-target="#modal-speaker-17">Read
+								more &rarr;</a>
+						</div>
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<li class="list-inline-item"><a target="_blank"
+										href="https://www.linkedin.com/in/naveen-chaudhary-3b626a232/"><i
+											class="fab fa-linkedin-in fa-fw"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="modal modal-speaker modal-speaker-17" id="modal-speaker-17" tabindex="-1" role="dialog"
+						aria-labelledby="speaker-17-ModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="btn-close" data-bs-dismiss="modal"
+										aria-hidden="true">&times;</button>
+									<h4 id="speaker-13-ModalLabel" class="modal-title sr-only">Prof. (Dr.) Naveen Kumar
+										Chaudhary</h4>
+								</div>
+								<div class="modal-body p-0">
+									<div class="theme-bg-light p-5">
+										<div class="row">
+											<div class="col-12 col-md-auto text-center">
+												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+													src="assets/images/speakers/speaker-17.jpg" alt="" />
+											</div>
+											<div class="col text-center text-md-start mx-auto">
+												<h2 class="name mb-2">Prof. (Dr.) Naveen Kumar Chaudhary</h2>
+												<div class="meta">Campus Director, NFSU Goa Campus, served as director
+													of Ministry of External Affairs, Gov of India</div>
+												<div class="meta mb-2">Campus Director, NFSU Goa Campus, served as
+													director of Ministry of
+													External Affairs, Gov of India</div>
+												<ul
+													class="social-list list-inline mb-0 d-flex flex-row justify-content-end">
+													<li class="list-inline-item"><a
+															href="https://www.linkedin.com/in/naveen-chaudhary-3b626a232/"><i
+																class="fab fa-linkedin-in fa-fw"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="desc p-4 p-lg-5">
+										<p></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Prof. (Dr.) Naveen Kumar Chaudhary END -->
+
+				<!-- Cherish Santoshi START -->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a target="_blank" href="#modal-speaker-20" data-bs-toggle="modal"
+							data-bs-target="#modal-speaker-20"><img src="assets/images/speakers/speaker-20.jpg"
+								class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Cherish Santoshi</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Cherish Santoshi is an award-winning Developer Relations leader
+									focused on how developers build distributed applications.</div>
+							</div>
+							<a target="_blank" href="#modal-speaker-20" data-bs-toggle="modal"
+								data-bs-target="#modal-speaker-20">Read
+								more &rarr;</a>
+						</div>
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<li class="list-inline-item"><a target="_blank"
+										href="https://twitter.com/CherishSantoshi"><i
+											class="fab fa-twitter fa-fw"></i></a></li>
+								<li class="list-inline-item"><a target="_blank"
+										href="https://www.linkedin.com/in/cherishsantoshi"><i
+											class="fab fa-linkedin-in fa-fw"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="modal modal-speaker modal-speaker-20" id="modal-speaker-20" tabindex="-1" role="dialog"
+						aria-labelledby="speaker-20-ModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="btn-close" data-bs-dismiss="modal"
+										aria-hidden="true">&times;</button>
+									<h4 id="speaker-20-ModalLabel" class="modal-title sr-only">Cherish Santoshi</h4>
+								</div>
+								<div class="modal-body p-0">
+									<div class="theme-bg-light p-5">
+										<div class="row">
+											<div class="col-12 col-md-auto text-center">
+												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+													src="assets/images/speakers/speaker-20.jpg" alt="" />
+											</div>
+											<div class="col text-center text-md-start mx-auto">
+												<h2 class="name mb-2">Cherish Santoshi</h2>
+												<div class="meta">Cherish Santoshi is an award-winning Developer
+													Relations leader focused on how developers build distributed
+													applications. In his career of 9 years, he led programs for Google,
+													Amazon, HackerEarth, and many early-stage startups. After building a
+													community of 5 million developers across the globe, Cherish
+													continues to share his experiences and strives to improve developers
+													experience and awareness.</div>
+												<div class="meta mb-2"></div>
+												<ul class="social-list list-inline mb-0">
+													<li class="list-inline-item"><a
+															href="https://twitter.com/CherishSantoshi"><i
+																class="fab fa-twitter fa-fw"></i></a></li>
+													<li class="list-inline-item"><a
+															href="https://www.linkedin.com/in/cherishsantoshi"><i
+																class="fab fa-linkedin-in fa-fw"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="desc p-4 p-lg-5">
+										<p></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Cherish Santoshi END -->
+
+				<!-- Ankit Sharma START -->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a target="_blank" href="#modal-speaker-1" data-bs-toggle="modal"
+							data-bs-target="#modal-speaker-1"><img src="assets/images/speakers/speaker-1.jpg"
+								class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Ankit Sharma</h5>
+							<div class="card-text mb-3">
+								<div class="meta">SDE III at Cisco, GDE at Angular</div>
+								<div class="meta"></div>
+							</div>
+							<a target="_blank" href="#modal-speaker-1" data-bs-toggle="modal"
+								data-bs-target="#modal-speaker-1">Read
+								more &rarr;</a>
+						</div>
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<li class="list-inline-item"><a target="_blank"
+										href="https://twitter.com/ankitsharma_007/"><i
+											class="fab fa-twitter fa-fw"></i></a></li>
+								<li class="list-inline-item"><a target="_blank"
+										href="https://www.linkedin.com/in/ankitsharma-007/"><i
+											class="fab fa-linkedin-in fa-fw"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-1" tabindex="-1" role="dialog"
+						aria-labelledby="speaker-1-ModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="btn-close" data-bs-dismiss="modal"
+										aria-hidden="true">&times;</button>
+									<h4 id="speaker-1-ModalLabel" class="modal-title sr-only">Ankit Sharma</h4>
+								</div>
+								<div class="modal-body p-0">
+									<div class="theme-bg-light p-5">
+										<div class="row">
+											<div class="col-12 col-md-auto text-center">
+												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+													src="assets/images/speakers/speaker-1.jpg" alt="" />
+											</div>
+											<div class="col text-center text-md-start mx-auto">
+												<h2 class="name mb-2">Ankit Sharma</h2>
+												<div class="meta">SDE III at Cisco, GDE at Angular</div>
+												<div class="meta mb-2"></div>
+												<ul
+													class="social-list list-inline mb-0 d-flex flex-row justify-content-end">
+													<li class="list-inline-item"><a
+															href="https://twitter.com/ankitsharma_007/"><i
+																class="fab fa-twitter fa-fw"></i></a></li>
+													<li class="list-inline-item"><a
+															href="https://www.linkedin.com/in/ankitsharma-007/"><i
+																class="fab fa-linkedin-in fa-fw"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="desc p-4 p-lg-5">
+										<p>Ankit Sharma is a Software Engineer, working with Cisco Systems and staying
+											with his family at Samastipur, Bihar, India. He has over 8 years of
+											extensive experience in Microsoft technologies including C#, ASP.NET, SQL
+											Server, and UI technologies such as JQuery, Angular, and Blazor. Ankit is a
+											technical author and speaker and loves to contribute to the open-source
+											community. He writes articles for multiple platforms, which include
+											c-sharpcorner, Dzone, Medium, and freeCodeCamp. For his dedicated
+											contribution to the developer’s community, he has been recognized as the
+											Google Developer Expert for Angular and a Microsoft MVP for Developer
+											Technologies. He is the author of Blazor Quick Start Guide and Learn C#
+											Programming.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Ankit Sharma END -->
+
+				<!-- Nitin Prakash START -->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a target="_blank" href="#modal-speaker-2" data-bs-toggle="modal"
+							data-bs-target="#modal-speaker-2"><img src="assets/images/speakers/speaker-2.jpg"
+								class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Nitin Prakash</h5>
+							<div class="card-text mb-3">
+								<div class="meta">SDE III at Trell, GDE for Android; Ex-SSE for Android at BYJUS</div>
+								<div class="meta"></div>
+							</div>
+							<a target="_blank" href="#modal-speaker-2" data-bs-toggle="modal"
+								data-bs-target="#modal-speaker-2">Read
+								more &rarr;</a>
+						</div>
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<li class="list-inline-item"><a target="_blank"
+										href="https://twitter.com/NitinDroid/"><i class="fab fa-twitter fa-fw"></i></a>
+								</li>
+								<li class="list-inline-item"><a target="_blank"
+										href="https://www.linkedin.com/in/nitin-prakash9911/"><i
+											class="fab fa-linkedin-in fa-fw"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-2" tabindex="-1" role="dialog"
+						aria-labelledby="speaker-2-ModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="btn-close" data-bs-dismiss="modal"
+										aria-hidden="true">&times;</button>
+									<h4 id="speaker-2-ModalLabel" class="modal-title sr-only">Nitin Prakash</h4>
+								</div>
+								<div class="modal-body p-0">
+									<div class="theme-bg-light p-5">
+										<div class="row">
+											<div class="col-12 col-md-auto text-center">
+												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+													src="assets/images/speakers/speaker-2.jpg" alt="" />
+											</div>
+											<div class="col text-center text-md-start mx-auto">
+												<h2 class="name mb-2">Nitin Prakash</h2>
+												<div class="meta">SDE III at Trell, GDE for Android; Ex-SSE for Android
+													at BYJUS</div>
+												<div class="meta mb-2"></div>
+												<ul
+													class="social-list list-inline mb-0 d-flex flex-row justify-content-end">
+													<li class="list-inline-item"><a
+															href="https://twitter.com/NitinDroid/"><i
+																class="fab fa-twitter fa-fw"></i></a></li>
+													<li class="list-inline-item"><a
+															href="https://www.linkedin.com/in/nitin-prakash9911/"><i
+																class="fab fa-linkedin-in fa-fw"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="desc p-4 p-lg-5">
+										<p>Nitin Prakash is an Android Engineer, currently working with Trell, Ex-Byjus.
+											Nitin has completed his graduation in Electronics and Communication from
+											Maharishi Dayanand University, Haryana, and live in New Delhi. After
+											completing his graduation Nitin had worked in the telecom industry for more
+											than 2.5 years and but he also learned java and android while doing his
+											telecom job. He got his first break in the IT industry in Dec-2017 where he
+											worked as an individual contributor to the whole android app SDLC and he
+											developed 9 apps successfully. In Byjus were he handling the Snap-Camera
+											feature and also handling architecture optimization. He always focuses on
+											making the app more decoupled, testable, scalable, and extendable and he
+											also focuses on the smooth UX for the end-users. His passion is to develop
+											more robust android apps and learning every day into small pieces. His fun
+											fact, he is very loquacious if anybody talks about android dev.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Nitin Prakash END -->
+
+				<!-- Bhavna Thacker START -->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a target="_blank" href="#modal-speaker-3" data-bs-toggle="modal"
+							data-bs-target="#modal-speaker-3"><img src="assets/images/speakers/speaker-3.jpg"
+								class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Bhavna Thacker</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Senior Software Engineer at MEGA; GDE Android</div>
+								<div class="meta"></div>
+							</div>
+							<a target="_blank" href="#modal-speaker-3" data-bs-toggle="modal"
+								data-bs-target="#modal-speaker-3">Read
+								more &rarr;</a>
+						</div>
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<li class="list-inline-item"><a target="_blank"
+										href="https://twitter.com/bhavnathacker14"><i
+											class="fab fa-twitter fa-fw"></i></a></li>
+								<li class="list-inline-item"><a
+										href="https://www.linkedin.com/in/bhavna-thacker-64956985/"><i
+											class="fab fa-linkedin-in fa-fw"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-3" tabindex="-1" role="dialog"
+						aria-labelledby="speaker-3-ModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="btn-close" data-bs-dismiss="modal"
+										aria-hidden="true">&times;</button>
+									<h4 id="speaker-3-ModalLabel" class="modal-title sr-only">Bhavna Thacker</h4>
+								</div>
+								<div class="modal-body p-0">
+									<div class="theme-bg-light p-5">
+										<div class="row">
+											<div class="col-12 col-md-auto text-center">
+												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+													src="assets/images/speakers/speaker-3.jpg" alt="" />
+											</div>
+											<div class="col text-center text-md-start mx-auto">
+												<h2 class="name mb-2">Bhavna Thacker</h2>
+												<div class="meta">Senior Software Engineer at MEGA; GDE Android</div>
+												<div class="meta mb-2"></div>
+												<ul
+													class="social-list list-inline mb-0 d-flex flex-row justify-content-end">
+													<li class="list-inline-item"><a
+															href="https://twitter.com/bhavnathacker14"><i
+																class="fab fa-twitter fa-fw"></i></a></li>
+													<li class="list-inline-item"><a
+															href="https://www.linkedin.com/in/bhavna-thacker-64956985/"><i
+																class="fab fa-linkedin-in fa-fw"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="desc p-4 p-lg-5">
+										<p>Bhavna is a Google Developer Expert for Android and Senior Software Engineer
+											at MEGA. She is also a WTM member and Final Pass Editor @raywenderlich. She
+											likes to share her learnings via YouTube channel - LearnAndroid. When she is
+											not at work, you can find her in the kitchen listening to music and
+											experimenting new dishes.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Bhavna Thacker END -->
+
+				<!-- Rivu Chakraborty START -->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a target="_blank" href="#modal-speaker-4" data-bs-toggle="modal"
+							data-bs-target="#modal-speaker-4"><img src="assets/images/speakers/speaker-4.jpg"
+								class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Rivu Chakraborty</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Lead Android Engineer at Meesho; GDE Kotlin </div>
+								<div class="meta"></div>
+							</div>
+							<a target="_blank" href="#modal-speaker-4" data-bs-toggle="modal"
+								data-bs-target="#modal-speaker-4">Read
+								more &rarr;</a>
+						</div>
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<li class="list-inline-item"><a target="_blank"
+										href="https://twitter.com/rivuchakraborty/"><i
+											class="fab fa-twitter fa-fw"></i></a></li>
+								<li class="list-inline-item"><a target="_blank"
+										href="https://www.linkedin.com/in/rivuchk/"><i
+											class="fab fa-linkedin-in fa-fw"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-4" tabindex="-1" role="dialog"
+						aria-labelledby="speaker-4-ModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="btn-close" data-bs-dismiss="modal"
+										aria-hidden="true">&times;</button>
+									<h4 id="speaker-4-ModalLabel" class="modal-title sr-only">Rivu Chakraborty</h4>
+								</div>
+								<div class="modal-body p-0">
+									<div class="theme-bg-light p-5">
+										<div class="row">
+											<div class="col-12 col-md-auto text-center">
+												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+													src="assets/images/speakers/speaker-4.jpg" alt="" />
+											</div>
+											<div class="col text-center text-md-start mx-auto">
+												<h2 class="name mb-2">Rivu Chakraborty</h2>
+												<div class="meta">Lead Android Engineer at Meesho; GDE Kotlin </div>
+												<div class="meta mb-2"></div>
+												<ul
+													class="social-list list-inline mb-0 d-flex flex-row justify-content-end">
+													<li class="list-inline-item"><a
+															href="https://twitter.com/rivuchakraborty/"><i
+																class="fab fa-twitter fa-fw"></i></a></li>
+													<li class="list-inline-item"><a
+															href="https://www.linkedin.com/in/rivuchk/"><i
+																class="fab fa-linkedin-in fa-fw"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="desc p-4 p-lg-5">
+										<p>Rivu Chakraborty is a Kotlin GDE, an Android developer, a community person, &
+											one of the early adopters of Kotlin. With overall ~10 years of experience,
+											he's presently working at Meesho as a Lead Android Engineer. He previously
+											used to work at Gojek, Paytm (India's biggest Fintech startup) and Byju's
+											(India's biggest Edtech startup). He has contributed to multiple Kotlin and
+											Android Development books including authoring Reactive Programming in
+											Kotlin, co-authoring Functional Kotlin the first-ever book to help Kotlin
+											developers learn Functional Programming and use Arrow-kt in their projects,
+											and co-authoring Hands-On Data Structures and Algorithms with Kotlin. He has
+											been using Kotlin since December 2015. Rivu formed KotlinKolkata User Group,
+											the first active Kotlin User Group in India. Before he had to move out of
+											Kolkata, he was organizing meetups and events for both KotlinKolkata and GDG
+											Kolkata. Along with organizing community & events, he also speaks at
+											events/conferences and local meetups.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Rivu Chakraborty END -->
+
+				<!-- Praveen Thirumurugan START -->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a target="_blank" href="#modal-speaker-5" data-bs-toggle="modal"
+							data-bs-target="#modal-speaker-5"><img src="assets/images/speakers/speaker-5.jpg"
+								class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Praveen Thirumurugan</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Software Engineer at Plum</div>
+								<div class="meta"></div>
+							</div>
+							<a target="_blank" href="#modal-speaker-5" data-bs-toggle="modal"
+								data-bs-target="#modal-speaker-5">Read
+								more &rarr;</a>
+						</div>
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<li class="list-inline-item"><a target="_blank"
+										href="https://twitter.com/PraveenTcom/"><i class="fab fa-twitter fa-fw"></i></a>
+								</li>
+								<li class="list-inline-item"><a target="_blank"
+										href="https://www.linkedin.com/in/praveentcom/"><i
+											class="fab fa-linkedin-in fa-fw"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-5" tabindex="-1" role="dialog"
+						aria-labelledby="speaker-5-ModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="btn-close" data-bs-dismiss="modal"
+										aria-hidden="true">&times;</button>
+									<h4 id="speaker-5-ModalLabel" class="modal-title sr-only">Praveen Thirumurugan</h4>
+								</div>
+								<div class="modal-body p-0">
+									<div class="theme-bg-light p-5">
+										<div class="row">
+											<div class="col-12 col-md-auto text-center">
+												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+													src="assets/images/speakers/speaker-5.jpg" alt="" />
+											</div>
+											<div class="col text-center text-md-start mx-auto">
+												<h2 class="name mb-2">Praveen Thirumurugan</h2>
+												<div class="meta">Software Engineer at Plum</div>
+												<div class="meta mb-2"></div>
+												<ul
+													class="social-list list-inline mb-0 d-flex flex-row justify-content-end">
+													<li class="list-inline-item"><a
+															href="https://twitter.com/PraveenTcom/"><i
+																class="fab fa-twitter fa-fw"></i></a></li>
+													<li class="list-inline-item"><a
+															href="https://www.linkedin.com/in/praveentcom/"><i
+																class="fab fa-linkedin-in fa-fw"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="desc p-4 p-lg-5">
+										<p>Praveen is currently in Bangalore, where he works as a Software Engineer at
+											Plum. During his early professional life, he contributed a lot to open
+											source and has been the head of the Cloud Coimbatore community for several
+											years. He has 5+ years of experience with various tech domains, focusing on
+											UI Frameworks and Cloud Services. Praveen enjoys working in Aviation,
+											Photography and Travel in his spare time.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Praveen Thirumurugan END -->
+
+				<!-- Shree Bhagwat START -->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a target="_blank" href="#modal-speaker-6" data-bs-toggle="modal"
+							data-bs-target="#modal-speaker-6"><img src="assets/images/speakers/speaker-6.jpg"
+								class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Shree Bhagwat</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Founder of Codeaamy; Flutter Pune Organiser; YouTuber; Blogger</div>
+								<div class="meta"></div>
+							</div>
+							<a target="_blank" href="#modal-speaker-6" data-bs-toggle="modal"
+								data-bs-target="#modal-speaker-6">Read
+								more &rarr;</a>
+						</div>
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<li class="list-inline-item"><a target="_blank"
+										href="https://twitter.com/shreebhagwat94/"><i
+											class="fab fa-twitter fa-fw"></i></a></li>
+								<li class="list-inline-item"><a target="_blank"
+										href="https://www.linkedin.com/in/shrihriday/"><i
+											class="fab fa-linkedin-in fa-fw"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-6" tabindex="-1" role="dialog"
+						aria-labelledby="speaker-6-ModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="btn-close" data-bs-dismiss="modal"
+										aria-hidden="true">&times;</button>
+									<h4 id="speaker-6-ModalLabel" class="modal-title sr-only">Shree Bhagwat</h4>
+								</div>
+								<div class="modal-body p-0">
+									<div class="theme-bg-light p-5">
+										<div class="row">
+											<div class="col-12 col-md-auto text-center">
+												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+													src="assets/images/speakers/speaker-6.jpg" alt="" />
+											</div>
+											<div class="col text-center text-md-start mx-auto">
+												<h2 class="name mb-2">Shree Bhagwat</h2>
+												<div class="meta">Founder of Codeaamy; Flutter Pune Organiser; YouTuber;
+													Blogger</div>
+												<div class="meta mb-2"></div>
+												<ul
+													class="social-list list-inline mb-0 d-flex flex-row justify-content-end">
+													<li class="list-inline-item"><a
+															href="https://twitter.com/shreebhagwat94/"><i
+																class="fab fa-twitter fa-fw"></i></a></li>
+													<li class="list-inline-item"><a
+															href="https://www.linkedin.com/in/shrihriday/"><i
+																class="fab fa-linkedin-in fa-fw"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="desc p-4 p-lg-5">
+										<p>Founder of Codeaamy, Flutter Pune Organiser Flutter Tech Editor, Video Course
+											Creator and lead mentor at Raywenderlich.com. Corporate Trainer For Flutter,
+											Youtuber and blogger.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Shree Bhagwat END -->
+
+				<!-- Amey Nerkar START -->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a target="_blank" href="#modal-speaker-7" data-bs-toggle="modal"
+							data-bs-target="#modal-speaker-7"><img src="assets/images/speakers/speaker-7.jpg"
+								class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Amey Nerkar</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Technical Product Manager, Bajaj Finserv Health; Google Certified
+									Engineer</div>
+								<div class="meta"></div>
+							</div>
+							<a target="_blank" href="#modal-speaker-7" data-bs-toggle="modal"
+								data-bs-target="#modal-speaker-7">Read
+								more &rarr;</a>
+						</div>
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<li class="list-inline-item"><a target="_blank"
+										href="https://twitter.com/ameyinvent/"><i class="fab fa-twitter fa-fw"></i></a>
+								</li>
+								<li class="list-inline-item"><a target="_blank"
+										href="https://www.linkedin.com/in/ameyinvent/"><i
+											class="fab fa-linkedin-in fa-fw"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-7" tabindex="-1" role="dialog"
+						aria-labelledby="speaker-7-ModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="btn-close" data-bs-dismiss="modal"
+										aria-hidden="true">&times;</button>
+									<h4 id="speaker-7-ModalLabel" class="modal-title sr-only">Amey Nerkar</h4>
+								</div>
+								<div class="modal-body p-0">
+									<div class="theme-bg-light p-5">
+										<div class="row">
+											<div class="col-12 col-md-auto text-center">
+												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+													src="assets/images/speakers/speaker-7.jpg" alt="" />
+											</div>
+											<div class="col text-center text-md-start mx-auto">
+												<h2 class="name mb-2">Amey Nerkar</h2>
+												<div class="meta">Technical Product Manager, Bajaj Finserv Health;
+													Google Certified Engineer</div>
+												<div class="meta mb-2"></div>
+												<ul
+													class="social-list list-inline mb-0 d-flex flex-row justify-content-end">
+													<li class="list-inline-item"><a
+															href="https://twitter.com/ameyinvent/"><i
+																class="fab fa-twitter fa-fw"></i></a></li>
+													<li class="list-inline-item"><a
+															href="https://www.linkedin.com/in/ameyinvent/"><i
+																class="fab fa-linkedin-in fa-fw"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="desc p-4 p-lg-5">
+										<p>Amey is a social innovator and changemaker who enjoys building things that
+											impact the community. He develops exceptional products and deploys those in
+											the community around him. He is featured by Google for the impact he is
+											creating using the technology! Amey is currently working as a Technical
+											Product Manager and is experienced in developing and managing the technical
+											side of the products. He is a Google Cloud Certified Engineer and
+											Facebook-certified community manager. He is a full-time Technical Product
+											Manager and loves spending weekends over Music + Code!</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Amey Nerkar END -->
+
+				<!-- Akansha Jain START -->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a target="_blank" href="#modal-speaker-9" data-bs-toggle="modal"
+							data-bs-target="#modal-speaker-9"><img src="assets/images/speakers/speaker-9.jpg"
+								class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Akansha Jain</h5>
+							<div class="card-text mb-3">
+								<div class="meta">SW Engineer Intern (Flutter) at A.P. Moller Maersk; Gold Microsoft
+									Learn Student Ambassador</div>
+								<div class="meta"></div>
+							</div>
+							<a target="_blank" href="#modal-speaker-9" data-bs-toggle="modal"
+								data-bs-target="#modal-speaker-9">Read
+								more &rarr;</a>
+						</div>
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<li class="list-inline-item"><a target="_blank"
+										href="https://twitter.com/Akansha2001/"><i class="fab fa-twitter fa-fw"></i></a>
+								</li>
+								<li class="list-inline-item"><a target="_blank"
+										href="https://www.linkedin.com/in/akansha-jain-2001/"><i
+											class="fab fa-linkedin-in fa-fw"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-9" tabindex="-1" role="dialog"
+						aria-labelledby="speaker-9-ModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="btn-close" data-bs-dismiss="modal"
+										aria-hidden="true">&times;</button>
+									<h4 id="speaker-9-ModalLabel" class="modal-title sr-only">Akansha Jain</h4>
+								</div>
+								<div class="modal-body p-0">
+									<div class="theme-bg-light p-5">
+										<div class="row">
+											<div class="col-12 col-md-auto text-center">
+												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+													src="assets/images/speakers/speaker-9.jpg" alt="" />
+											</div>
+											<div class="col text-center text-md-start mx-auto">
+												<h2 class="name mb-2">Akansha Jain</h2>
+												<div class="meta">SW Engineer Intern (Flutter) at A.P. Moller Maersk;
+													Gold Microsoft Learn Student Ambassador</div>
+												<div class="meta mb-2"></div>
+												<ul
+													class="social-list list-inline mb-0 d-flex flex-row justify-content-end">
+													<li class="list-inline-item"><a
+															href="https://twitter.com/Akansha2001/"><i
+																class="fab fa-twitter fa-fw"></i></a></li>
+													<li class="list-inline-item"><a
+															href="https://www.linkedin.com/in/akansha-jain-2001/"><i
+																class="fab fa-linkedin-in fa-fw"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="desc p-4 p-lg-5">
+										<p>I am currently working as an SW Engineer Intern at A.P. Moller Maersk. I was
+											a Google Developer Student Clubs Lead for the session 2021-22 and a Gold
+											Microsoft Learn Student Ambassador. I completed my B. Sc. Hons. in Computer
+											Science Degree from Shaheed Rajguru College of Applied Sciences for Women,
+											University of Delhi. I also completed Diploma in German Language from
+											University of Delhi only. My interest lies in Application Development and I
+											love contributing to open source. I am also passionate about UI/UX
+											Designing.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Akansha Jain END -->
+
+				<!-- Abhishek Doshi START -->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a target="_blank" href="#modal-speaker-10" data-bs-toggle="modal"
+							data-bs-target="#modal-speaker-10"><img src="assets/images/speakers/speaker-10.jpg"
+								class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Abhishek Doshi</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Sr. Flutter Engineer at Somnio Software; Google Developer Expert (GDE)
+									for Dart, Flutter & Firebase</div>
+								<div class="meta"></div>
+							</div>
+							<a target="_blank" href="#modal-speaker-10" data-bs-toggle="modal"
+								data-bs-target="#modal-speaker-10">Read
+								more &rarr;</a>
+						</div>
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<li class="list-inline-item"><a target="_blank"
+										href="https://twitter.com/AbhishekDoshi26/"><i
+											class="fab fa-twitter fa-fw"></i></a></li>
+								<li class="list-inline-item"><a target="_blank"
+										href="https://linkedin.com/in/abhishekdoshi26/"><i
+											class="fab fa-linkedin-in fa-fw"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-10" tabindex="-1" role="dialog"
+						aria-labelledby="speaker-10-ModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="btn-close" data-bs-dismiss="modal"
+										aria-hidden="true">&times;</button>
+									<h4 id="speaker-10-ModalLabel" class="modal-title sr-only">Abhishek Doshi</h4>
+								</div>
+								<div class="modal-body p-0">
+									<div class="theme-bg-light p-5">
+										<div class="row">
+											<div class="col-12 col-md-auto text-center">
+												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+													src="assets/images/speakers/speaker-10.jpg" alt="" />
+											</div>
+											<div class="col text-center text-md-start mx-auto">
+												<h2 class="name mb-2">Abhishek Doshi</h2>
+												<div class="meta">Sr. Flutter Engineer at Somnio Software; Google
+													Developer Expert (GDE) for Dart, Flutter & Firebase</div>
+												<div class="meta mb-2"></div>
+												<ul
+													class="social-list list-inline mb-0 d-flex flex-row justify-content-end">
+													<li class="list-inline-item"><a
+															href="https://twitter.com/AbhishekDoshi26/"><i
+																class="fab fa-twitter fa-fw"></i></a></li>
+													<li class="list-inline-item"><a
+															href="https://linkedin.com/in/abhishekdoshi26/"><i
+																class="fab fa-linkedin-in fa-fw"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="desc p-4 p-lg-5">
+										<p>I am a Google Developer Expert (GDE) for Dart, Flutter & Firebase. I am the
+											youngest GDE in the world. I am also a Google Mentor, thereby mentoring
+											individuals and companies who wish to start with Flutter. Apart from that, I
+											am the Organiser of Flutter Valsad and Co-Organiser of Flutter India. I am
+											also an Internation Tech Speaker and Tech Content Writer. Currently, I work
+											at Somnio Software as Sr. Flutter Engineer and my main responsibilities
+											include advising the team, reviewing their code, taking critical decisions,
+											coding, solving major critical issues, etc.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Abhishek Doshi END -->
+
+				<!-- Elio Jordan Lopes START -->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a target="_blank" href="#modal-speaker-11" data-bs-toggle="modal"
+							data-bs-target="#modal-speaker-11"><img src="assets/images/speakers/speaker-11.jpg"
+								class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Elio Jordan Lopes</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Co-Founder CEO, IntoTheVerse Inc.</div>
+								<div class="meta"></div>
+							</div>
+							<a target="_blank" href="#modal-speaker-11" data-bs-toggle="modal"
+								data-bs-target="#modal-speaker-11">Read
+								more &rarr;</a>
+						</div>
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<li class="list-inline-item"><a target="_blank"
+										href="https://twitter.com/ElioOnCelo/"><i class="fab fa-twitter fa-fw"></i></a>
+								</li>
+								<li class="list-inline-item"><a target="_blank"
+										href="https://www.linkedin.com/in/lopeselio/"><i
+											class="fab fa-linkedin-in fa-fw"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-11" tabindex="-1" role="dialog"
+						aria-labelledby="speaker-11-ModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="btn-close" data-bs-dismiss="modal"
+										aria-hidden="true">&times;</button>
+									<h4 id="speaker-11-ModalLabel" class="modal-title sr-only">Elio Jordan Lopes</h4>
+								</div>
+								<div class="modal-body p-0">
+									<div class="theme-bg-light p-5">
+										<div class="row">
+											<div class="col-12 col-md-auto text-center">
+												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+													src="assets/images/speakers/speaker-11.jpg" alt="" />
+											</div>
+											<div class="col text-center text-md-start mx-auto">
+												<h2 class="name mb-2">Elio Jordan Lopes</h2>
+												<div class="meta">Co-Founder CEO, IntoTheVerse Inc.</div>
+												<div class="meta mb-2"></div>
+												<ul
+													class="social-list list-inline mb-0 d-flex flex-row justify-content-end">
+													<li class="list-inline-item"><a
+															href="https://twitter.com/ElioOnCelo/"><i
+																class="fab fa-twitter fa-fw"></i></a></li>
+													<li class="list-inline-item"><a
+															href="https://www.linkedin.com/in/lopeselio/"><i
+																class="fab fa-linkedin-in fa-fw"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="desc p-4 p-lg-5">
+										<p>Elio Jordan Lopes Co-Founder CEO, IntoTheVerse Inc. Building IntoTheVerse
+											Inc., sustainable games and gaming economies for good, powered by Blockchain
+											and Web3. </p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Elio Jordan Lopes END -->
+
+				<!-- Yashwant Choudhary START -->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a target="_blank" href="#modal-speaker-12" data-bs-toggle="modal"
+							data-bs-target="#modal-speaker-12"><img src="assets/images/speakers/speaker-12.jpg"
+								class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Yashwant Choudhary</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Research Analyst, Decademia</div>
+								<div class="meta"></div>
+							</div>
+							<a target="_blank" href="#modal-speaker-12" data-bs-toggle="modal"
+								data-bs-target="#modal-speaker-12">Read
+								more &rarr;</a>
+						</div>
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<li class="list-inline-item"><a target="_blank"
+										href="https://twitter.com/Yashwant_eth/"><i
+											class="fab fa-twitter fa-fw"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-12" tabindex="-1" role="dialog"
+						aria-labelledby="speaker-12-ModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="btn-close" data-bs-dismiss="modal"
+										aria-hidden="true">&times;</button>
+									<h4 id="speaker-12-ModalLabel" class="modal-title sr-only">Yashwant Choudhary</h4>
+								</div>
+								<div class="modal-body p-0">
+									<div class="theme-bg-light p-5">
+										<div class="row">
+											<div class="col-12 col-md-auto text-center">
+												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+													src="assets/images/speakers/speaker-12.jpg" alt="" />
+											</div>
+											<div class="col text-center text-md-start mx-auto">
+												<h2 class="name mb-2">Yashwant Choudhary</h2>
+												<div class="meta">Research Analyst, Decademia</div>
+												<div class="meta mb-2"></div>
+												<ul
+													class="social-list list-inline mb-0 d-flex flex-row justify-content-end">
+													<li class="list-inline-item"><a
+															href="https://twitter.com/Yashwant_eth/"><i
+																class="fab fa-twitter fa-fw"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="desc p-4 p-lg-5">
+										<p>Decademia - Research Analyst</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Yashwant Choudhary END -->
+
+				<!-- Vishakha Chavan START -->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a target="_blank" href="#modal-speaker-13" data-bs-toggle="modal"
+							data-bs-target="#modal-speaker-13"><img src="assets/images/speakers/speaker-13.jpg"
+								class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Vishakha Chavan</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Chief Data Scientist, Abjayon Inc; WomenTechmakers Community Leader;
+									AI Researcher</div>
+								<div class="meta"></div>
+							</div>
+							<a target="_blank" href="#modal-speaker-13" data-bs-toggle="modal"
+								data-bs-target="#modal-speaker-13">Read
+								more &rarr;</a>
+						</div>
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<li class="list-inline-item"><a
+										href="https://www.linkedin.com/in/vishakhachavanvadodara"><i
+											class="fab fa-linkedin-in fa-fw"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-13" tabindex="-1" role="dialog"
+						aria-labelledby="speaker-13-ModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="btn-close" data-bs-dismiss="modal"
+										aria-hidden="true">&times;</button>
+									<h4 id="speaker-13-ModalLabel" class="modal-title sr-only">Vishakha Chavan</h4>
+								</div>
+								<div class="modal-body p-0">
+									<div class="theme-bg-light p-5">
+										<div class="row">
+											<div class="col-12 col-md-auto text-center">
+												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+													src="assets/images/speakers/speaker-13.jpg" alt="" />
+											</div>
+											<div class="col text-center text-md-start mx-auto">
+												<h2 class="name mb-2">Vishakha Chavan</h2>
+												<div class="meta">Chief Data Scientist, Abjayon Inc; WomenTechmakers
+													Community Leader; AI Researcher</div>
+												<div class="meta mb-2"></div>
+												<ul
+													class="social-list list-inline mb-0 d-flex flex-row justify-content-end">
+													<li class="list-inline-item"><a
+															href="https://www.linkedin.com/in/vishakhachavanvadodara"><i
+																class="fab fa-linkedin-in fa-fw"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="desc p-4 p-lg-5">
+										<p>Vishakha Chavan is an emerging Data Scientist with specialization in
+											enterprise ML solutions. She advocates for sustainable innovation,
+											healthcare research through applied machine learning and green energy
+											resources. Her qualifications and certifications include a bachelor's degree
+											in Mathematics, post graduation with Artificial Intelligence from Indian
+											Institute of Information Technology, Bengaluru and a master’s degree with
+											majors in artificial intelligence from IU University, Germany. Vishakha is
+											also a core team member at Women Techmakers Baroda, a women-in-tech focused
+											community, empowering women in technology and has been contributing to the
+											community. With her extensive experience in the field of technology
+											including machine learning and data science applications, DevOps, Cloud,
+											infrastructure automation, and software architecture, she aims to share
+											knowledge with the world.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Vishakha Chavan END -->
+
+				<!-- Sneh Pandya START -->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a target="_blank" href="#modal-speaker-14" data-bs-toggle="modal"
+							data-bs-target="#modal-speaker-14"><img src="assets/images/speakers/speaker-14.jpg"
+								class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Sneh Pandya</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Senior Product Manager, Blingg; Podcaster - NinjaTalks</div>
+								<div class="meta"></div>
+							</div>
+							<a target="_blank" href="#modal-speaker-14" data-bs-toggle="modal"
+								data-bs-target="#modal-speaker-14">Read
+								more &rarr;</a>
+						</div>
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<li class="list-inline-item"><a target="_blank"
+										href="https://twitter.com/SnehPandya18"><i class="fab fa-twitter fa-fw"></i></a>
+								</li>
+								<li class="list-inline-item"><a target="_blank"
+										href="https://www.linkedin.com/in/snehpandya18/"><i
+											class="fab fa-linkedin-in fa-fw"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-14" tabindex="-1" role="dialog"
+						aria-labelledby="speaker-14-ModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="btn-close" data-bs-dismiss="modal"
+										aria-hidden="true">&times;</button>
+									<h4 id="speaker-14-ModalLabel" class="modal-title sr-only">Sneh Pandya</h4>
+								</div>
+								<div class="modal-body p-0">
+									<div class="theme-bg-light p-5">
+										<div class="row">
+											<div class="col-12 col-md-auto text-center">
+												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+													src="assets/images/speakers/speaker-14.jpg" alt="" />
+											</div>
+											<div class="col text-center text-md-start mx-auto">
+												<h2 class="name mb-2">Sneh Pandya</h2>
+												<div class="meta">Senior Product Manager, Blingg; Podcaster - NinjaTalks
+												</div>
+												<div class="meta mb-2"></div>
+												<ul
+													class="social-list list-inline mb-0 d-flex flex-row justify-content-end">
+													<li class="list-inline-item"><a
+															href="https://twitter.com/SnehPandya18"><i
+																class="fab fa-twitter fa-fw"></i></a></li>
+													<li class="list-inline-item"><a
+															href="https://www.linkedin.com/in/snehpandya18/"><i
+																class="fab fa-linkedin-in fa-fw"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="desc p-4 p-lg-5">
+										<p>Sneh Pandya is an emerging Product Management leader with specialization in
+											strategic leadership. He advocates for product strategy, digital
+											transformation, and sustainable innovation. His qualifications majors in
+											Strategy Management and Leadership from The Wharton School, University of
+											Pennsylvania. Sneh is also a Developer Community Leader at Google Developers
+											Group Baroda and has given public talks at several worldwide developer
+											conferences. He is a co-founder of the NinjaTalks podcast, which brings
+											together experiences from the world's leaders, changemakers, and innovators
+											to make knowledge accessible to all. With his extensive experience in the
+											field of technology including mobile and web software applications, DevOps,
+											Cloud, infrastructure automation, and software architecture, his articles
+											are published in various technology and management publications.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Sneh Pandya END -->
+
+				<!--  Ghlen Nagels START -->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a target="_blank" href="#modal-speaker-15" data-bs-toggle="modal"
+							data-bs-target="#modal-speaker-15"><img src="assets/images/speakers/speaker-15.jpg"
+								class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Ghlen Nagels</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Graph Database Consultant</div>
+								<div class="meta"></div>
+							</div>
+							<a target="_blank" href="#modal-speaker-15" data-bs-toggle="modal"
+								data-bs-target="#modal-speaker-15">Read
+								more &rarr;</a>
+						</div>
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<li class="list-inline-item"><a target="_blank"
+										href="https://twitter.com/GhlenNagels"><i class="fab fa-twitter fa-fw"></i></a>
+								</li>
+								<li class="list-inline-item"><a target="_blank"
+										href="https://www.linkedin.com/in/ghlen/"><i
+											class="fab fa-linkedin-in fa-fw"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="modal modal-speaker modal-speaker-15" id="modal-speaker-15" tabindex="-1" role="dialog"
+						aria-labelledby="speaker-15-ModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="btn-close" data-bs-dismiss="modal"
+										aria-hidden="true">&times;</button>
+									<h4 id="speaker-13-ModalLabel" class="modal-title sr-only">Ghlen Nagels</h4>
+								</div>
+								<div class="modal-body p-0">
+									<div class="theme-bg-light p-5">
+										<div class="row">
+											<div class="col-12 col-md-auto text-center">
+												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+													src="assets/images/speakers/speaker-15.jpg" alt="" />
+											</div>
+											<div class="col text-center text-md-start mx-auto">
+												<h2 class="name mb-2">Ghlen Nagels</h2>
+												<div class="meta">Graph Database Consultant</div>
+												<div class="meta mb-2"></div>
+												<ul
+													class="social-list list-inline mb-0 d-flex flex-row justify-content-end">
+													<li class="list-inline-item"><a
+															href="https://twitter.com/GhlenNagels"><i
+																class="fab fa-twitter fa-fw"></i></a></li>
+													<li class="list-inline-item"><a
+															href="https://www.linkedin.com/in/ghlen/"><i
+																class="fab fa-linkedin-in fa-fw"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="desc p-4 p-lg-5">
+										<p>Ghlen Nagels is a Web Developer and Graph Database Consultant. He maintains
+											the Neo4j PHP driver, helps with many other open source projects and is
+											involved with multiple startups and corporate projects. You’ll likely find
+											him running on the trails or enjoying some of his local favourite Belgian
+											beers with his friends when he is not behind his keyboard.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Ghlen Nagels END -->
+
+				<!-- Shruti Tiwari START -->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a target="_blank" href="#modal-speaker-16" data-bs-toggle="modal"
+							data-bs-target="#modal-speaker-16"><img src="assets/images/speakers/speaker-16.jpg"
+								class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Shruti Tiwari</h5>
+							<div class="card-text mb-3">
+								<div class="meta">I am Remarkable facilitator, Ambassador at Women Techmakers, Content
+									Marketing Manager at CedCommerce</div>
+								<div class="meta"></div>
+							</div>
+							<a target="_blank" href="#modal-speaker-16" data-bs-toggle="modal"
+								data-bs-target="#modal-speaker-16">Read
+								more &rarr;</a>
+						</div>
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<li class="list-inline-item"><a target="_blank"
+										href="https://twitter.com/shrutidtsawesme"><i
+											class="fab fa-twitter fa-fw"></i></a></li>
+								<li class="list-inline-item"><a target="_blank"
+										href="https://www.linkedin.com/in/shruti-tiwari/"><i
+											class="fab fa-linkedin-in fa-fw"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="modal modal-speaker modal-speaker-16" id="modal-speaker-16" tabindex="-1" role="dialog"
+						aria-labelledby="speaker-16-ModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="btn-close" data-bs-dismiss="modal"
+										aria-hidden="true">&times;</button>
+									<h4 id="speaker-16-ModalLabel" class="modal-title sr-only">Shruti Tiwari</h4>
+								</div>
+								<div class="modal-body p-0">
+									<div class="theme-bg-light p-5">
+										<div class="row">
+											<div class="col-12 col-md-auto text-center">
+												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+													src="assets/images/speakers/speaker-16.jpg" alt="" />
+											</div>
+											<div class="col text-center text-md-start mx-auto">
+												<h2 class="name mb-2">Shruti Tiwari</h2>
+												<div class="meta">I am Remarkable facilitator, Ambassador at Women
+													Techmakers, Content Marketing Manager at CedCommerce</div>
+												<div class="meta mb-2"></div>
+												<ul
+													class="social-list list-inline mb-0 d-flex flex-row justify-content-end">
+													<li class="list-inline-item"><a
+															href="https://twitter.com/shrutidtsawesme"><i
+																class="fab fa-twitter fa-fw"></i></a></li>
+													<li class="list-inline-item"><a
+															href="https://www.linkedin.com/in/shruti-tiwari/"><i
+																class="fab fa-linkedin-in fa-fw"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="desc p-4 p-lg-5">
+										<p>Being actively involved with the SaaS and Open Source industry, Shruti has a
+											good hold on everything eCommerce and has expertise in framing content,
+											including web content, web marketing, and guest posts. Staying updated with
+											industry activities, she delivers the right content to help the end
+											audiences grow their ecommerce sales. Ms. Tiwari Shruti is a proud
+											Ambassador at Women Techmakers and leads the content marketing and partner
+											collaboration between CedCommerce and the Grow Big Initiative.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Shruti Tiwari END -->
+
+				<!-- Namrata More START -->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a target="_blank" href="#modal-speaker-18" data-bs-toggle="modal"
+							data-bs-target="#modal-speaker-18"><img src="assets/images/speakers/speaker-18.jpg"
+								class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Namrata More</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Technical Product Manager | Organizer & Ambassador at GDG & WTM Pune.
+									Tech Product @BajajFinservHealth | Co-organizer Google Developer Group Pune | Women
+									TechMakers Pune Ambassador | Product Enthusiast | UX Researcher | Speaker | Mentor
+								</div>
+							</div>
+							<a target="_blank" href="#modal-speaker-18" data-bs-toggle="modal"
+								data-bs-target="#modal-speaker-18">Read
+								more &rarr;</a>
+						</div>
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<li class="list-inline-item"><a target="_blank"
+										href="https://twitter.com/namratamore_nm"><i
+											class="fab fa-twitter fa-fw"></i></a></li>
+								<li class="list-inline-item"><a target="_blank"
+										href="https://www.linkedin.com/in/namratamore/"><i
+											class="fab fa-linkedin-in fa-fw"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="modal modal-speaker modal-speaker-18" id="modal-speaker-18" tabindex="-1" role="dialog"
+						aria-labelledby="speaker-18-ModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="btn-close" data-bs-dismiss="modal"
+										aria-hidden="true">&times;</button>
+									<h4 id="speaker-18-ModalLabel" class="modal-title sr-only">Namrata More</h4>
+								</div>
+								<div class="modal-body p-0">
+									<div class="theme-bg-light p-5">
+										<div class="row">
+											<div class="col-12 col-md-auto text-center">
+												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+													src="assets/images/speakers/speaker-18.jpg" alt="" />
+											</div>
+											<div class="col text-center text-md-start mx-auto">
+												<h2 class="name mb-2">Namrata More</h2>
+												<div class="meta">Technical Product Manager | Organizer & Ambassador at
+													GDG & WTM Pune. Tech Product @BajajFinservHealth | Co-organizer
+													Google Developer Group Pune | Women TechMakers Pune Ambassador |
+													Product Enthusiast | UX Researcher | Speaker | Mentor</div>
+												<div class="meta mb-2"></div>
+												<ul class="social-list list-inline mb-0">
+													<li class="list-inline-item"><a
+															href="https://twitter.com/namratamore_nm"><i
+																class="fab fa-twitter fa-fw"></i></a></li>
+													<li class="list-inline-item"><a
+															href="https://www.linkedin.com/in/namratamore/"><i
+																class="fab fa-linkedin-in fa-fw"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="desc p-4 p-lg-5">
+										<p>Fintech, financial technology is something we all need in our day-to-day life
+											even if we're not mastering it all. I would like to take it through how tech
+											has started it's advancement in Payments, Investments, Personal finance,
+											Crypto, health and touching a little towards blockchain, describing the
+											technical architectural and progressive points in fintech ecosystem.
+											Basically, the future of analyzing and automating numbers, graphs and stats
+											with tech lens. Also, health-tech may sound a newly introduced term to all
+											of us since covid-19 but has tremendously overcome a lot of industries. I am
+											currently working with NDHM (National Digital Health Mission). Currently,
+											NDHM has initiated Ayushman Bharat Digital Mission (ABHA) to have a
+											centralized repository and to link all medical records at one place for
+											everyone. Would like to talk about the growing tech-end of this industry in
+											fintech ecosystem.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Namrata More END -->
+
+				<!-- Ayushi Gupta START -->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a target="_blank" href="#modal-speaker-19" data-bs-toggle="modal"
+							data-bs-target="#modal-speaker-19"><img src="assets/images/speakers/speaker-19.jpg"
+								class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Ayushi Gupta</h5>
+							<div class="card-text mb-3">
+								<div class="meta">Senior Software Engineer, Zalando, Berlin</div>
+							</div>
+							<a target="_blank" href="#modal-speaker-19" data-bs-toggle="modal"
+								data-bs-target="#modal-speaker-19">Read
+								more &rarr;</a>
+						</div>
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<li class="list-inline-item"><a target="_blank" href="https://twitter.com/DroidyAyu"><i
+											class="fab fa-twitter fa-fw"></i></a></li>
+								<li class="list-inline-item"><a target="_blank"
+										href="https://www.linkedin.com/in/ayushi-gupta-a37368125/"><i
+											class="fab fa-linkedin-in fa-fw"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="modal modal-speaker modal-speaker-19" id="modal-speaker-19" tabindex="-1" role="dialog"
+						aria-labelledby="speaker-19-ModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="btn-close" data-bs-dismiss="modal"
+										aria-hidden="true">&times;</button>
+									<h4 id="speaker-19-ModalLabel" class="modal-title sr-only">Ayushi Gupta</h4>
+								</div>
+								<div class="modal-body p-0">
+									<div class="theme-bg-light p-5">
+										<div class="row">
+											<div class="col-12 col-md-auto text-center">
+												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+													src="assets/images/speakers/speaker-19.jpg" alt="" />
+											</div>
+											<div class="col text-center text-md-start mx-auto">
+												<h2 class="name mb-2">Ayushi Gupta</h2>
+												<div class="meta">Senior Software Engineer, Zalando, Berlin</div>
+												<div class="meta mb-2"></div>
+												<ul class="social-list list-inline mb-0">
+													<li class="list-inline-item"><a
+															href="https://twitter.com/DroidyAyu"><i
+																class="fab fa-twitter fa-fw"></i></a></li>
+													<li class="list-inline-item"><a
+															href="https://www.linkedin.com/in/ayushi-gupta-a37368125/"><i
+																class="fab fa-linkedin-in fa-fw"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="desc p-4 p-lg-5">
+										<p>In this agile growing mobile industry, you can easily find many apps solving
+											one user problem, but winner is the one with seamless user experience.
+											If you want to build an app which targets large number of users daily with
+											1000’s of features running in all different corners of the world and in such
+											scenario launching a new feature to all of the app users is scary, as you
+											can't be sure how well the feature will be received by users and that’s
+											where Remote Config offers you dynamic control to app features by gating
+											them with percentage rollout and slowly expose users to new features.
+											We have complete set of in app defaults, to face any config fetch issues and
+											user receives the best without much app updates.
+											To know about the choices of our users, we get interesting analytics results
+											through Firebase A/B testing with no efforts on client end. Even during live
+											streaming of matches or any content we have the hold of every feature of the
+											app and we can route every api calls based on traffic received.
+											Even created, a small tool to override the firebase config for a device
+											which helped our Developers, QA and Product team a lot. We don’t need to
+											create separate APKs with specific features on and off.
+											Not only this, to simplify collaborative workflows, we have Slack alerts in
+											near real time about any config changes pushed by any devs.
+											So let's just check out how much we can go beyond with Firebase to scale our
+											apps.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Ayushi Gupta END -->
+
+				<!-- Pranoti Nandurkar START -->
+				<div class="col-6 col-lg-3 mb-4">
+					<div class="card rounded-0">
+						<a target="_blank" href="#modal-speaker-8" data-bs-toggle="modal"
+							data-bs-target="#modal-speaker-8"><img src="assets/images/speakers/speaker-8.jpg"
+								class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2">Pranoti Nandurkar</h5>
+							<div class="card-text mb-3">
+								<div class="meta">UI Lead at Tata consultancy services | Women Techmakers Ambassador,
+									Pune</div>
+								<div class="meta"></div>
+							</div>
+							<a target="_blank" href="#modal-speaker-8" data-bs-toggle="modal"
+								data-bs-target="#modal-speaker-8">Read
+								more &rarr;</a>
+						</div>
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<li class="list-inline-item"><a target="_blank"
+										href="https://twitter.com/PranotiNandurka/"><i
+											class="fab fa-twitter fa-fw"></i></a></li>
+								<li class="list-inline-item"><a target="_blank"
+										href="https://www.linkedin.com/in/pranoti-nandurkar-170021b/"><i
+											class="fab fa-linkedin-in fa-fw"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="modal modal-speaker modal-speaker-1" id="modal-speaker-8" tabindex="-1" role="dialog"
+						aria-labelledby="speaker-8-ModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="btn-close" data-bs-dismiss="modal"
+										aria-hidden="true">&times;</button>
+									<h4 id="speaker-8-ModalLabel" class="modal-title sr-only">Pranoti Nandurkar</h4>
+								</div>
+								<div class="modal-body p-0">
+									<div class="theme-bg-light p-5">
+										<div class="row">
+											<div class="col-12 col-md-auto text-center">
+												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+													src="assets/images/speakers/speaker-8.jpg" alt="" />
+											</div>
+											<div class="col text-center text-md-start mx-auto">
+												<h2 class="name mb-2">Pranoti Nandurkar</h2>
+												<div class="meta">UI Lead at Tata consultancy services | Women
+													Techmakers Ambassador, Pune</div>
+												<div class="meta mb-2"></div>
+												<ul
+													class="social-list list-inline mb-0 d-flex flex-row justify-content-end">
+													<li class="list-inline-item"><a
+															href="https://twitter.com/PranotiNandurka/"><i
+																class="fab fa-twitter fa-fw"></i></a></li>
+													<li class="list-inline-item"><a
+															href="https://www.linkedin.com/in/pranoti-nandurkar-170021b/"><i
+																class="fab fa-linkedin-in fa-fw"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="desc p-4 p-lg-5">
+										<p>Pranoti is a women Techmakers ambassador for Pune chapter. She is having 11+
+											years of experience in web and front end technologies. She is working as
+											Tech Lead at Tata consultancy services. She is a full stack developer,
+											experienced in JAVA, , Portal technologies like WebSphere, Liferay, BPM like
+											PEGA and various web technologies including Angular. She strongly believe in
+											communities. In her free time you can find her working closely with tech
+											communities or learning new technology. She also enjoys traveling and
+											spending time in nature.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Pranoti Nandurkar END -->
+
+			</div>
+			<div class="speakers-cta text-center py-3"><a target="_blank" class="btn btn-primary btn-lg disabled"
+					href="" target="_blank">Get Tickets</a></div>
+		</div>
+	</section>
+
+    ------------------------
+// Schedule
+
+<section id="schedule-section" class="schedule-section section">
+		<div class="container">
+			<h3 class="section-heading text-center mb-5">Schedule</h3>
+			<ul class="schedule-nav nav nav-pills nav-fill" id="myTab" role="tablist">
+				<li class="nav-item me-2">
+					<a target="_blank" class="nav-link active" id="tab-1" data-bs-toggle="tab" href="#tab-1-content"
+						role="tab" aria-controls="tab-1-content" aria-selected="true">
+						<span class="heading">Technical Track</span>
+						<span class="meta">Sun 18, Dec</span>
+						<span class="meta">(9:00 AM - 7:00 PM)</span>
+					</a>
+				</li>
+				<li class="nav-item me-2">
+					<a target="_blank" class="nav-link" id="tab-2" data-bs-toggle="tab" href="#tab-2-content" role="tab"
+						aria-controls="tab-2-content" aria-selected="false">
+						<span class="heading">Buisness Track</span>
+						<span class="meta">Sun 18, Dec</span>
+						<span class="meta">(2:00 PM onwards)</span>
+					</a>
+				</li>
+			</ul>
+			<div class="schedule-tab-content tab-content">
+
+				<!-- Registratoin and High Tea -->
+				<div class="tab-pane active" id="tab-1-content" role="tabpanel" aria-labelledby="tab-1">
+					<div class="item item-other">
+						<div class="meta">
+							<h4 class="time mb-3">8:00 - 9:00</h4>
+						</div>
+						<div class="content">
+							<h3 class="title mb-3">Registration and High Tea</h3>
+						</div>
+					</div>
+
+					<!-- Welcome Note -->
+					<div class="item item-talk mb-3">
+						<div class="meta">
+							<h4 class="time mb-3">9:15 - 9:30</h4>
+							<a href=""></a>
+							<div class="profile">
+									<img class="profile-image rounded-circle  mb-2"
+										src="assets/images/speakers/main.jpg" alt="">
+								<div class="name">Prajyot Mainkar</div>
+							</div>
+						</div>
+						<div class="content">
+							<h3 class="title mb-3">Welcome Note</h3>
+							<div class="desc">Prajyot has been a consultant for mobile labs startups and himself a
+								developer over 13 years of experience in technology. Known as the 'Android man of Goa' -
+								he has been an advisor for various mobile app building strategy and initiatives around
+								India and he is also an author to two books in Android and Flutter.</div>
+							<br>
+						</div>
+					</div>
+
+					<!-- Dark Web : Investigation and challenges -->
+					<div class="item item-talk mb-3">
+						<div class="meta">
+							<h4 class="time mb-3">9:30 - 10:00</h4>
+							<div class="profile">
+								<a target="_blank" href="#modal-speaker-17" data-bs-toggle="modal"
+									data-bs-target="#modal-speaker-17">
+									<img class="profile-image rounded-circle  mb-2"
+										src="assets/images/speakers/speaker-17.jpg" alt="...">
+								</a>
+								<div class="name">
+									<a target="_blank" class="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
+										data-bs-target="#modal-speaker-1">Prof. (Dr.) Naveen Kumar Chaudhary</a>
+								</div>
+							</div>
+						</div>
+						<div class="content">
+							<h3 class="title mb-3">Dark Web : Investigation and challenges</h3>
+							<div class="desc">Campus Director, NFSU Goa Campus, served as director of Ministry of
+								External Affairs, Gov of India</div>
+							<br>
+						</div>
+						<br>
+					</div>
+
+					<br><br>
+
+					<!-- Build your distributed applications 10x faster - ORKES.io -->
+					<div class="item item-talk mb-3">
+						<div class="meta">
+							<h4 class="time mb-3">10:10 - 10:40</h4>
+							<div class="profile">
+								<a target="_blank" href="#modal-speaker-20" data-bs-toggle="modal"
+									data-bs-target="#modal-speaker-20">
+									<img class="profile-image rounded-circle  mb-2"
+										src="assets/images/speakers/speaker-20.jpg" alt="...">
+								</a>
+								<div class="name">
+									<a target="_blank" class="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
+										data-bs-target="#modal-speaker-1">Cherish Santoshi</a>
+								</div>
+							</div>
+						</div>
+						<div class="content">
+							<h3 class="title mb-3">Build your distributed applications 10x faster - <a href="https://orkes.io" target="_blank">ORKES.io</a></h3>
+							<div class="desc">CMX Community Professional of the year | DevRel and Community at Orkes |
+								Ex-Amazon, Ex-HackerEarth</div>
+							<br>
+						</div>
+						<br>
+					</div>
+					<br>
+
+					<!-- Building modern web apps with Angular and Firebase -->
+					<div class="item item-talk mb-3">
+						<div class="meta">
+							<h4 class="time mb-3">10:45 - 11:15</h4>
+							<div class="profile">
+								<a target="_blank" href="#modal-speaker-1" data-bs-toggle="modal"
+									data-bs-target="#modal-speaker-1">
+									<img class="profile-image rounded-circle  mb-2"
+										src="assets/images/speakers/speaker-1.jpg" alt="">
+								</a>
+								<div class="name">
+									<a target="_blank" class="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
+										data-bs-target="#modal-speaker-1">Ankit Sharma</a>
+								</div>
+							</div>
+						</div>
+						<div class="content">
+							<h3 class="title mb-3">Building modern web apps with Angular and Firebase</h3>
+							<div class="desc">Ankit Sharma is a Software Engineer, working with Cisco Systems and
+								staying with his family at Samastipur, Bihar, India. He has over 8 years of extensive
+								experience in Microsoft technologies including C#, ASP.NET, SQL Server, and UI
+								technologies such as JQuery, Angular, and Blazor. Ankit is a technical author and
+								speaker and loves to contribute to the open-source community.</div>
+							<br>
+						</div>
+					</div>
+
+					<!-- Unlock Graph Databases with GCloud and Neo4j -->
+					<div class="item item-talk mb-3">
+						<div class="meta">
+							<h4 class="time mb-3">11:20 - 11:50</h4>
+							<div class="profile">
+								<a target="_blank" href="#modal-speaker-15" data-bs-toggle="modal"
+									data-bs-target="#modal-speaker-15">
+									<img class="profile-image rounded-circle  mb-2"
+										src="assets/images/speakers/speaker-15.jpg" alt="">
+								</a>
+								<div class="name">
+									<a target="_blank" class="theme-link" href="#modal-speaker-15"
+										data-bs-toggle="modal" data-bs-target="#modal-speaker-1">Ghlen Nagels</a>
+								</div>
+							</div>
+						</div>
+						<div class="content">
+							<h3 class="title mb-3">Unlock Graph Databases with GCloud and Neo4J</h3>
+							<div class="desc">Ghlen Nagels is a Web Developer and Graph Database Consultant. He
+								maintains the Neo4j PHP driver, helps with many other open source projects and is
+								involved with multiple startups and corporate projects. You’ll likely find him running
+								on the trails or enjoying some of his local favourite Belgian beers with his friends
+								when he is not behind his keyboard.</div>
+							<br>
+						</div>
+					</div>
+
+					<!-- Showcase your website with Firebase Hosting -->
+					<div class="item item-talk mb-3">
+						<div class="meta">
+							<h4 class="time mb-3">11:55 - 12:25</h4>
+							<div class="profile">
+								<a target="_blank" href="#modal-speaker-9" data-bs-toggle="modal"
+									data-bs-target="#modal-speaker-9">
+									<img class="profile-image rounded-circle  mb-2"
+										src="assets/images/speakers/speaker-9.jpg" alt="">
+								</a>
+								<div class="name">
+									<a target="_blank" class="theme-link" href="#modal-speaker-9" data-bs-toggle="modal"
+										data-bs-target="#modal-speaker-9">Akansha Jain</a>
+								</div>
+							</div>
+							<div class="profile">
+								<a target="_blank" href="#modal-speaker-10" data-bs-toggle="modal"
+									data-bs-target="#modal-speaker-10">
+									<img class="profile-image rounded-circle  mb-2"
+										src="assets/images/speakers/speaker-10.jpg" alt="">
+								</a>
+								<div class="name">
+									<a target="_blank" class="theme-link" href="#modal-speaker-10"
+										data-bs-toggle="modal" data-bs-target="#modal-speaker-10">Abhishek Doshi</a>
+								</div>
+							</div>
+						</div>
+						<div class="content">
+							<h3 class="title mb-3">Showcase your website with Firebase Hosting</h3>
+							<div class="desc"><b>Speaker 1 : Akansha Jain</b></div>
+							<div class="desc">I am currently working as an SW Engineer Intern at A.P. Moller Maersk. I
+								was a Google Developer Student Clubs Lead for the session 2021-22 and a Gold Microsoft
+								Learn Student Ambassador. I completed my B. Sc. Hons. in Computer Science Degree from
+								Shaheed Rajguru College of Applied Sciences for Women, University of Delhi. I also
+								completed Diploma in German Language from University of Delhi only. My interest lies in
+								Application Development and I love contributing to open source. I am also passionate
+								about UI/UX Designing.</div>
+							<div class="desc"><b>Speaker 2 : Abhishek Doshi</b></div>
+							<div class="desc">I am a Google Developer Expert (GDE) for Dart, Flutter & Firebase. I am
+								the youngest GDE in the world. I am also a Google Mentor, thereby mentoring individuals
+								and companies who wish to start with Flutter. Apart from that, I am the Organiser of
+								Flutter Valsad and Co-Organiser of Flutter India. I am also an Internation Tech Speaker
+								and Tech Content Writer. Currently, I work at Somnio Software as Sr. Flutter Engineer
+								and my main responsibilities include advising the team, reviewing their code, taking
+								critical decisions, coding, solving major critical issues, etc.</div>
+						</div>
+					</div>
+
+					<!-- Internal Working of RecyclerView -->
+					<div class="item item-talk mb-3">
+						<div class="meta">
+							<h4 class="time mb-3">12:30 - 12:45</h4>
+							<div class="profile">
+								<a target="_blank" href="#modal-speaker-2" data-bs-toggle="modal"
+									data-bs-target="#modal-speaker-2">
+									<img class="profile-image rounded-circle  mb-2"
+										src="assets/images/speakers/speaker-2.jpg" alt="">
+								</a>
+								<div class="name">
+									<a target="_blank" class="theme-link" href="#modal-speaker-2" data-bs-toggle="modal"
+										data-bs-target="#modal-speaker-2">Nitin Prakash</a>
+								</div>
+							</div>
+						</div>
+						<div class="content">
+							<h3 class="title mb-3">Internal Working of RecyclerView</h3>
+							<div class="desc">Nitin Prakash is an Android Engineer, currently working with Trell,
+								Ex-Byjus. Nitin has completed his graduation in Electronics and Communication from
+								Maharishi Dayanand University, Haryana, and live in New Delhi. After completing his
+								graduation Nitin had worked in the telecom industry for more than 2.5 years and but he
+								also learned java and android while doing his telecom job. He got his first break in the
+								IT industry in Dec-2017 where he worked as an individual contributor to the whole
+								android app SDLC and he developed 9 apps successfully.</div>
+						</div>
+					</div>
+
+					<!-- Orchestration with serverless microservices -->
+					<div class="item item-talk mb-3">
+						<div class="meta">
+							<h4 class="time mb-3">12:50 - 13:05</h4>
+							<div class="profile">
+								<a target="_blank" href="#modal-speaker-5" data-bs-toggle="modal"
+									data-bs-target="#modal-speaker-5">
+									<img class="profile-image rounded-circle  mb-2"
+										src="assets/images/speakers/speaker-5.jpg" alt="">
+								</a>
+								<div class="name">
+									<a target="_blank" class="theme-link" href="#modal-speaker-5" data-bs-toggle="modal"
+										data-bs-target="#modal-speaker-5">Praveen Thirumurugan</a>
+								</div>
+							</div>
+						</div>
+						<div class="content">
+							<h3 class="title mb-3">Orchestration with serverless microservices</h3>
+							<div class="desc">Praveen is currently in Bangalore, where he works as a Software Engineer
+								at Plum. During his early professional life, he contributed a lot to open source and has
+								been the head of the Cloud Coimbatore community for several years. He has 5+ years of
+								experience with various tech domains, focusing on UI Frameworks and Cloud Services.
+								Praveen enjoys working in Aviation, Photography and Travel in his spare time.</div>
+							<br>
+						</div>
+					</div>
+
+					<!-- Lunch -->
+					<div class="item item-other">
+						<div class="meta">
+							<h4 class="time mb-3">13:10 - 13:45</h4>
+						</div>
+						<div class="content">
+							<h3 class="title mb-3">Lunch</h3>
+						</div>
+					</div>
+
+					<!-- Welcome Jetpack DataStore, GoodBye SharedPreferences -->
+					<div class="item item-talk mb-3">
+						<div class="meta">
+							<h4 class="time mb-3">13:45 - 14:15</h4>
+							<div class="profile">
+								<a target="_blank" href="#modal-speaker-3" data-bs-toggle="modal"
+									data-bs-target="#modal-speaker-3">
+									<img class="profile-image rounded-circle  mb-2"
+										src="assets/images/speakers/speaker-3.jpg" alt="">
+								</a>
+								<div class="name">
+									<a target="_blank" class="theme-link" href="#modal-speaker-3" data-bs-toggle="modal"
+										data-bs-target="#modal-speaker-13">Bhavna Thacker</a>
+								</div>
+							</div>
+						</div>
+						<div class="content">
+							<h3 class="title mb-3">Welcome Jetpack DataStore, GoodBye SharedPreferences</h3>
+							<div class="desc">Bhavna is a Google Developer Expert for Android and Senior Software
+								Engineer at MEGA. She is also a WTM member and Final Pass Editor @raywenderlich. She
+								likes to share her learnings via YouTube channel - LearnAndroid. When she is not at
+								work, you can find her in the kitchen listening to music and experimenting new dishes.
+							</div>
+							<br>
+						</div>
+					</div>
+
+					<!-- The State of Compose -->
+					<div class="item item-talk mb-3">
+						<div class="meta">
+							<h4 class="time mb-3">14:20 - 14:50</h4>
+							<div class="profile">
+								<a target="_blank" href="#modal-speaker-4" data-bs-toggle="modal"
+									data-bs-target="#modal-speaker-4">
+									<img class="profile-image rounded-circle  mb-2"
+										src="assets/images/speakers/speaker-4.jpg" alt="">
+								</a>
+								<div class="name">
+									<a target="_blank" class="theme-link" href="#modal-speaker-4" data-bs-toggle="modal"
+										data-bs-target="#modal-speaker-4">Rivu Chakraborty</a>
+								</div>
+							</div>
+						</div>
+						<div class="content">
+							<h3 class="title mb-3">The State of Compose</h3>
+							<div class="desc">Rivu Chakraborty is a Kotlin GDE, an Android developer, a community
+								person, & one of the early adopters of Kotlin. With overall ~10 years of experience,
+								he's presently working at Meesho as a Lead Android Engineer. He previously used to work
+								at Gojek, Paytm (India's biggest Fintech startup) and Byju's (India's biggest Edtech
+								startup). He has contributed to multiple Kotlin and Android Development books including
+								authoring Reactive Programming in Kotlin, co-authoring Functional Kotlin the first-ever
+								book to help Kotlin developers learn Functional Programming and use Arrow-kt in their
+								projects, and co-authoring Hands-On Data Structures and Algorithms with Kotlin.</div>
+						</div>
+					</div>
+
+					<!-- Angular + Security -->
+					<div class="item item-talk mb-5">
+						<div class="meta">
+							<h4 class="time mb-3">14:55 - 15:25</h4>
+							<div class="profile">
+								<a target="_blank" href="#modal-speaker-8" data-bs-toggle="modal"
+									data-bs-target="#modal-speaker-8">
+									<img class="profile-image rounded-circle  mb-2"
+										src="assets/images/speakers/speaker-8.jpg" alt="">
+								</a>
+								<div class="name">
+									<a target="_blank" class="theme-link" href="#modal-speaker-8" data-bs-toggle="modal"
+										data-bs-target="#modal-speaker-8">Pranoti Nandurkar</a>
+								</div>
+							</div>
+						</div>
+						<div class="content">
+							<h3 class="title mb-3">Angular + Security</h3>
+							<div class="desc">Pranoti is a women Techmakers ambassador for Pune chapter. She is having 11+ years of experience in web and front end technologies. She is working as Tech Lead at Tata consultancy services. She is a full stack developer, experienced in JAVA, , Portal technologies like WebSphere, Liferay, BPM like PEGA and various web technologies including Angular. She strongly believe in communities. In her free time you can find her working closely with tech communities or learning new technology. She also enjoys traveling and spending time in nature.</div>
+						</div>
+					</div>
+
+					<!-- Accessibility: Technology and Beyond -->
+					<div class="item item-talk mb-5">
+						<div class="meta">
+							<h4 class="time mb-3">15:30 - 16:00</h4>
+							<div class="profile">
+								<a target="_blank" href="#modal-speaker-7" data-bs-toggle="modal"
+									data-bs-target="#modal-speaker-7">
+									<img class="profile-image rounded-circle  mb-2"
+										src="assets/images/speakers/speaker-7.jpg" alt="">
+								</a>
+								<div class="name">
+									<a target="_blank" class="theme-link" href="#modal-speaker-7" data-bs-toggle="modal"
+										data-bs-target="#modal-speaker-7">Amey Nerkar</a>
+								</div>
+							</div>
+						</div>
+						<div class="content">
+							<h3 class="title mb-3">Accessibility: Technology and Beyond</h3>
+							<div class="desc">Amey is a social innovator and changemaker who enjoys building things that
+								impact the community. He develops exceptional products and deploys those in the
+								community around him. He is featured by Google for the impact he is creating using the
+								technology! Amey is currently working as a Technical Product Manager and is experienced
+								in developing and managing the technical side of the products. He is a Google Cloud
+								Certified Engineer and Facebook-certified community manager. He is a full-time Technical
+								Product Manager and loves spending weekends over Music + Code!</div>
+						</div>
+					</div>
+
+					<!-- Platform Channel - Communicating Flutter with Native Code -->
+					<div class="item item-talk mb-5">
+						<div class="meta">
+							<h4 class="time mb-3">16:05 - 16:35</h4>
+							<div class="profile">
+								<a target="_blank" href="#modal-speaker-6" data-bs-toggle="modal"
+									data-bs-target="#modal-speaker-6">
+									<img class="profile-image rounded-circle  mb-2"
+										src="assets/images/speakers/speaker-6.jpg" alt="">
+								</a>
+								<div class="name">
+									<a target="_blank" class="theme-link" href="#modal-speaker-6" data-bs-toggle="modal"
+										data-bs-target="#modal-speaker-6">Shree Bhagwat</a>
+								</div>
+							</div>
+						</div>
+						<div class="content">
+							<h3 class="title mb-3">Platform Channel - Communicating Flutter with Native Code</h3>
+							<div class="desc">Founder of Codeaamy, Flutter Pune Organiser Flutter Tech Editor, Video
+								Course Creator and lead mentor at Raywenderlich.com. Corporate Trainer For Flutter,
+								Youtuber and blogger.</div>
+							<br>
+						</div>
+					</div>
+
+					<!-- High Tea -->
+					<div class="item item-other">
+						<div class="meta">
+							<h4 class="time mb-3">16:35 - 17:00</h4>
+						</div>
+						<div class="content">
+							<h3 class="title mb-3">High Tea</h3>
+						</div>
+					</div>
+
+					<!-- Firebase and Beyond -->
+					<div class="item item-talk mb-3">
+						<div class="meta">
+							<h4 class="time mb-3">17:00 - 17:30</h4>
+							<div class="profile">
+								<a target="_blank" href="#modal-speaker-19" data-bs-toggle="modal"
+									data-bs-target="#modal-speaker-19">
+									<img class="profile-image rounded-circle  mb-2"
+										src="assets/images/speakers/speaker-19.jpg" alt="">
+								</a>
+								<div class="name">
+									<a target="_blank" class="theme-link" href="#modal-speaker-19"
+										data-bs-toggle="modal" data-bs-target="#modal-speaker-19">Ayushi Gupta</a>
+								</div>
+							</div>
+						</div>
+						<div class="content">
+							<h3 class="title mb-3">Firebase and Beyond</h3>
+							<div class="desc">In this agile growing mobile industry, you can easily find many apps
+								solving one user problem, but winner is the one with seamless user experience. If you
+								want to build an app which targets large number of users daily with 1000’s of features
+								running in all different corners of the world and in such scenario launching a new
+								feature to all of the app users is scary, as you can't be sure how well the feature will
+								be received by users and that’s where Remote Config offers you dynamic control to app
+								features by gating them with percentage rollout and slowly expose users to new features.
+								We have complete set of in app defaults, to face any config fetch issues and user
+								receives the best without much app updates. To know about the choices of our users, we
+								get interesting analytics results through Firebase A/B testing with no efforts on client
+								end. Even during live streaming of matches or any content we have the hold of every
+								feature of the app and we can route every api calls based on traffic received. Even
+								created, a small tool to override the firebase config for a device which helped our
+								Developers, QA and Product team a lot. We don’t need to create separate APKs with
+								specific features on and off. Not only this, to simplify collaborative workflows, we
+								have Slack alerts in near real time about any config changes pushed by any devs. So
+								let's just check out how much we can go beyond with Firebase to scale our apps.</div>
+							<br>
+						</div>
+					</div>
+
+					<!-- Closing Note -->
+					<div class="item item-talk mb-3">
+						<div class="meta">
+							<h4 class="time mb-3">17:30 - 18:30</h4>
+							<a href=""></a>
+							<div class="profile">
+									<img class="profile-image rounded-circle  mb-2"
+										src="assets/images/speakers/main.jpg" alt="">
+								<div class="name">Prajyot Mainkar</div>
+							</div>
+						</div>
+						<div class="content">
+							<h3 class="title mb-3">COMMUNITY PANEL SESSION & CLOSING NOTE</h3>
+							<div class="desc">Prajyot has been a consultant for mobile labs startups and himself a
+								developer over 13 years of experience in technology. Known as the 'Android man of Goa' -
+								he has been an advisor for various mobile app building strategy and initiatives around
+								India and he is also an author to two books in Android and Flutter.</div>
+							<br>
+						</div>
+					</div>
+
+
+				</div>
+
+				<!-- Hall 2 -->
+				<div class="tab-pane" id="tab-2-content" role="tabpanel" aria-labelledby="tab-2">
+
+					<!-- Novel lens to Fintech! -->
+					<div class="item item-talk mb-5">
+						<div class="meta">
+							<h4 class="time mb-3">13:45 - 14:15</h4>
+							<div class="profile">
+								<a target="_blank" href="#modal-speaker-18" data-bs-toggle="modal"
+									data-bs-target="#modal-speaker-18">
+									<img class="profile-image rounded-circle  mb-2"
+										src="assets/images/speakers/speaker-18.jpg" alt="">
+								</a>
+								<div class="name">
+									<a target="_blank" class="theme-link" href="#modal-speaker-18"
+										data-bs-toggle="modal" data-bs-target="#modal-speaker-14">Namrata More</a>
+								</div>
+							</div>
+						</div>
+						<div class="content">
+							<h3 class="title mb-3">Novel lens to Fintech!</h3>
+							<div class="desc">Fintech, financial technology is something we all need in our day-to-day
+								life even if we're not mastering it all. I would like to take it through how tech has
+								started it's advancement in Payments, Investments, Personal finance, Crypto, health and
+								touching a little towards blockchain, describing the technical architectural and
+								progressive points in fintech ecosystem. Basically, the future of analyzing and
+								automating numbers, graphs and stats with tech lens. Also, health-tech may sound a newly
+								introduced term to all of us since covid-19 but has tremendously overcome a lot of
+								industries. I am currently working with NDHM (National Digital Health Mission).
+								Currently, NDHM has initiated Ayushman Bharat Digital Mission (ABHA) to have a
+								centralized repository and to link all medical records at one place for everyone. Would
+								like to talk about the growing tech-end of this industry in fintech ecosystem.</div>
+							<br>
+						</div>
+					</div>
+
+					<!-- Building for a Million Users: Insights from Product Management -->
+					<div class="item item-talk mb-5">
+						<div class="meta">
+							<h4 class="time mb-3">14:20 - 14:50</h4>
+							<div class="profile">
+								<a target="_blank" href="#modal-speaker-14" data-bs-toggle="modal"
+									data-bs-target="#modal-speaker-14">
+									<img class="profile-image rounded-circle  mb-2"
+										src="assets/images/speakers/speaker-14.jpg" alt="">
+								</a>
+								<div class="name">
+									<a target="_blank" class="theme-link" href="#modal-speaker-14"
+										data-bs-toggle="modal" data-bs-target="#modal-speaker-14">Sneh Pandya</a>
+								</div>
+							</div>
+						</div>
+						<div class="content">
+							<h3 class="title mb-3">Building for a Million Users: Insights from Product Management</h3>
+							<div class="desc">Sneh Pandya is an emerging Product Management leader with specialization
+								in strategic leadership. He advocates for product strategy, digital transformation, and
+								sustainable innovation. His qualifications majors in Strategy Management and Leadership
+								from The Wharton School, University of Pennsylvania. Sneh is also a Developer Community
+								Leader at Google Developers Group Baroda and has given public talks at several worldwide
+								developer conferences. He is a co-founder of the NinjaTalks podcast, which brings
+								together experiences from the world's leaders, changemakers, and innovators to make
+								knowledge accessible to all. With his extensive experience in the field of technology
+								including mobile and web software applications, DevOps, Cloud, infrastructure
+								automation, and software architecture, his articles are published in various technology
+								and management publications.</div>
+							<br>
+						</div>
+					</div>
+
+					<!-- Web3 and Chainlink -->
+					<div class="item item-talk mb-3">
+						<div class="meta">
+							<h4 class="time mb-3">14:55 - 15:25</h4>
+							<div class="profile">
+								<a target="_blank" href="#modal-speaker-11" data-bs-toggle="modal"
+									data-bs-target="#modal-speaker-11">
+									<img class="profile-image rounded-circle  mb-2"
+										src="assets/images/speakers/speaker-11.jpg" alt="">
+								</a>
+								<div class="name">
+									<a target="_blank" class="theme-link" href="#modal-speaker-11"
+										data-bs-toggle="modal" data-bs-target="#modal-speaker-11">Elio Jordan Lopes</a>
+								</div>
+							</div>
+							<div class="profile">
+								<a target="_blank" href="#modal-speaker-12" data-bs-toggle="modal"
+									data-bs-target="#modal-speaker-12">
+									<img class="profile-image rounded-circle  mb-2"
+										src="assets/images/speakers/speaker-12.jpg" alt="">
+								</a>
+								<div class="name">
+									<a target="_blank" class="theme-link" href="#modal-speaker-12"
+										data-bs-toggle="modal" data-bs-target="#modal-speaker-12">Yashwant Choudhary</a>
+								</div>
+							</div>
+						</div>
+						<div class="content">
+							<h3 class="title mb-3">Web3 and Chainlink</h3>
+							<br>
+							<div class="desc"><b>Speaker 1 : Elio Jordan Lopes</b></div>
+							<div class="desc">Elio Jordan Lopes Co-Founder CEO, IntoTheVerse Inc. Building IntoTheVerse
+								Inc. , sustainable games and gaming economies for good, powered by Blockchain and Web3
+								#games4good</div>
+							<br>
+							<div class="desc"><b>Speaker 2 : Yashwant Choudhary</b></div>
+							<div class="desc">Research Analyst, Decademia</div>
+						</div>
+					</div>
+					<br><br>
+
+					<!-- I am Remarkable -->
+					<div class="item item-talk mb-5">
+						<div class="meta">
+							<h4 class="time mb-3">15:30 - 16:00</h4>
+							<div class="profile">
+								<a target="_blank" href="#modal-speaker-16" data-bs-toggle="modal"
+									data-bs-target="#modal-speaker-16">
+									<img class="profile-image rounded-circle  mb-2"
+										src="assets/images/speakers/speaker-16.jpg" alt="">
+								</a>
+								<div class="name">
+									<a target="_blank" class="theme-link" href="#modal-speaker-16"
+										data-bs-toggle="modal" data-bs-target="#modal-speaker-14">Shruti Tiwari</a>
+								</div>
+							</div>
+						</div>
+						<div class="content">
+							<h3 class="title mb-3">I am Remarkable</h3>
+							<div class="desc">Being actively involved with the SaaS and Open Source industry, Shruti has
+								a good hold on everything eCommerce and has expertise in framing content, including web
+								content, web marketing, and guest posts. Staying updated with industry activities, she
+								delivers the right content to help the end audiences grow their ecommerce sales. Ms.
+								Tiwari Shruti is a proud Ambassador at Women Techmakers and leads the content marketing
+								and partner collaboration between CedCommerce and the Grow Big Initiative.</div>
+							<br>
+						</div>
+					</div>
+
+
+					<!-- Art of Building Real Life Solutions using AI & ML -->
+					<div class="item item-talk mb-3">
+						<div class="meta">
+							<h4 class="time mb-3">16:05 - 16:35</h4>
+							<div class="profile">
+								<a target="_blank" href="#modal-speaker-13" data-bs-toggle="modal"
+									data-bs-target="#modal-speaker-13">
+									<img class="profile-image rounded-circle  mb-2"
+										src="assets/images/speakers/speaker-13.jpg" alt="">
+								</a>
+								<div class="name">
+									<a target="_blank" class="theme-link" href="#modal-speaker-13"
+										data-bs-toggle="modal" data-bs-target="#modal-speaker-13">Vishakha Chavan</a>
+								</div>
+							</div>
+						</div>
+						<div class="content">
+							<h3 class="title mb-3">Art of Building Real Life Solutions using AI & ML</h3>
+							<div class="desc">Vishakha Chavan is an emerging Data Scientist with specialization in
+								enterprise ML solutions. She advocates for sustainable innovation, healthcare research
+								through applied machine learning and green energy resources. Her qualifications and
+								certifications include a bachelor's degree in Mathematics, post graduation with
+								Artificial Intelligence from Indian Institute of Information Technology, Bengaluru and a
+								master’s degree with majors in artificial intelligence from IU University, Germany.
+								Vishakha is also a core team member at Women Techmakers Baroda, a women-in-tech focused
+								community, empowering women in technology and has been contributing to the community.
+								With her extensive experience in the field of technology including machine learning and
+								data science applications, DevOps, Cloud, infrastructure automation, and software
+								architecture, she aims to share knowledge with the world.</div>
+						</div>
+					</div>
+
+					
+
+				</div>
+				<br>
+				<div class="schedule-cta text-center mx-auto">
+					<a target="_blank" href=""
+						class="btn btn-secondary btn-lg d-block d-md-inline-block disabled" target="_blank">Buy Tickets</a>
+				</div>
+			</div>
+			<!--//container-->
+	</section>

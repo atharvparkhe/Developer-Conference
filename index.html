@@ -4,26 +4,26 @@
 <head>
 
 	<!-- Primary Meta Tags -->
-	<title>GDG Goa - International Women’s Day</title>
+	<title>GDG DevFest Goa</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="title" content="GDG Goa - International Women’s Day">
+	<meta name="title" content="GDG DevFest Goa">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Developers Conference - GDG Goa">
-	<meta name="author" content="Atharva Parkhe, Madem Greeshma and Sarvesh Patkar">
+	<meta name="author" content="Atharva Parkhe and Madem Greeshma">
 	<link rel="shortcut icon" href="favicon.ico">
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://gdggoa.com">
-	<meta property="og:title" content="GDG Goa - International Women’s Day">
+	<meta property="og:title" content="GDG DevFest Goa">
 	<meta property="og:description" content="Developers Conference - GDG Goa">
 	<meta property="og:image" content="favicon.ico">
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
 	<meta property="twitter:url" content="https://gdggoa.com">
-	<meta property="twitter:title" content="GDG Goa - International Women’s Day">
+	<meta property="twitter:title" content="GDG DevFest Goa">
 	<meta property="twitter:description" content="Developers Conference - GDG Goa">
 	<meta property="twitter:image" content="favicon.ico">
 
@@ -53,62 +53,36 @@
 		}
 
 		.hero-carousel .carousel-item-1 {
-			background: url("./assets/images/her1.png") no-repeat center center;
+			background: url("./assets/images/banner-2023.png") no-repeat center center;
 			background-size: cover;
 			background-position: top;
-			filter: blur(4.5px) opacity(0.7);
+			filter: blur(0.7px);
 		}
 
-		.hero-text-block {
-			text-align: right;
+		/* 
+		<-- google colors --> 
+		.theme-bg-primary{
+			background:#4285F4
 		}
-
-		.theme-bg-primary {
-			background: #4285F4
-		}
-
-		.btn-primary {
-			background: #4285F4
-		}
-
+		.btn-primary {background: #4285F4}
 		a {
 			color: #4285F4;
 		}
-
 		.btn-primary:hover {
 			background: rgb(40, 121, 201);
 		}
-
 		.btn-primary.disabled {
 			background: #6295e8;
 		}
-
 		a:hover {
 			color: #2f66bf;
 		}
-
 		.pricing .heading {
 			background: #4285F4;
-		}
-
+		} */
 		@media screen and (min-width: 768px) {
-
 			#speakerCarousel {
 				width: 60%;
-			}
-
-			.hero-text-block {
-				float: right;
-			}
-		}
-
-
-		@media only screen and (max-width: 767px) {
-			.hero-carousel .carousel-item-1 {
-				background: url("./assets/images/mobile-bg.png") no-repeat center center;
-				background-size: cover;
-				background-position: top;
-				filter: blur(2.5px) opacity(0.8);
 			}
 		}
 
@@ -123,948 +97,426 @@
 </head>
 
 <body>
-
-	<!-- Header -->
 	<header id="header" class="header fixed-top">
 		<div class="branding">
 			<div class="container-fluid">
 				<nav class="main-nav navbar navbar-expand-lg">
-					<div class="site-logo"><a class="scrollto" href="#hero-section"
+					<div class="site-logo"><a target="_blank" class="scrollto" href="#hero-section"
 							style="color: white; text-decoration:none;"><img class="logo-icon"
-								src="assets/images/wtm-logo.png" alt="devfest logo"><span class="px-sm-2">International Women’s Day</span>
-						</a>
+								src="assets/images/logo.png" alt="devfest logo"> Dev Fest 2023 </a>
 					</div>
-					<!--<div class="navbar-btn order-lg-2"><a target="_blank" class="btn btn-secondary disabled"
-						href="https://www.townscript.com/e/International-Womens-Day-2023-Goa" target="_blank">Tickets</a></div>-->
-					<button class="navbar-toggler border-0 text-body" type="button" data-bs-toggle="collapse"
-						data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false"
-						aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon text-white"></span>
+					<div class="navbar-btn order-lg-2"><a target="_blank" class="btn btn-secondary"
+							href="https://www.townscript.com/e/devfest-goa-2023" target="_blank">Tickets</a></div>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation"
+						aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
 					</button>
 					<div id="navigation" class="navbar-collapse collapse  justify-content-lg-end me-lg-3">
 						<ul class="nav navbar-nav">
-							<li class="nav-item"><a class="nav-link text-white scrollto" href="#about-section">About</a>
-							</li>
-							<li class="nav-item"><a class="nav-link text-white scrollto"
-									href="#speakers-section">Speakers</a></li>
-							<li class="nav-item"><a class="nav-link text-white scrollto"
-									href="#schedule-section">Schedule</a></li>
+							<li class="nav-item"><a class="nav-link scrollto" href="#about-section">About</a></li>
+							<!-- <li class="nav-item"><a class="nav-link scrollto" href="#speakers-section">Speakers</a></li> -->
+							<!-- <li class="nav-item"><a class="nav-link scrollto" href="#schedule-section">Schedule</a></li> -->
 							<li class="nav-item"><a class="nav-link scrollto" href="#tickets-section">Tickets</a></li>
-							<li class="nav-item"><a class="nav-link text-white scrollto" href="#venue-section">Venue</a>
-							</li>
+							<li class="nav-item"><a class="nav-link scrollto" href="#venue-section">Venue</a></li>
 							<li class="nav-item"><a class="nav-link scrollto" href="#sponsors-section">Sponsors</a></li>
-							<li class="nav-item"><a class="nav-link text-white scrollto"
-									href="#Volunteers-section">Team</a>
+							<li class="nav-item"><a class="nav-link scrollto" href="#Organiser-section">Team</a>
 							</li>
 						</ul>
+						<!--//nav-->
 					</div>
+					<!--//navabr-collapse-->
 				</nav>
+				<!--//main-nav-->
 			</div>
+			<!--//container-->
 		</div>
+		<!--//branding-->
 	</header>
+	<!--//header-->
 
-	<!-- Hero -->
 	<section id="hero-section">
-		<div id="hero-block" class="hero-block">
-			<div id="hero-carousel" class="hero-carousel carousel slide carousel-fade" data-ride="carousel">
-				<div class="carousel-inner">
-					<div class="carousel-item-1 carousel-item active">
-						<!-- <img class="w-100 h-100" src="./assets/images/header-img-svg.svg" alt=""> -->
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="hero-text-block">
-					<h1 class="hero-heading mb-1 text-black">International Women’s Day</h1>
-					<div class="hero-meta mb-3 text-black fs-5"><i class="far fa-calendar-alt me-2 fs-5"></i>28th
-						April<i class="fas fa-map-marker-alt mx-2"></i><a target="_blank"
-							href="https://goo.gl/maps/FRHeFXjZTnjyJuUx6" target="_blank"
-							style="text-decoration: none; color: black; font-size: 1.2rem;">Padre Conceicao College of
-							Engineering</a>
-					</div>
-					<div class="hero-intro mb-4 fs-6 text-black">International Women’s Day (IWD) is Women Techmakers’
-						largest annual event campaign to celebrate women and the allies. It marks a moment to celebrate
-						and provide visibility for the incredible contributions of women around the world
-						and is a call to action for accelerating gender parity.</div>
-					<div class="hero-cta"><a class="btn btn-primary btn-lg" href="#schedule-section"
-							rel="noopener noreferrer">Check Schedule</a></div>
-					<div class="navbar-btn order-lg-2 my-2"><a target="_blank" class="btn btn-secondary disabled"
-							href="https://www.townscript.com/e/International-Womens-Day-2023-Goa" target="_blank">Buy
-							Ticket</a></div>
+	<div id="hero-block" class="hero-block">
+		<div id="hero-carousel" class="hero-carousel carousel slide carousel-fade" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item-1 carousel-item active">
+					<!-- <img class="w-100 h-100" src="./assets/images/header-img-svg.svg" alt=""> -->
 				</div>
 			</div>
 		</div>
+		<!-- <div class="hero-block-mask"></div> -->
+		<div class="container">
+			<div class="hero-text-block">
+				<h1 class="hero-heading mb-2">DevFest 2023</h1>
+				<div class="hero-meta mb-5" style="color: rgb(236, 207, 45);"><i class="far fa-calendar-alt me-2" style="color: #fff;"></i>25 Nov<i
+						class="fas fa-map-marker-alt mx-2" style="color: #fff;"></i><a target="_blank"
+						href="https://maps.app.goo.gl/hRnk4ZB9eDuk7NAw6" target="_blank"
+						style="text-decoration: none; color: rgb(236, 207, 45);">Panjim Convention Center, Panjim,
+						Goa</a></div>
+				<div class="hero-intro mb-4">GDG DevFest Goa brings together the world class experts in Mobile, Web, AI,
+					ML and Cloud technologies to Goa for a day full of sessions, workshops and showcases.<br></div>
+				<div class="hero-cta"><a target="_blank" class="btn btn-secondary btn-lg" href="https://www.townscript.com/e/devfest-goa-2023"
+						rel="noopener noreferrer">Buy Ticket</a></div>
+			</div>
+			<!--//hero-text-block-->
+		</div>
+		<!--//container-->
+	</div>
+	<!--//hero-block-->
 
-		<div class="stats-block theme-bg-primary text-white py-4 text-center  m-auto">
-			<div class="container m-auto">
-				<div class="row m-auto">
-					<div class="col-6  m-auto col-md-3">
-						<div class="item">
-							<div class="number">100+</div>
-							<div class="unit">Attendees</div>
-						</div>
+	<div class="stats-block theme-bg-primary text-white py-4 text-center  m-auto">
+		<div class="container m-auto">
+			<div class="row  m-auto">
+				<div class="col-6  m-auto col-md-3">
+					<div class="item">
+						<div class="number">400+</div>
+						<div class="unit">Attendees</div>
 					</div>
-					<div class="col-6  m-auto col-md-3">
-						<div class="item">
-							<div class="number">10+</div>
-							<div class="unit">Expert Talks</div>
-						</div>
-					</div>
-					<div class="col-6  m-auto col-md-4">
-						<div class="item py-2">
-							<div class="number">100%</div>
-							<div class="unit">Fun & Learning</div>
-						</div>
-					</div>
+					<!--//item-->
 				</div>
+				<!--//col-->
+				<div class="col-6  m-auto col-md-3">
+					<div class="item">
+						<div class="number">20+</div>
+						<div class="unit">Expert Talks</div>
+					</div>
+					<!--//item-->
+				</div>
+				<div class="col-6  m-auto col-md-3">
+					<div class="item">
+						<div class="number">100%</div>
+						<div class="unit">Fun & Learning</div>
+					</div>
+					<!--//item-->
+				</div>
+				<!--//col-->
 			</div>
 		</div>
-	</section>
+		<!--//container-->
+	</div>
+	<!--//stats-block-->
 
-	<!-- About -->
+	<!-- https://www.townscript.com/e/devfest-goa-2023 -->
+</section>
+
 	<section id="about-section" class="about-section section theme-bg-light">
 		<div class="container">
-			<h3 class="section-heading text-center mb-3">About International Women’s Day - WTM</h3>
-			<div class="section-intro single-col-max mx-auto mb-4">The Women Techmakers' International Women's Day
-				campaign is a global initiative that aims to bring developers together to celebrate, connect, and learn.
-				The campaign highlights the remarkable contributions of women worldwide and emphasizes the importance of
-				accelerating gender equity. Throughout March and April, Women Techmakers Ambassadors and Google
-				Developer Group communities will organize events under the theme of #ProgressNotPerfection. These
-				events, which include technical talks, workshops, inspirational keynotes, leadership sessions, and
-				career panels, range from large summits to intimate gatherings, ensuring that there is something for
-				every developer.</div>
+			<h3 class="section-heading text-center mb-3">About DevFest</h3>
+			<div class="section-intro single-col-max mx-auto mb-4">An annual event hosted by the Google Developers Group
+				across the world to bring technology closer to the developers. It is a All-Day developer conference
+				where we aim to focus on multiple technologies through lightning talks, sessions, etc.</div>
+			<div class="section-intro single-col-max mx-auto mb-4">2023 will be the 12th year 🎉 of DevFest which marks
+				the beginning of the second decade of the GDG community.</div>
+			<div class="benefits-list single-col-max mx-auto text-center mb-3">
+				<h4 class="text-center mb-4">Why Join Us</h4>
+				<ul class="list-unstyled text-start d-inline-block">
+					<li><i class="fas fa-check-circle me-2"></i><strong> Technical content: </strong>Events hosted by
+						the Google Developer Groups community, featuring leading experts on Google technologies in areas
+						like Android, Firebase and so much more!</li>
+					<li><i class="fas fa-check-circle me-2"></i><strong> Roadmaps: </strong>Want to become a developer?
+						Join us to get all the answers.</li>
+					<li><i class="fas fa-check-circle me-2"></i><strong> Panel Discussions: </strong>Learn from the
+						interaction of an expert group of panelists.</li>
+					<li><i class="fas fa-check-circle me-2"></i><strong> Networking Sessions: </strong>Connect with
+						fellow attendees, speakers and community leaders.</li>
+					<li><i class="fas fa-check-circle me-2"></i><strong> Job Opportunities: </strong>Connect with
+						recruiters whose requirements match your skills.</li>
+					<li><i class="fas fa-check-circle me-2"></i><strong> Startup Opportunities: </strong>Explore the latest trends, connect with potential investors, and collaborators, and learn how to take your startup to the next level.</li> 
+					<li><i class="fas fa-check-circle me-2"></i><strong> Swags and Goodies: </strong>Amazing spot prizes
+						for contests during the event</li>
+					<li><i class="fas fa-check-circle me-2"></i><strong> Ice Breaker Activities: </strong>Get refreshed
+						by participating in icebreaker activities.</li>
+				</ul>
+			</div>
+			<!--//benefits-list-->
 			<div class="event-countdown text-center mb-3">
 				<h4 class="countdown-intro mb-2 text-center mb-3">Event Starts In:</h4>
 				<div id="countdown-box" class="countdown-box"></div>
 			</div>
-			<div class="about-cta text-center mb-5"><a target="_blank" class="btn btn-secondary btn-lg  mb-5 disabled"
-					href="https://www.townscript.com/e/International-Womens-Day-2023-Goa" target="_blank">Get Your
-					Ticket Today</a></div>
+			<!--//event-countdown-->
+			<div class="about-cta text-center mb-5"><a target="_blank" class="btn btn-secondary btn-lg  mb-5"
+					href="https://www.townscript.com/e/devfest-goa-2023" target="_blank">Get Your Ticket Today</a></div>
+		</div>
+		<!--//container-->
+
+		<div class="media-block theme-bg-primary py-5">
+			<div class="container">
+				<h4 class="text-white text-center mb-3">Previously</h4>
+				<div class="section-intro text-center single-col-max mx-auto text-white mb-5">Here are some images from
+					previous DevFests.</div>
+				<div class="row gx-md-5">
+					<div id="speakerCarousel" class="carousel slide mx-auto" data-bs-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active" data-bs-interval="2000">
+								<img src="./assets/images/slideshow/devfest-1.jpg" class="img-fluid w-100" alt="...">
+							</div>
+							<div class="carousel-item" data-bs-interval="2000">
+								<img src="./assets/images/slideshow/devfest-2.jpg" class="img-fluid w-100" alt="...">
+							</div>
+							<div class="carousel-item" data-bs-interval="2000">
+								<img src="./assets/images/slideshow/devfest-3.jpg" class="img-fluid w-100" alt="...">
+							</div>
+							<div class="carousel-item" data-bs-interval="2000">
+								<img src="./assets/images/slideshow/devfest-4.jpg" class="img-fluid w-100" alt="...">
+							</div>
+							<div class="carousel-item" data-bs-interval="2000">
+								<img src="./assets/images/slideshow/devfest-5.jpg" class="img-fluid w-100" alt="...">
+							</div>
+							<div class="carousel-item" data-bs-interval="2000">
+								<img src="./assets/images/slideshow/devfest-6.jpg" class="img-fluid w-100" alt="...">
+							</div>
+							<!-- <div class="carousel-item" data-bs-interval="2000">
+								<img src="./assets/images/slideshow/devfest-7.jpg" class="img-fluid w-100" alt="...">
+							</div> -->
+							<div class="carousel-item" data-bs-interval="2000">
+								<img src="./assets/images/slideshow/devfest-8.jpg" class="img-fluid w-100" alt="...">
+							</div>
+							<div class="carousel-item" data-bs-interval="2000">
+								<img src="./assets/images/slideshow/devfest-9.jpg" class="img-fluid w-100" alt="...">
+							</div>
+							<!-- <div class="carousel-item" data-bs-interval="2000">
+								<img src="./assets/images/slideshow/devfest-10.jpg" class="img-fluid w-100" alt="...">
+							</div> -->
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#speakerCarousel"
+							data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#speakerCarousel"
+							data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+				<!--//row-->
+			</div>
+			<!--//container-->
+		</div>
+		<!--//media-block-->
+	</section>
+	<!--//about-section-->
+
+	<!-- SPEAKER's SECTION -->
+
+	<div class="container">
+		<hr>
+	</div>
+	
+	<!--//schedule-section-->
+
+	<section id="tickets-section" class="tickets-section section theme-bg-light">
+		<div class="container">
+			<h3 class="section-heading text-center mb-3">Tickets</h3>
+			<div class="section-intro single-col-max mx-auto text-center mb-4">You can use 3rd party platforms <a
+					class="theme-link disabled" href="https://www.townscript.com/e/devfest-goa-2023"
+					target="_blank">townscript</a> to buy your tickets.</div>
+			<div class="row pricing m-auto mb-5">
+				<div class="col-12 m-auto col-md-4 p-2 p-lg-4">
+					<div class="card card rounded-0 border-0">
+						<div class="card-body p-0">
+							<div class="heading text-center p-3">
+								<h4 class="text-white mb-0">Early Bird</h4>
+							</div>
+							<div class="info p-3">
+								<div class="price-figure text-center"><span class="currency">₹</span><span
+										class="number">899</span></div>
+								<div class="desc px-3">
+									Purchase before 25th October 2023. Only 100 tickets available.
+								</div>
+							</div>
+						</div>
+						<div class="card-footer text-center">
+							<a target="_blank" href="https://www.townscript.com/e/devfest-goa-2023"
+								class="btn btn-primary" target="_blank">BUY NOW</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 m-auto col-md-4 p-2 p-lg-4">
+					<div class="card card rounded-0 border-0">
+						<div class="card-body p-0">
+							<div class="heading text-center p-3">
+								<h4 class="text-white mb-0">Regular</h4>
+							</div>
+							<div class="info p-3">
+								<div class="price-figure text-center"><span class="currency">₹</span><span
+										class="number">1499</span></div>
+								<div class="desc px-3">
+									Purchase before we sell out. Only 100 tickets available.
+								</div>
+							</div>
+						</div>
+						<div class="card-footer text-center">
+							<a target="_blank" href=""
+								class="btn btn-primary disabled" target="_blank">AWAITED</a>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="col-12 m-auto col-md-4 p-2 p-lg-4">
+					<div class="card card-special rounded-0 border-0">
+						<div class="card-body p-0">
+							<div class="heading text-center p-3">
+								<h4 class="text-white mb-0">Last minute ticket</h4>
+							</div>
+							<div class="info p-3">
+								<div class="price-figure text-center"><span class="currency">₹</span><span
+										class="number">1499</span></div>
+								<div class="desc px-3">
+									Purchase before its too late. (After 10th December)
+								</div>
+							</div>
+						</div>
+						<div class="card-footer text-center">
+							<a target="_blank" href=""
+								class="btn btn-primary disabled" target="_blank">AWAITED</a>
+						</div>
+					</div>
+				</div> -->
+			</div>
+		</div>
+		<!--//container-->
+	</section>
+	<!--//tickets-section-->
+
+
+	<section id="venue-section" class="venue-section section  theme-bg-primary text-white">
+		<div class="container">
+			<h3 class="section-heading text-center mb-5 text-white">Venue</h3>
+			<div class="row gx-5 py-lg-5">
+				<div class="col-12 col-lg-7 h-100">
+					<div class="desc">
+						<h4 class="text-white mb-3">About the Venue</h4>
+						<p>Being located in the heart of the city, PANJIM CONVENTION CENTRE is one of the most luxurious banquet venue having state of the art interiors and music system. Look no further and host events at one of the best Wedding venues in Goa.
+							</p>
+							<br>
+							<h4 class="text-white mb-4 mt-3 mt-lg-5">Facilities &amp; Accommodations</h4>
+							<ul>
+								<li>Goa's biggest banquet destination in Goa</li>
+								<li>Goa's biggest clock tower having a height of 6ft is at Panjim Convention Centre.</li>
+								<li>Comprising of 7 venues , 4 air conditioned and 3 non air conditioned all under one roof.</li>
+								<li>Largest free parking space spread across, 30,000 sq.ft. in Panaji.</li>
+							</ul>
+						<!-- <p>Vivanta represents a collection of sophisticated upscale hotels. The brand, promises to
+							deliver experiences that are dynamic, spirited and unique with a dash of uniqueness and an
+							unexpected twist – a perfect fit for contemporary travellers.</p> -->
+						<br>
+						<a target="_blank" class="btn btn-ghost" href="https://maps.app.goo.gl/hRnk4ZB9eDuk7NAw6"
+							target="_blank"> <i class="fas fa-map-marker-alt mx-2"
+								style="text-decoration: none;"></i>Navigate</a>
+						<br>
+					</div>
+					<!--//desc-->
+				</div>
+				<!--//col-->
+				<div class="col-11r col-xl-3 col-lg-3 offset-lg-1 position-relative h-100 mt-50 mt-lg-0">
+					<div class="figures-holder">
+						<div class="figure figure-1"><img class="shadow" src="assets/images/venue/venue-23-1.jpeg"
+								alt="vivanta-img">
+						</div>
+
+						<div class="figure figure-2"><img class="shadow" src="assets/images/venue/venue-23-2.jpeg"
+								alt="vivanta-img">
+						</div>
+					</div>
+					<!--//figures-holder-->
+				</div>
+				<!--//col-->
+			</div>
+			<!--//row-->
+		</div>
+		<!--//container-->
+	</section>
+	<!--//venue-section-->
+
+	<section id="sponsors-section" class="sponsors-section section">
+		<div class="container">
+			<h3 class="section-heading text-center mb-3">Sponsors &amp; Partners</h3>
+			<div class="section-intro text-center single-col-max mx-auto mb-5">Here are the Sponsors of one of the
+				liveliest Developer Conferences yet in Goa. Want to sponsor us? Get in touch by writing to us at
+				teamgdggoa@gmail.com
+			</div>
+			<center>
+				<div class="row logos justify-content-center">
+					<div class="logo-item col-6 col-md-4 col-lg-2">
+						<img src="assets/images/logos/google.png" alt="" style="height: 100px;">
+					</div>
+					<div class="logo-item col-6 col-md-4 col-lg-2">
+						<img src="assets/images/logos/sofueled.png" alt="" style="height: 75px;">
+					</div>
+				</div>
+				<div class="row logos justify-content-center">
+					<div class="logo-item col-6 col-md-4 col-lg-2">
+						<img src="assets/images/logos/gdg.png" alt="" style="height: 80px;">
+					</div>
+					<div class="logo-item col-6 col-md-4 col-lg-2">
+						<img src="assets/images/logos/wtm.png" alt="" style="height: 70px;">
+					</div>
+					<div class="logo-item col-6 col-md-4 col-lg-2">
+						<img src="assets/images/logos/bhagat.png" alt="" style="height: 100px;">
+					</div>
+				</div>
+			</center>
+		</div>
+		<!--//container-->
+	</section>
+	<!-- //sponsors-section -->
+
+	<section id="Organiser-section" class="Organiser-section section">
+		<div class="container">
+			<h3 class="section-heading text-center mb-3">Organiser</h3>
+			<div class="row gx-5 py-lg-5">
+				<div class="col-12 col-lg-7 h-50">
+					<h4 class="text-black mb-3">Prajyot Mainkar</h4>
+					<p>Organiser, mentor and advisor</p>
+					<p>Prajyot has been a consultant for mobile labs startups and himself a developer over 13 years of
+						experience in technology. Known as the 'Android man of Goa' - he has been an advisor for various
+						mobile app building strategy and initiatives around India and he is also an author to two books
+						in Android and Flutter.</p>
+					<br>
+					<center>
+						<ul class="social-list list-inline mb-0">
+							<li class="list-inline-item"><a target="_blank" href="https://twitter.com/prajyotm"><i
+										class="fab fa-twitter fa-fw"></i></a></li>
+							<li class="list-inline-item"><a target="_blank"
+									href="https://www.linkedin.com/in/prajyotm/"><i
+										class="fab fa-linkedin-in fa-fw"></i></a></li>
+							<li class="list-inline-item"><a target="_blank"
+									href="https://www.instagram.com/prajyotm/"><i
+										class="fab fa-instagram fa-fw"></i></a></li>
+						</ul>
+					</center>
+				</div>
+				<div class="col-12 col-xl-3 col-lg-4 offset-lg-1 position-relative h-80 mt-5 mt-lg-0">
+					<div class="figures-holder">
+						<div class="figure figure-1"><img class="shadow" src="assets/images/speakers/main.jpg" alt=""
+								style="height: 300px;">
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 
-	<!-- Speakers -->
-	<section id="speakers-section" class="speakers-section section">
+
+	<section id="Volunteers-section" class="Volunteers-section section">
 		<div class="container">
-			<h3 class="section-heading text-center mb-3">Speakers</h3>
-			<div class="section-intro text-center single-col-max mx-auto mb-5">Here is the list of our Expert Speakers
-				for the Event</div>
-			<div class="speakers-container row mx-auto">
-
-				<!-- Pallavi Salgaocar START -->
-				<div class="col-6 col-lg-3 mb-4">
-					<div class="card rounded-0 border-0 shadow">
-						<a target="_blank" href="#modal-speaker-26" data-bs-toggle="modal"
-							data-bs-target="#modal-speaker-26"><img src="assets/images/speakers/speaker-26.jpg"
-								class="card-img-top rounded-0" alt=""></a>
-						<div class="card-body">
-							<h5 class="card-title mb-2"><b>Pallavi Salgaocar</b></h5>
-							<div class="card-text mb-3">
-								<div class="meta">CA of Executive Director Geno Pharma</div>
-							</div>
-							<a target="_blank" href="#modal-speaker-26" data-bs-toggle="modal"
-								data-bs-target="#modal-speaker-26">Read
-								more &rarr;</a>
-						</div>
-						<div class="card-footer text-muted">
-							<ul class="social-list list-inline mb-0">
-								<li class="list-inline-item"><a target="_blank"
-										href="https://twitter.com/PallaviSalgaoc1"><i
-											class="fab fa-twitter fa-fw"></i></a></li>
-								<li class="list-inline-item"><a target="_blank"
-										href="https://www.linkedin.com/in/pallavi-salgaocar-162475205/"><i
-											class="fab fa-linkedin-in fa-fw"></i></a></li>
-								<!--<li class="list-inline-item"><a target="_blank"
-									href=""><i class="fab fa-github fa-fw"></i></a></li>
-								<li class="list-inline-item"><a target="_blank"
-									href=""><i
-										class="fab fa-instagram fa-fw"></i></a></li>-->
-							</ul>
-						</div>
-					</div>
-					<div class="modal modal-speaker modal-speaker-26" id="modal-speaker-26" tabindex="-1" role="dialog"
-						aria-labelledby="speaker-26-ModalLabel" aria-hidden="true">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="btn-close" data-bs-dismiss="modal"
-										aria-hidden="true">&times;</button>
-									<h4 id="speaker-26-ModalLabel" class="modal-title sr-only">Pallavi Salgaocar</h4>
-								</div>
-								<div class="modal-body p-0">
-									<div class="theme-bg-light p-5">
-										<div class="row">
-											<div class="col-12 col-md-auto text-center">
-												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
-													src="assets/images/speakers/speaker-26.jpg" alt="" />
-											</div>
-											<div class="col text-center text-md-start mx-auto">
-												<h2 class="name mb-2">Pallavi Salgaocar</h2>
-												<div class="meta mb-2">CA of Executive Director Geno Pharma</div>
-												<ul class="social-list list-inline mb-0">
-													<li class="list-inline-item"><a
-															href="https://twitter.com/PallaviSalgaoc1"><i
-																class="fab fa-twitter fa-fw"></i></a></li>
-													<li class="list-inline-item"><a
-															href="https://www.linkedin.com/in/pallavi-salgaocar-162475205/"><i
-																class="fab fa-linkedin-in fa-fw"></i></a></li>
-													<!--<li class="list-inline-item"><a
-														href=""><i
-															class="fab fa-instagram fa-fw"></i></a></li>
-													<li class="list-inline-item"><a
-														href=""><i class="fab fa-github fa-fw"></i></a></li>-->
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div class="desc p-4 p-lg-5">
-										<p>
-											Pallavi Salgaocar is a CA & finance director of Geno Pharmaceuticals pvt
-											Ltd.
-											She is the founder director of Desserts N More bakery chain in Goa. Also the
-											chairperson
-											of GCCI - Women s Wing and Women Empowerment chair - Assocham Goa.
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Pallavi Salgaocar END -->
-				<!-- Rina Barreto Shankar START -->
-				<div class="col-6 col-lg-3 mb-4">
-					<div class="card rounded-0 border-0 shadow">
-						<a target="_blank" href="#modal-speaker-25" data-bs-toggle="modal"
-							data-bs-target="#modal-speaker-25"><img src="assets/images/speakers/speaker-25.jpg"
-								class="card-img-top rounded-0" alt=""></a>
-						<div class="card-body">
-							<h5 class="card-title mb-2"><b>Rina Barreto Shankar</b></h5>
-							<div class="card-text mb-3">
-								<div class="meta">Founder, Cheree Tree Concepts | Personal & Business Branding
-									Strategist</div>
-							</div>
-							<a target="_blank" href="#modal-speaker-25" data-bs-toggle="modal"
-								data-bs-target="#modal-speaker-25">Read
-								more &rarr;</a>
-						</div>
-						<div class="card-footer text-muted">
-							<ul class="social-list list-inline mb-0">
-								<li class="list-inline-item"><a target="_blank"
-										href="https://twitter.com/BarretoRina"><i class="fab fa-twitter fa-fw"></i></a>
-								</li>
-								<li class="list-inline-item"><a target="_blank"
-										href="https://www.linkedin.com/in/rina-barreto-shankar-16a62b7/"><i
-											class="fab fa-linkedin-in fa-fw"></i></a></li>
-								<!--<li class="list-inline-item"><a target="_blank"
-									href=""><i class="fab fa-github fa-fw"></i></a></li>
-								<li class="list-inline-item"><a target="_blank"
-									href=""><i
-										class="fab fa-instagram fa-fw"></i></a></li>-->
-							</ul>
-						</div>
-					</div>
-					<div class="modal modal-speaker modal-speaker-25" id="modal-speaker-25" tabindex="-1" role="dialog"
-						aria-labelledby="speaker-25-ModalLabel" aria-hidden="true">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="btn-close" data-bs-dismiss="modal"
-										aria-hidden="true">&times;</button>
-									<h4 id="speaker-25-ModalLabel" class="modal-title sr-only">Rina Barreto Shankar</h4>
-								</div>
-								<div class="modal-body p-0">
-									<div class="theme-bg-light p-5">
-										<div class="row">
-											<div class="col-12 col-md-auto text-center">
-												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
-													src="assets/images/speakers/speaker-25.jpg" alt="" />
-											</div>
-											<div class="col text-center text-md-start mx-auto">
-												<h2 class="name mb-2">Rina Barreto Shankar</h2>
-												<div class="meta mb-2">Founder, Cheree Tree Concepts | Personal &
-													Business Branding Strategist</div>
-												<ul class="social-list list-inline mb-0">
-													<li class="list-inline-item"><a
-															href="https://twitter.com/BarretoRina"><i
-																class="fab fa-twitter fa-fw"></i></a></li>
-													<li class="list-inline-item"><a
-															href="https://www.linkedin.com/in/rina-barreto-shankar-16a62b7/"><i
-																class="fab fa-linkedin-in fa-fw"></i></a></li>
-													<!--<li class="list-inline-item"><a
-														href=""><i
-															class="fab fa-instagram fa-fw"></i></a></li>
-													<li class="list-inline-item"><a
-														href=""><i class="fab fa-github fa-fw"></i></a></li>-->
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div class="desc p-4 p-lg-5">
-										<p>
-											Rina Barreto Shankar is a Brand Growth Strategist and Communication Coach.
-With a decade and a half in advertising, brand building and marketing communucation, and 5 years in Entrepreneurship, her company Cheree Tree Concepts works with local and international clients, helping them build their personal brands and creating Marketing content for their businesses.
-She has been recognized and awarded for her role not only as a Brand Straegist but also in her efforts towards youth empowerment..
-She is currently working on a "Global Citizens Program" - a comprehensive Communication Enhancement and Personal Branding Program for youth and entrepreneurs
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Rina Barreto Shankar END -->
-
-				<!-- Siya Shaikh START -->
-				<div class="col-6 col-lg-3 mb-4">
-					<div class="card rounded-0 border-0 shadow">
-						<a target="_blank" href="#modal-speaker-24" data-bs-toggle="modal"
-							data-bs-target="#modal-speaker-24"><img src="assets/images/speakers/speaker-24.jpg"
-								class="card-img-top rounded-0" alt=""></a>
-						<div class="card-body">
-							<h5 class="card-title mb-2"><b>Siya Shaikh</b></h5>
-							<div class="card-text mb-3">
-								<div class="meta">Founder, Gowomania</div>
-							</div>
-							<a target="_blank" href="#modal-speaker-24" data-bs-toggle="modal"
-								data-bs-target="#modal-speaker-24">Read
-								more &rarr;</a>
-						</div>
-						<div class="card-footer text-muted">
-							<ul class="social-list list-inline mb-0">
-								<!--<li class="list-inline-item"><a target="_blank"
-										href=""><i
-											class="fab fa-twitter fa-fw"></i></a></li>-->
-								<li class="list-inline-item"><a target="_blank"
-										href="https://www.linkedin.com/in/siya-rafina-shaikh-5653b877/"><i
-											class="fab fa-linkedin-in fa-fw"></i></a></li>
-								<!--<li class="list-inline-item"><a target="_blank"
-									href=""><i class="fab fa-github fa-fw"></i></a></li>
-								<li class="list-inline-item"><a target="_blank"
-									href=""><i
-										class="fab fa-instagram fa-fw"></i></a></li>-->
-							</ul>
-						</div>
-					</div>
-					<div class="modal modal-speaker modal-speaker-24" id="modal-speaker-24" tabindex="-1" role="dialog"
-						aria-labelledby="speaker-24-ModalLabel" aria-hidden="true">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="btn-close" data-bs-dismiss="modal"
-										aria-hidden="true">&times;</button>
-									<h4 id="speaker-24-ModalLabel" class="modal-title sr-only">Siya Shaikh</h4>
-								</div>
-								<div class="modal-body p-0">
-									<div class="theme-bg-light p-5">
-										<div class="row">
-											<div class="col-12 col-md-auto text-center">
-												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
-													src="assets/images/speakers/speaker-24.jpg" alt="" />
-											</div>
-											<div class="col text-center text-md-start mx-auto">
-												<h2 class="name mb-2">Siya Shaikh</h2>
-												<div class="meta mb-2">Founder, Gowomania</div>
-												<ul class="social-list list-inline mb-0">
-													<!--<li class="list-inline-item"><a
-															href=""><i
-																class="fab fa-twitter fa-fw"></i></a></li>-->
-													<li class="list-inline-item"><a
-															href="https://www.linkedin.com/in/siya-rafina-shaikh-5653b877/"><i
-																class="fab fa-linkedin-in fa-fw"></i></a></li>
-													<!--<li class="list-inline-item"><a
-														href=""><i
-															class="fab fa-instagram fa-fw"></i></a></li>
-													<li class="list-inline-item"><a
-														href=""><i class="fab fa-github fa-fw"></i></a></li>-->
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div class="desc p-4 p-lg-5">
-										<p>Siya Shaikh is a Civil Engineer by profession, but an Entrepreneur by
-											passion.
-											She established ‘GO Womania GOA’, a community of native Goan women with the
-											mission
-											to ‘Build Together, Grow Together’. She is the first woman to start Goa's
-											first
-											offline Business networking Platform called WEBN. She is also Founder Of
-											Goas first
-											Multibrand Multivendor E-commerce platform for Local products of Goa called
-											'Goenkart'
-											and propietor at Goa Metal Composites, which deals into FRP doors and Allied
-											products.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Siya Shaikh END -->
-				<!-- Prairna Sadhu START -->
-				<div class="col-6 col-lg-3 mb-4">
-					<div class="card rounded-0 border-0 shadow">
-						<a target="_blank" href="#modal-speaker-31" data-bs-toggle="modal"
-							data-bs-target="#modal-speaker-31"><img src="assets/images/speakers/speaker-31.jpeg"
-								class="card-img-top rounded-0" alt=""></a>
-						<div class="card-body">
-							<h5 class="card-title mb-2"><b>Prairna Sadhu</b></h5>
-							<div class="card-text mb-3">
-								<div class="meta">Account Manager | Business Development Lead | Co-working Spaces, SaaS, Web Services, E-commerce</div>
-							</div>
-							<a target="_blank" href="#modal-speaker-31" data-bs-toggle="modal"
-								data-bs-target="#modal-speaker-31">Read
-								more &rarr;</a>
-						</div>
-						<div class="card-footer text-muted">
-							<ul class="social-list list-inline mb-0">
-								<li class="list-inline-item"><a
-									href="https://twitter.com/prairna_sadhu"><i class="fab fa-twitter fa-fw"></i></a></li>
-								<li class="list-inline-item"><a
-									href="https://www.linkedin.com/in/prairnasadhu/"><i
-										class="fab fa-linkedin-in fa-fw"></i></a></li>
-								<li class="list-inline-item"><a
-									href="https://www.instagram.com/prairna_sadhu/"><i
-										class="fab fa-instagram fa-fw"></i></a></li>
-								<!--<li class="list-inline-item"><a
-									href=""><i class="fab fa-github fa-fw"></i></a></li>-->
-							</ul>
-						</div>
-					</div>
-					<div class="modal modal-speaker modal-speaker-31" id="modal-speaker-31" tabindex="-1" role="dialog"
-						aria-labelledby="speaker-31-ModalLabel" aria-hidden="true">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="btn-close" data-bs-dismiss="modal"
-										aria-hidden="true">&times;</button>
-									<h4 id="speaker-31-ModalLabel" class="modal-title sr-only">Prairna Sadhu</h4>
-								</div>
-								<div class="modal-body p-0">
-									<div class="theme-bg-light p-5">
-										<div class="row">
-											<div class="col-12 col-md-auto text-center">
-												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
-													src="assets/images/speakers/speaker-31.jpeg" alt="" />
-											</div>
-											<div class="col text-center text-md-start mx-auto">
-												<h2 class="name mb-2">Prairna Sadhu</h2>
-												<div class="meta mb-2">Account Manager | Business Development Lead | Co-working Spaces, SaaS, Web Services, E-commerce</div>
-												<ul class="social-list list-inline mb-0">
-													<li class="list-inline-item"><a
-															href="https://twitter.com/prairna_sadhu"><i
-																class="fab fa-twitter fa-fw"></i></a></li>
-													<li class="list-inline-item"><a
-															href="https://www.linkedin.com/in/prairnasadhu/"><i
-																class="fab fa-linkedin-in fa-fw"></i></a></li>
-													<li class="list-inline-item"><a
-														href="https://www.instagram.com/prairna_sadhu/"><i
-															class="fab fa-instagram fa-fw"></i></a></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div class="desc p-4 p-lg-5">
-										<p>Prairna Sadhu is a Computer Science graduate hailing from the city of Chandigarh. I have gained diverse 
-											experience in sales by working with various companies in the fields of E-commerce, co-working spaces, and 
-											SaaS products. Apart from her professional interests, she has a passion for reading and gaining knowledge. 
-											She is passionate about her work and she strives to make a positive impact in everything she does.
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Prairna Sadhu END -->
-				<!-- Manasi Kirloskar START -->
-				<div class="col-6 col-lg-3 mb-4">
-					<div class="card rounded-0 border-0 shadow">
-						<a target="_blank" href="#modal-speaker-21" data-bs-toggle="modal"
-							data-bs-target="#modal-speaker-21"><img src="assets/images/speakers/speaker-21.jpeg"
-								class="card-img-top rounded-0" alt=""></a>
-						<div class="card-body">
-							<h5 class="card-title mb-2"><b>Manasi Kirloskar</b></h5>
-							<div class="card-text mb-3">
-								<div class="meta">Design Lead at Fijit.club</div>
-							</div>
-							<a target="_blank" href="#modal-speaker-21" data-bs-toggle="modal"
-								data-bs-target="#modal-speaker-21">Read
-								more &rarr;</a>
-						</div>
-						<div class="card-footer text-muted">
-							<ul class="social-list list-inline mb-0">
-								<li class="list-inline-item"><a target="_blank"
-										href="https://twitter.com/mkirloskar05"><i class="fab fa-twitter fa-fw"></i></a>
-								</li>
-								<li class="list-inline-item"><a target="_blank"
-										href="https://www.linkedin.com/in/manasi-k-733361137/"><i
-											class="fab fa-linkedin-in fa-fw"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="modal modal-speaker modal-speaker-21" id="modal-speaker-21" tabindex="-1" role="dialog"
-						aria-labelledby="speaker-21-ModalLabel" aria-hidden="true">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="btn-close" data-bs-dismiss="modal"
-										aria-hidden="true">&times;</button>
-									<h4 id="speaker-21-ModalLabel" class="modal-title sr-only">Manasi Kirloskar</h4>
-								</div>
-								<div class="modal-body p-0">
-									<div class="theme-bg-light p-5">
-										<div class="row">
-											<div class="col-12 col-md-auto text-center">
-												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
-													src="assets/images/speakers/speaker-21.jpeg" alt="" />
-											</div>
-											<div class="col text-center text-md-start mx-auto">
-												<h2 class="name mb-2">Manasi Kirloskar</h2>
-												<div class="meta mb-2">Design Lead at Fijit.club</div>
-												<ul class="social-list list-inline mb-0">
-													<li class="list-inline-item"><a
-															href="https://twitter.com/mkirloskar05/"><i
-																class="fab fa-twitter fa-fw"></i></a></li>
-													<li class="list-inline-item"><a
-															href="https://www.linkedin.com/in/manasi-k-733361137/"><i
-																class="fab fa-linkedin-in fa-fw"></i></a></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div class="desc p-4 p-lg-5">
-										<p>Manasi Kirloskar is a UI/UX Designer with a product mindset aiming to
-											replicate real life experiences into digital interfaces to form habit
-											forming products. At Fijit they are building an arcade of meme based
-											fun and shareable games that the users genuinely love to interact with.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Manasi Kirloskar END -->
-
-				<!-- Rebecca Elisabeth Falcao START -->
-				<div class="col-6 col-lg-3 mb-4">
-					<div class="card rounded-0 border-0 shadow">
-						<a target="_blank" href="#modal-speaker-23" data-bs-toggle="modal"
-							data-bs-target="#modal-speaker-23"><img src="assets/images/speakers/speaker-23.JPG"
-								class="card-img-top rounded-0" alt=""></a>
-						<div class="card-body">
-							<h5 class="card-title mb-2"><b>Rebecca Elisabeth Falcao </b></h5>
-							<div class="card-text mb-3">
-								<div class="meta">Community Program Manager at Timechain Labs</div>
-							</div>
-							<a target="_blank" href="#modal-speaker-23" data-bs-toggle="modal"
-								data-bs-target="#modal-speaker-23">Read
-								more &rarr;</a>
-						</div>
-						<div class="card-footer text-muted">
-							<ul class="social-list list-inline mb-0">
-								<li class="list-inline-item"><a target="_blank"
-										href="https://twitter.com/rebsfalcao15"><i class="fab fa-twitter fa-fw"></i></a>
-								</li>
-								<li class="list-inline-item"><a target="_blank"
-										href="https://www.linkedin.com/in/rebecca-elisabeth-falcao/"><i
-											class="fab fa-linkedin-in fa-fw"></i></a></li>
-								<li class="list-inline-item"><a target="_blank"
-										href="https://github.com/rebsfalcao15"><i class="fab fa-github fa-fw"></i></a>
-								</li>
-								<li class="list-inline-item"><a target="_blank"
-										href="https://www.instagram.com/rebsfalcao15/"><i
-											class="fab fa-instagram fa-fw"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="modal modal-speaker modal-speaker-23" id="modal-speaker-23" tabindex="-1" role="dialog"
-						aria-labelledby="speaker-23-ModalLabel" aria-hidden="true">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="btn-close" data-bs-dismiss="modal"
-										aria-hidden="true">&times;</button>
-									<h4 id="speaker-23-ModalLabel" class="modal-title sr-only">Rebecca Elisabeth Falcao
-									</h4>
-								</div>
-								<div class="modal-body p-0">
-									<div class="theme-bg-light p-5">
-										<div class="row">
-											<div class="col-12 col-md-auto text-center">
-												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
-													src="assets/images/speakers/speaker-23.JPG" alt="" />
-											</div>
-											<div class="col text-center text-md-start mx-auto">
-												<h2 class="name mb-2">Rebecca Elisabeth Falcao</h2>
-												<div class="meta mb-2">Community Program Manager at Timechain Labs</div>
-												<ul class="social-list list-inline mb-0">
-													<li class="list-inline-item"><a
-															href="https://twitter.com/rebsfalcao15"><i
-																class="fab fa-twitter fa-fw"></i></a></li>
-													<li class="list-inline-item"><a
-															href="https://www.linkedin.com/in/rebecca-elisabeth-falcao/"><i
-																class="fab fa-linkedin-in fa-fw"></i></a></li>
-													<li class="list-inline-item"><a
-															href="https://www.instagram.com/rebsfalcao15/"><i
-																class="fab fa-instagram fa-fw"></i></a></li>
-													<li class="list-inline-item"><a
-															href="https://github.com/rebsfalcao15"><i
-																class="fab fa-github fa-fw"></i></a></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div class="desc p-4 p-lg-5">
-										<p>Rebecca Falcao's proficiency in technical and content writing is only a part
-											of her dynamic skill set.
-											Along with her writing abilities, she has a passion for community and
-											program management. Her successful
-											management of two open-source programs and significant contribution to a
-											startup in Goa exemplify her
-											capabilities in this area. In addition, Rebecca is an active Web3 enthusiast
-											and is building a local
-											community called WEB3 GOA</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Rebecca Elisabeth Falcao END -->
-
-				<!-- Malcolm Dsouza START -->
-				<div class="col-6 col-lg-3 mb-4">
-					<div class="card rounded-0 border-0 shadow">
-						<a target="_blank" href="#modal-speaker-22" data-bs-toggle="modal"
-							data-bs-target="#modal-speaker-22"><img src="assets/images/speakers/speaker-22.jpeg"
-								class="card-img-top rounded-0" alt=""></a>
-						<div class="card-body">
-							<h5 class="card-title mb-2"><b>Malcolm Dsouza</b></h5>
-							<div class="card-text mb-3">
-								<div class="meta">Co-Founder and CTO at Spintly</div>
-							</div>
-							<a target="_blank" href="#modal-speaker-22" data-bs-toggle="modal"
-								data-bs-target="#modal-speaker-22">Read
-								more &rarr;</a>
-						</div>
-						<div class="card-footer text-muted">
-							<ul class="social-list list-inline mb-0">
-								<li class="list-inline-item"><a target="_blank"
-										href="https://www.linkedin.com/in/malcolm-dsouza-3863a123/"><i
-											class="fab fa-linkedin-in fa-fw"></i></a></li>
-								<li class="list-inline-item"><a target="_blank" href="https://github.com/mdsouza79"><i
-											class="fab fa-github fa-fw"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="modal modal-speaker modal-speaker-22" id="modal-speaker-22" tabindex="-1" role="dialog"
-						aria-labelledby="speaker-22-ModalLabel" aria-hidden="true">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="btn-close" data-bs-dismiss="modal"
-										aria-hidden="true">&times;</button>
-									<h4 id="speaker-22-ModalLabel" class="modal-title sr-only">Manasi Kirloskar</h4>
-								</div>
-								<div class="modal-body p-0">
-									<div class="theme-bg-light p-5">
-										<div class="row">
-											<div class="col-12 col-md-auto text-center">
-												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
-													src="assets/images/speakers/speaker-22.jpeg" alt="" />
-											</div>
-											<div class="col text-center text-md-start mx-auto">
-												<h2 class="name mb-2">Malcolm Dsouza</h2>
-												<div class="meta mb-2">Co-Founder and CTO at Spintly</div>
-												<ul class="social-list list-inline mb-0">
-													<li class="list-inline-item"><a
-															href="https://www.linkedin.com/in/malcolm-dsouza-3863a123/"><i
-																class="fab fa-linkedin-in fa-fw"></i></a></li>
-													<li class="list-inline-item"><a target="_blank"
-															href="https://github.com/mdsouza79"><i
-																class="fab fa-github fa-fw"></i></a>
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div class="desc p-4 p-lg-5">
-										<p>Malcolm Dsouza has 20 Years of experience working in Wireless, Networking and
-											Medical domain. Over these 20 years he has transitioned from being a
-											hardware
-											engineer to a software/firmware engineer to finally being a technical
-											architect.
-											He has worked on technologies such as 3G,4G and 5G with companies like
-											Motorola,
-											Nokia and TCS.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!--Malcolm Dsouza END -->
-
-				<!-- Christian Hujer  START -->
-				<div class="col-6 col-lg-3 mb-4">
-					<div class="card rounded-0 border-0 shadow">
-						<a target="_blank" href="#modal-speaker-27" data-bs-toggle="modal"
-							data-bs-target="#modal-speaker-27"><img src="assets/images/speakers/speaker-27.jpeg"
-								class="card-img-top rounded-0" alt=""></a>
-						<div class="card-body">
-							<h5 class="card-title mb-2"><b>Christian Hujer</b></h5>
-							<div class="card-text mb-3">
-								<div class="meta">Blogger Coach Speaker Trainer | Agile DevOps SWCraft BDD TDD XP | Lean
-									Process Architect, Humanist | CEO Nelkinda</div>
-							</div>
-							<a target="_blank" href="#modal-speaker-27" data-bs-toggle="modal"
-								data-bs-target="#modal-speaker-27">Read
-								more &rarr;</a>
-						</div>
-						<div class="card-footer text-muted">
-							<ul class="social-list list-inline mb-0">
-								<li class="list-inline-item"><a target="_blank"
-										href="https://twitter.com/christianhujer"><i
-											class="fab fa-twitter fa-fw"></i></a></li>
-								<li class="list-inline-item"><a target="_blank"
-										href="https://www.linkedin.com/in/christianhujer/"><i
-											class="fab fa-linkedin-in fa-fw"></i></a></li>
-								<li class="list-inline-item"><a target="_blank"
-										href="https://github.com/christianhujer/"><i
-											class="fab fa-github fa-fw"></i></a></li>
-								<li class="list-inline-item"><a target="_blank"
-										href="https://www.instagram.com/christian.hujer/"><i
-											class="fab fa-instagram fa-fw"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="modal modal-speaker modal-speaker-27" id="modal-speaker-27" tabindex="-1" role="dialog"
-						aria-labelledby="speaker-27-ModalLabel" aria-hidden="true">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="btn-close" data-bs-dismiss="modal"
-										aria-hidden="true">&times;</button>
-									<h4 id="speaker-27-ModalLabel" class="modal-title sr-only">Christian Hujer</h4>
-								</div>
-								<div class="modal-body p-0">
-									<div class="theme-bg-light p-5">
-										<div class="row">
-											<div class="col-12 col-md-auto text-center">
-												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
-													src="assets/images/speakers/speaker-27.jpeg" alt="" />
-											</div>
-											<div class="col text-center text-md-start mx-auto">
-												<h2 class="name mb-2">Christian Hujer</h2>
-												<div class="meta mb-2">Blogger Coach Speaker Trainer | Agile DevOps
-													SWCraft BDD TDD XP | Lean Process Architect, Humanist | CEO Nelkinda
-												</div>
-												<ul class="social-list list-inline mb-0">
-													<li class="list-inline-item"><a
-															href="https://twitter.com/christianhujer"><i
-																class="fab fa-twitter fa-fw"></i></a></li>
-													<li class="list-inline-item"><a
-															href="https://www.linkedin.com/in/christianhujer/"><i
-																class="fab fa-linkedin-in fa-fw"></i></a></li>
-													<li class="list-inline-item"><a
-															href="https://www.instagram.com/christian.hujer/"><i
-																class="fab fa-instagram fa-fw"></i></a></li>
-													<li class="list-inline-item"><a
-															href="https://github.com/christianhujer/"><i
-																class="fab fa-github fa-fw"></i></a></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div class="desc p-4 p-lg-5">
-										<p>
-											Christian Hujer, a seasoned developer with ~38 years of experience, founder
-											of Nelkinda Software Craft,
-											carries a tremendous experience in software development and software craft.
-											He is a polyglot in languages
-											(Ada to Zig), frameworks, and development environments (from smart card to
-											server). He is keen at following
-											the best coding and software development process related practices for
-											example XP, Clean Code practices,
-											TDD, and BDD. He always strives for better software and a
-											better environment.
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Christian Hujer END -->
-
-				<!-- Siddharth Ashok START -->
-				<div class="col-6 col-lg-3 mb-4">
-					<div class="card rounded-0 border-0 shadow">
-						<a target="_blank" href="#modal-speaker-28" data-bs-toggle="modal"
-							data-bs-target="#modal-speaker-28"><img src="assets/images/speakers/speaker-28.jpeg"
-								class="card-img-top rounded-0" alt=""></a>
-						<div class="card-body">
-							<h5 class="card-title mb-2"><b>Siddharth Ashok</b></h5>
-							<div class="card-text mb-3">
-								<div class="meta">Co-Founder at GrandWorks</div>
-							</div>
-							<a target="_blank" href="#modal-speaker-28" data-bs-toggle="modal"
-								data-bs-target="#modal-speaker-28">Read
-								more &rarr;</a>
-						</div>
-						<div class="card-footer text-muted">
-							<ul class="social-list list-inline mb-0">
-								<li class="list-inline-item"><a target="_blank"
-										href="https://twitter.com/siddharthashok"><i
-											class="fab fa-twitter fa-fw"></i></a></li>
-								<li class="list-inline-item"><a target="_blank"
-										href="https://www.linkedin.com/in/siddharthashok/"><i
-											class="fab fa-linkedin-in fa-fw"></i></a></li>
-								<!--<li class="list-inline-item"><a target="_blank"
-									href=""><i class="fab fa-github fa-fw"></i></a></li>
-								<li class="list-inline-item"><a target="_blank"
-									href=""><i
-										class="fab fa-instagram fa-fw"></i></a></li>-->
-							</ul>
-						</div>
-					</div>
-					<div class="modal modal-speaker modal-speaker-28" id="modal-speaker-28" tabindex="-1" role="dialog"
-						aria-labelledby="speaker-28-ModalLabel" aria-hidden="true">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="btn-close" data-bs-dismiss="modal"
-										aria-hidden="true">&times;</button>
-									<h4 id="speaker-28-ModalLabel" class="modal-title sr-only">Siddharth Ashok</h4>
-								</div>
-								<div class="modal-body p-0">
-									<div class="theme-bg-light p-5">
-										<div class="row">
-											<div class="col-12 col-md-auto text-center">
-												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
-													src="assets/images/speakers/speaker-28.jpeg" alt="" />
-											</div>
-											<div class="col text-center text-md-start mx-auto">
-												<h2 class="name mb-2">Siddharth Ashok</h2>
-												<div class="meta mb-2">Co-Founder at GrandWorks</div>
-												<ul class="social-list list-inline mb-0">
-													<li class="list-inline-item"><a
-															href="https://twitter.com/siddharthashok"><i
-																class="fab fa-twitter fa-fw"></i></a></li>
-													<li class="list-inline-item"><a
-															href="https://www.linkedin.com/in/siddharthashok/"><i
-																class="fab fa-linkedin-in fa-fw"></i></a></li>
-													<!--<li class="list-inline-item"><a
-														href=""><i
-															class="fab fa-instagram fa-fw"></i></a></li>
-													<li class="list-inline-item"><a
-														href=""><i class="fab fa-github fa-fw"></i></a></li>-->
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div class="desc p-4 p-lg-5">
-										<p>Siddharth Ashok is a Front-end developer and WordPress developer.
-											He is an Open-source enthusiast. The Co-founder at GrandWorks where
-											they design and develop apps, websites, and experiences for clients
-											such as Spotify, OnePlus, OPPO, Zendera, and more.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Siddharth Ashok END -->
-
-				<!-- Vipula Sail START -->
-				<div class="col-6 col-lg-3 mb-4">
-					<div class="card rounded-0 border-0 shadow">
-						<a target="_blank" href="#modal-speaker-30" data-bs-toggle="modal"
-							data-bs-target="#modal-speaker-30"><img src="assets/images/speakers/speaker-30.jpg"
-								class="card-img-top rounded-0" alt=""></a>
-						<div class="card-body">
-							<h5 class="card-title mb-2"><b>Vipula Sail</b></h5>
-							<div class="card-text mb-3">
-								<div class="meta">Incoming Mitacs GRI' 23 Intern @ Uni Waterloo | Student</div>
-							</div>
-							<a target="_blank" href="#modal-speaker-30" data-bs-toggle="modal"
-								data-bs-target="#modal-speaker-30">Read
-								more &rarr;</a>
-						</div>
-						<div class="card-footer text-muted">
-							<ul class="social-list list-inline mb-0">
-								<li class="list-inline-item"><a target="_blank"
-										href="https://twitter.com/SailVipula?t=FUwSIis38GkXONQ2J2_FFQ&s=09"><i
-											class="fab fa-twitter fa-fw"></i></a></li>
-								<li class="list-inline-item"><a target="_blank"
-										href="https://www.linkedin.com/in/vipulasail//"><i
-											class="fab fa-linkedin-in fa-fw"></i></a></li>
-								<!--<li class="list-inline-item"><a target="_blank"
-									href=""><i class="fab fa-github fa-fw"></i></a></li>
-								<li class="list-inline-item"><a target="_blank"
-									href=""><i
-										class="fab fa-instagram fa-fw"></i></a></li>-->
-							</ul>
-						</div>
-					</div>
-					<div class="modal modal-speaker modal-speaker-30" id="modal-speaker-30" tabindex="-1" role="dialog"
-						aria-labelledby="speaker-30-ModalLabel" aria-hidden="true">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="btn-close" data-bs-dismiss="modal"
-										aria-hidden="true">&times;</button>
-									<h4 id="speaker-30-ModalLabel" class="modal-title sr-only">Vipula Sail</h4>
-								</div>
-								<div class="modal-body p-0">
-									<div class="theme-bg-light p-5">
-										<div class="row">
-											<div class="col-12 col-md-auto text-center">
-												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
-													src="assets/images/speakers/speaker-30.jpg" alt="" />
-											</div>
-											<div class="col text-center text-md-start mx-auto">
-												<h2 class="name mb-2">Vipula Sail</h2>
-												<div class="meta mb-2">Incoming Mitacs GRI' 23 Intern @ Uni Waterloo |
-													Student</div>
-												<ul class="social-list list-inline mb-0">
-													<li class="list-inline-item"><a
-															href="https://twitter.com/SailVipula?t=FUwSIis38GkXONQ2J2_FFQ&s=09"><i
-																class="fab fa-twitter fa-fw"></i></a></li>
-													<li class="list-inline-item"><a
-															href="https://www.linkedin.com/in/vipulasail/"><i
-																class="fab fa-linkedin-in fa-fw"></i></a></li>
-													<!--<li class="list-inline-item"><a
-														href=""><i
-															class="fab fa-instagram fa-fw"></i></a></li>
-													<li class="list-inline-item"><a
-														href=""><i class="fab fa-github fa-fw"></i></a></li>-->
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div class="desc p-4 p-lg-5">
-										<p>Vipula Sail is a student and Incoming Mitacs GRI' 23 Intern @ Uni Waterloo.
-											She is an Anchor and a Design Thinking Trainer</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Vipula Sail END -->
-
-				<!-- Atharva Parkhe START -->
-				<div class="col-6 col-lg-3 mb-4">
+			<h3 class="section-heading text-center mb-3">Volunteers</h3>
+			<div class="section-intro text-center single-col-max mx-auto mb-5">Here's the list of Volunteers for the
+				Event</div>
+			<div class="volunteer-grid row mx-auto">
+				<!-- DEV_REF DEV_REF_VOLUNTEERS paste volunteers below (detele siblings of this comments before adding new data)-->
+				<!-- VOLUNTEERS_START -->
+				<!-- Athava Parkhe START -->
+				<div class="col-6 col-lg-4 mb-4">
 					<div class="card rounded-0 border-0 shadow">
 						<a target="_blank" href="#modal-volunteer-1" data-bs-toggle="modal"
 							data-bs-target="#modal-volunteer-1"><img src="assets/images/Volunteers/volunteer-1.jpg"
 								class="card-img-top rounded-0" alt=""></a>
 						<div class="card-body">
-							<h5 class="card-title mb-2"><b>Atharva Parkhe</b></h5>
+							<h5 class="card-title mb-2"><b>Athava Parkhe</b></h5>
 							<div class="card-text mb-3">
-								<div class="meta">Backend Developer</div>
-								<div class="meta">Technical Lead</div>
+								<div class="meta">Backend Developer | Freelancer</div>
+								<div class="meta">Technical and Coordination Lead</div>
 							</div>
 							<a target="_blank" href="#modal-volunteer-1" data-bs-toggle="modal"
 								data-bs-target="#modal-volunteer-1">Read
@@ -1094,7 +546,7 @@ She is currently working on a "Global Citizens Program" - a comprehensive Commun
 								<div class="modal-header">
 									<button type="button" class="btn-close" data-bs-dismiss="modal"
 										aria-hidden="true">&times;</button>
-									<h4 id="volunteer-1-ModalLabel" class="modal-title sr-only">Atharva Parkhe</h4>
+									<h4 id="volunteer-1-ModalLabel" class="modal-title sr-only">Athava Parkhe</h4>
 								</div>
 								<div class="modal-body p-0">
 									<div class="theme-bg-light p-5">
@@ -1104,9 +556,9 @@ She is currently working on a "Global Citizens Program" - a comprehensive Commun
 													src="assets/images/Volunteers/volunteer-1.jpg" alt="" />
 											</div>
 											<div class="col text-center text-md-start mx-auto">
-												<h2 class="name mb-2">Atharva Parkhe</h2>
-												<div class="meta">Backend Developer</div>
-												<div class="meta mb-2">Technical Lead</div>
+												<h2 class="name mb-2">Athava Parkhe</h2>
+												<div class="meta">Backend Developer | Freelancer</div>
+												<div class="meta mb-2">Technical and Coordination Lead</div>
 												<ul class="social-list list-inline mb-0">
 													<li class="list-inline-item"><a
 															href="https://twitter.com/atharvparkhe/"><i
@@ -1125,13 +577,11 @@ She is currently working on a "Global Citizens Program" - a comprehensive Commun
 										</div>
 									</div>
 									<div class="desc p-4 p-lg-5">
-										<p>Atharva Parkhe is a student, Backend Developer and freelancer. He is the
-											Co-Founder and CTO at
-											Blueskript. Atharva is a driven individual with the ability to adapt to any
-											situation and proven
-											potential to grow himself and his team, ensuring a high-quality and
-											fulfillment of business market
-											needs. He is specialize in Backend Development using Django (Python).</p>
+										<p>I am a driven individual with the ability to adapt to any situation and
+											proven potantial to grow myself and team, ensuring a high-quality and
+											fulfillment of business market needs. I specialize in Backend Development
+											using Django (Python). </p>
+										<p> Student | Developer | Freelacer</p>
 									</div>
 								</div>
 							</div>
@@ -1139,9 +589,92 @@ She is currently working on a "Global Citizens Program" - a comprehensive Commun
 					</div>
 				</div>
 				<!-- Athava Parkhe END -->
+				<!-- Medam Greeshma START -->
+				<div class="col-6 col-lg-4 mb-4">
+					<div class="card rounded-0 border-0 shadow">
+						<a target="_blank" href="#modal-volunteer-2" data-bs-toggle="modal"
+							data-bs-target="#modal-volunteer-2"><img src="assets/images/Volunteers/volunteer-2.jpg"
+								class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2"><b>Medam Greeshma</b></h5>
+							<div class="card-text mb-3">
+								<div class="meta">Frontend Developer</div>
+								<div class="meta">Coordination and Social Media Lead</div>
+							</div>
+							<a target="_blank" href="#modal-volunteer-2" data-bs-toggle="modal"
+								data-bs-target="#modal-volunteer-2">Read
+								more &rarr;</a>
+						</div>
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<li class="list-inline-item"><a target="_blank"
+										href="https://twitter.com/GreeshmaMedam"><i
+											class="fab fa-twitter fa-fw"></i></a></li>
+								<li class="list-inline-item"><a target="_blank"
+										href="https://www.linkedin.com/in/m-greeshma/"><i
+											class="fab fa-linkedin-in fa-fw"></i></a></li>
+								<li class="list-inline-item"><a target="_blank"
+										href="https://github.com/greeshma2903"><i class="fab fa-github fa-fw"></i></a>
+								</li>
+								<li class="list-inline-item"><a target="_blank"
+										href="https://www.instagram.com/medam_greeshma"><i
+											class="fab fa-instagram fa-fw"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="modal modal-speaker modal-speaker-1" id="modal-volunteer-2" tabindex="-1" role="dialog"
+						aria-labelledby="volunteer-2-ModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="btn-close" data-bs-dismiss="modal"
+										aria-hidden="true">&times;</button>
+									<h4 id="volunteer-2-ModalLabel" class="modal-title sr-only">Medam Greeshma</h4>
+								</div>
+								<div class="modal-body p-0">
+									<div class="theme-bg-light p-5">
+										<div class="row">
+											<div class="col-12 col-md-auto text-center">
+												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+													src="assets/images/Volunteers/volunteer-2.jpg" alt="" />
+											</div>
+
+											<div class="col text-center text-md-start mx-auto">
+												<h2 class="name mb-2">Medam Greeshma</h2>
+												<div class="meta">Frontend Developer</div>
+												<div class="meta mb-2">Coordination and Social Media Lead</div>
+												<ul class="social-list list-inline mb-0">
+													<li class="list-inline-item"><a
+															href="https://twitter.com/GreeshmaMedam"><i
+																class="fab fa-twitter fa-fw"></i></a></li>
+													<li class="list-inline-item"><a
+															href="https://www.linkedin.com/in/m-greeshma/"><i
+																class="fab fa-linkedin-in fa-fw"></i></a></li>
+													<li class="list-inline-item"><a
+															href="https://www.instagram.com/medam_greeshma"><i
+																class="fab fa-instagram fa-fw"></i></a></li>
+													<li class="list-inline-item"><a
+															href="https://github.com/greeshma2903"><i
+																class="fab fa-github fa-fw"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="desc p-4 p-lg-5">
+										<p>A budding Developer with a keen interest in Web technologies, Open Source and
+											Communities. I am passionate about responsive and accessible design.
+											Currently diving into the React ecosystem and working with communities on my
+											campus.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Medam Greeshma END -->
 
 				<!-- Suhesha Gaonkar START -->
-				<div class="col-6 col-lg-3 mb-4">
+				<!-- <div class="col-6 col-lg-4 mb-4">
 					<div class="card rounded-0 border-0 shadow">
 						<a target="_blank" href="#modal-volunteer-8" data-bs-toggle="modal"
 							data-bs-target="#modal-volunteer-8"><img src="assets/images/Volunteers/volunteer-8.jpg"
@@ -1149,9 +682,8 @@ She is currently working on a "Global Citizens Program" - a comprehensive Commun
 						<div class="card-body">
 							<h5 class="card-title mb-2"><b>Suhesha Gaonkar</b></h5>
 							<div class="card-text mb-3">
-								<div class="meta">
-									Student | Intern'23 @UpGrad Campus | Microsoft Learn Student Ambassador | Postman Student Expert | UI/UX Designer
-								</div>
+								<div class="meta">UI/UX Designer</div>
+								<div class="meta">Creative Lead</div>
 							</div>
 							<a target="_blank" href="#modal-volunteer-8" data-bs-toggle="modal"
 								data-bs-target="#modal-volunteer-8">Read
@@ -1192,7 +724,8 @@ She is currently working on a "Global Citizens Program" - a comprehensive Commun
 
 											<div class="col text-center text-md-start mx-auto">
 												<h2 class="name mb-2">Suhesha Gaonkar</h2>
-												<div class="meta">Student | Intern'23 @UpGrad Campus | Microsoft Learn Student Ambassador |  Postman Student Expert | UI/UX Designer</div>
+												<div class="meta">UI/UX Designer</div>
+												<div class="meta mb-2">Creative Lead</div>
 												<ul class="social-list list-inline mb-0">
 													<li class="list-inline-item"><a
 															href="https://twitter.com/SuheshaGaonkar/"><i
@@ -1211,549 +744,98 @@ She is currently working on a "Global Citizens Program" - a comprehensive Commun
 										</div>
 									</div>
 									<div class="desc p-4 p-lg-5">
-										<p>Suhesha is a design thinker and animal-loving optimist, who thrive to 
-											create visual treat with her design skills. She enjoys contributing in her community 
-											and consider DISCIPLINE as her strongest attribute.</p>
+										<p>I am a design thinker and animal-loving optimist, who thrive to create visual
+											treat with my design skills. I enjoy contributing in my community and
+											consider DISCIPLINE as my strongest attribute.</p>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				<!-- Suhesha Gaonkar END -->
 
-			</div><br>
-			<div class="speakers-cta text-center py-3"><a target="_blank" class="btn btn-primary btn-lg disabled"
-					href="https://www.townscript.com/e/International-Womens-Day-2023-Goa" target="_blank">Get
-					Tickets</a></div>
-		</div>
-	</section>
-
-	<!-- Schedule -->
-	<section id="schedule-section" class="schedule-section section">
-		<div class="container">
-			<h3 class="section-heading text-center mb-5">Schedule</h3>
-			<div class="schedule-tab-content tab-content">
-
-				<!-- Registratoin -->
-				<div class="tab-pane active" id="tab-1-content" role="tabpanel" aria-labelledby="tab-1">
-					<div class="item item-other">
-						<div class="meta">
-							<h4 class="time mb-3">9:00 - 9:45</h4>
-						</div>
-						<div class="content">
-							<h3 class="title mb-3">Registration</h3>
-						</div>
-					</div>
-
-					<!-- Welcome Speech -->
-					<div class="item item-talk mb-3">
-						<div class="meta">
-							<h4 class="time mb-3">9:45 - 10:00</h4>
-							<!--<div class="profile">
-							<a target="_blank" href="#modal-speaker-20" data-bs-toggle="modal"
-								data-bs-target="#modal-speaker-20">
-								<img class="profile-image rounded-circle  mb-2"
-									src="assets/images/speakers/main.jpg" alt="...">
-							</a>
-							<div class="name">
-								<a target="_blank" class="theme-link" href="#modal-speaker-20" data-bs-toggle="modal"
-									data-bs-target="#modal-speaker-20">Prajyot Mainkar</a>
+				<!-- Abhinav Borde START -->
+				<!-- <div class="col-6 col-lg-4 mb-4">
+					<div class="card rounded-0 border-0 shadow">
+						<a target="_blank" href="#modal-volunteer-7" data-bs-toggle="modal"
+							data-bs-target="#modal-volunteer-7"><img src="assets/images/Volunteers/volunteer-6.jpg"
+								class="card-img-top rounded-0" alt=""></a>
+						<div class="card-body">
+							<h5 class="card-title mb-2"><b>Abhinav Borde</b></h5>
+							<div class="card-text mb-3">
+								<div class="meta">Frontend Developer</div>
+								<div class="meta">Coordination and PR Lead</div>
 							</div>
-						</div>-->
+							<a target="_blank" href="#modal-volunteer-7" data-bs-toggle="modal"
+								data-bs-target="#modal-volunteer-7">Read
+								more &rarr;</a>
 						</div>
-						<div class="content">
-							<h3 class="title mb-3">Welcome Speech</h3>
-							<!--<div class="desc">Prajyot has been a consultant for mobile labs startups and himself a
-							developer over 13 years of experience in technology. Known as the 'Android man of Goa' -
-							he has been an advisor for various mobile app building strategy and initiatives around
-							India and he is also an author to two books in Android and Flutter.</div>
-						<br>-->
+						<div class="card-footer text-muted">
+							<ul class="social-list list-inline mb-0">
+								<li class="list-inline-item"><a target="_blank"
+										href="https://twitter.com/AbhinavBorde31/"><i
+											class="fab fa-twitter fa-fw"></i></a></li>
+								<li class="list-inline-item"><a
+										href="https://www.linkedin.com/in/abhinav-borde-90993b22b/"><i
+											class="fab fa-linkedin-in fa-fw"></i></a></li>
+								<li class="list-inline-item"><a target="_blank"
+										href="https://github.com/AbhinavBorde/"><i class="fab fa-github fa-fw"></i></a>
+								</li>
+								<li class="list-inline-item"><a target="_blank"
+										href="https://www.instagram.com/abhinav.03_/"><i
+											class="fab fa-instagram fa-fw"></i></a></li>
+							</ul>
 						</div>
-						<br>
 					</div>
+					<div class="modal modal-speaker modal-speaker-1" id="modal-volunteer-7" tabindex="-1" role="dialog"
+						aria-labelledby="volunteer-7-ModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="btn-close" data-bs-dismiss="modal"
+										aria-hidden="true">&times;</button>
+									<h4 id="volunteer-7-ModalLabel" class="modal-title sr-only">Abhinav Borde</h4>
+								</div>
+								<div class="modal-body p-0">
+									<div class="theme-bg-light p-5">
+										<div class="row">
+											<div class="col-12 col-md-auto text-center">
+												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
+													src="assets/images/Volunteers/volunteer-6.jpg" alt="" />
+											</div>
 
-					<!-- Malcolm D'souza topic: ---- -->
-					<div class="item item-talk mb-3">
-						<div class="meta">
-							<h4 class="time mb-3">10:00 - 10:25</h4>
-							<div class="profile">
-								<a target="_blank" href="#modal-speaker-22" data-bs-toggle="modal"
-									data-bs-target="#modal-speaker-22">
-									<img class="profile-image rounded-circle  mb-2"
-										src="assets/images/speakers/speaker-22.jpeg" alt="...">
-								</a>
-								<div class="name">
-									<a target="_blank" class="theme-link" href="#modal-speaker-22"
-										data-bs-toggle="modal" data-bs-target="#modal-speaker-22">Malcolm Dsouza</a>
+											<div class="col text-center text-md-start mx-auto">
+												<h2 class="name mb-2">Abhinav Borde</h2>
+												<div class="meta">Frontend Developer</div>
+												<div class="meta mb-2">Coordination and PR Lead</div>
+												<ul class="social-list list-inline mb-0">
+													<li class="list-inline-item"><a
+															href="https://twitter.com/AbhinavBorde31/"><i
+																class="fab fa-twitter fa-fw"></i></a></li>
+													<li class="list-inline-item"><a
+															href="https://www.linkedin.com/in/abhinav-borde-90993b22b/"><i
+																class="fab fa-linkedin-in fa-fw"></i></a></li>
+													<li class="list-inline-item"><a
+															href="https://www.instagram.com/abhinav.03_/"><i
+																class="fab fa-instagram fa-fw"></i></a></li>
+													<li class="list-inline-item"><a
+															href="https://github.com/AbhinavBorde/"><i
+																class="fab fa-github fa-fw"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="desc p-4 p-lg-5">
+										<p>An aspiring web developer with interest in backend technologies. Always
+											looking for opportunities to learn more and upskill myself</p>
+									</div>
 								</div>
 							</div>
 						</div>
-						<div class="content">
-							<h3 class="title mb-3">Cloud Computing and IoT</h3>
-							<div class="desc">Malcolm Dsouza has 20 Years of experience working in
-								Wireless, Networking and Medical domain. Over these 20 years he has
-								transitioned from being a hardware engineer to a software/firmware engineer
-								to finally being a technical architect. He has worked on technologies such
-								as 3G,4G and 5G with companies like Motorola, Nokia and TCS.</div>
-							<br>
-						</div>
 					</div>
-					<br>
-
-					<!-- Manasi Kirloskar topic : -->
-					<div class="item item-talk mb-3">
-						<div class="meta">
-							<h4 class="time mb-3">10:30 - 10:55</h4>
-							<div class="profile">
-								<a target="_blank" href="#modal-speaker-21" data-bs-toggle="modal"
-									data-bs-target="#modal-speaker-21">
-									<img class="profile-image rounded-circle  mb-2"
-										src="assets/images/speakers/speaker-21.jpeg" alt="">
-								</a>
-								<div class="name">
-									<a target="_blank" class="theme-link" href="#modal-speaker-21"
-										data-bs-toggle="modal" data-bs-target="#modal-speaker-21">Manasi Kirloskar</a>
-								</div>
-							</div>
-						</div>
-						<div class="content">
-							<h3 class="title mb-3">How to get started with Design as a Career</h3>
-							<div class="desc">Manasi Kirloskar is a UI/UX Designer with a product
-								mindset aiming to replicate real life experiences into digital interfaces
-								to form habit forming products. At Fijit they are building an arcade of
-								meme based fun and shareable games that the users genuinely love to interact
-								with.</div>
-							<br>
-						</div>
-					</div>
-					<br>
-
-					<!-- Atharva Parkhe Topic: -->
-					<div class="item item-talk mb-5">
-						<div class="meta">
-							<h4 class="time mb-3">11:00 - 11:15</h4>
-							<div class="profile">
-								<a target="_blank" href="#modal-volunteer-1" data-bs-toggle="modal"
-									data-bs-target="#modal-volunteer-1">
-									<img class="profile-image rounded-circle  mb-2"
-										src="assets/images/Volunteers/volunteer-1.jpg" alt="">
-								</a>
-								<div class="name">
-									<a target="_blank" class="theme-link" href="#modal-volunteer-1"
-										data-bs-toggle="modal" data-bs-target="#modal-volunteer-1">Atharva Parkhe</a>
-								</div>
-							</div>
-						</div>
-						<div class="content">
-							<h3 class="title mb-3">Monolithic to Microservices</h3>
-							<div class="desc">
-								Atharva Parkhe is a student, Backend Developer and freelancer. He is the Co-Founder and
-								CTO at Blueskript. 
-								Atharva is a driven individual with the ability to adapt to any situation
-								and proven
-								potential to grow himself and his team, ensuring a high-quality and fulfillment of
-								business market
-								needs. He is specialize in Backend Development using Django (Python).
-							</div>
-							<br>
-						</div>
-					</div>
-
-					<!-- Rina Baretto Shankar topic : -->
-					<div class="item item-talk mb-3">
-						<div class="meta">
-							<h4 class="time mb-3">11:20 - 11:45</h4>
-							<div class="profile">
-								<a target="_blank" href="#modal-speaker-25" data-bs-toggle="modal"
-									data-bs-target="#modal-speaker-25">
-									<img class="profile-image rounded-circle  mb-2"
-										src="assets/images/speakers/speaker-25.jpg" alt="">
-								</a>
-								<div class="name">
-									<a target="_blank" class="theme-link" href="#modal-speaker-25"
-										data-bs-toggle="modal" data-bs-target="#modal-speaker-25">Rina Baretto
-										Shankar</a>
-								</div>
-							</div>
-						</div>
-						<div class="content">
-							<h3 class="title mb-3">Build Your Impact and Influence by Building Your Personal Brand</h3>
-							<div class="desc">Rina Barreto Shankar is a Brand Growth Strategist and Communication Coach.
-								With a decade and a half in advertising, brand building and marketing communucation, and 5 years in Entrepreneurship, her company Cheree Tree Concepts works with local and international clients, helping them build their personal brands and creating Marketing content for their businesses.
-								She has been recognized and awarded for her role not only as a Brand Straegist but also in her efforts towards youth empowerment..
-								She is currently working on a "Global Citizens Program" - a comprehensive Communication Enhancement and Personal Branding Program for youth and entrepreneurs</div>
-							<br>
-						</div>
-					</div>
-
-					<!-- Rebecca Elisabeth Falcao topic : -->
-					<div class="item item-talk mb-3">
-						<div class="meta">
-							<h4 class="time mb-3">12:00 - 12:25</h4>
-							<div class="profile">
-								<a target="_blank" href="#modal-speaker-23" data-bs-toggle="modal"
-									data-bs-target="#modal-speaker-23">
-									<img class="profile-image rounded-circle mb-2"
-										src="assets/images/speakers/speaker-23.JPG" alt="">
-								</a>
-								<div class="name">
-									<a target="_blank" class="theme-link" href="#modal-speaker-23"
-										data-bs-toggle="modal" data-bs-target="#modal-speaker-23">Rebecca Elisabeth
-										Falcao</a>
-								</div>
-							</div>
-						</div>
-						<div class="content">
-							<h3 class="title mb-3">The Art of Juggling: Managing Programs Successfully</h3>
-							<div class="desc">Rebecca Falcao's proficiency in technical and content writing is only a
-								part of her dynamic skill set.
-								Along with her writing abilities, she has a passion for community and program
-								management. Her successful
-								management of two open-source programs and significant contribution to a startup in Goa
-								exemplify her
-								capabilities in this area. In addition, Rebecca is an active Web3 enthusiast and is
-								building a local
-								community called WEB3 GOA</div>
-							<br>
-						</div>
-					</div>
-
-					<!-- Christian Hujer topic : -->
-					<div class="item item-talk mb-3">
-						<div class="meta">
-							<h4 class="time mb-3">12:30 - 13:00</h4>
-							<div class="profile">
-								<a target="_blank" href="#modal-speaker-27" data-bs-toggle="modal"
-									data-bs-target="#modal-speaker-27">
-									<img class="profile-image rounded-circle  mb-2"
-										src="assets/images/speakers/speaker-27.jpeg" alt="">
-								</a>
-								<div class="name">
-									<a target="_blank" class="theme-link" href="#modal-speaker-27"
-										data-bs-toggle="modal" data-bs-target="#modal-speaker-27">Christian Hujer</a>
-								</div>
-							</div>
-						</div>
-						<div class="content">
-							<h3 class="title mb-3">Extreme Programming - What is it, where does it come from, and why should you care?</h3>
-							<div class="desc">Christian Hujer, a seasoned developer with ~38 years of experience,
-								founder of Nelkinda Software Craft,
-								carries a tremendous experience in software development and software craft. He is a
-								polyglot in languages
-								(Ada to Zig), frameworks, and development environments (from smart card to server). He
-								is keen at following
-								the best coding and software development process related practices for example XP, Clean
-								Code practices,
-								TDD, and BDD. He always strives for better software and a better environment.</div>
-							<br>
-						</div>
-					</div>
-
-					<!-- Suhesha Gaonkar topic : -->
-					<div class="item item-talk mb-3">
-						<div class="meta">
-							<h4 class="time mb-3">13:00 - 13:15</h4>
-							<div class="profile">
-								<a target="_blank" href="#modal-volunteer-8" data-bs-toggle="modal"
-									data-bs-target="#modal-volunteer-8">
-									<img class="profile-image rounded-circle  mb-2"
-										src="assets/images/Volunteers/volunteer-8.jpg" alt="">
-								</a>
-								<div class="name">
-									<a target="_blank" class="theme-link" href="#modal-volunteer-8"
-										data-bs-toggle="modal" data-bs-target="#modal-volunteer-8">Suhesha Gaonkar</a>
-								</div>
-							</div>
-						</div>
-						<div class="content">
-							<h3 class="title mb-3">The Enigma of Neural Networks</h3>
-							<div class="desc">Suhesha is a design thinker and animal-loving optimist, who thrive to 
-								create visual treat with her design skills. She enjoys contributing in her community 
-								and consider DISCIPLINE as her strongest attribute.</div>
-							<br>
-						</div>
-						<br>
-					</div>
-					<br>
-
-					<!-- Lunch -->
-					<div class="item item-other">
-						<div class="meta">
-							<h4 class="time mb-3">13:15 - 14:00</h4>
-						</div>
-						<div class="content">
-							<h3 class="title mb-3">Lunch Break</h3>
-						</div>
-					</div>
-
-
-					<!-- Siddharth Ashok topic: -->
-					<div class="item item-talk mb-3">
-						<div class="meta">
-							<h4 class="time mb-3">14:00 - 14:25</h4>
-							<div class="profile">
-								<a target="_blank" href="#modal-speaker-28" data-bs-toggle="modal"
-									data-bs-target="#modal-speaker-28">
-									<img class="profile-image rounded-circle  mb-2"
-										src="assets/images/speakers/speaker-28.jpeg" alt="">
-								</a>
-								<div class="name">
-									<a target="_blank" class="theme-link" href="#modal-speaker-28"
-										data-bs-toggle="modal" data-bs-target="#modal-speaker-28">Siddharth Ashok</a>
-								</div>
-							</div>
-						</div>
-						<div class="content">
-							<h3 class="title mb-3">Sell More Convert Better: Best Practices to boost e-commerce</h3>
-							<div class="desc">Siddharth Ashok is a Front-end developer and WordPress developer.
-								He is an Open-source enthusiast. The Co-founder at GrandWorks where
-								they design and develop apps, websites, and experiences for clients
-								such as Spotify, OnePlus, OPPO, Zendera, and more.</p>
-							</div>
-							<br>
-						</div>
-					</div>
-					<br>
-
-					<!-- Prairna Sadhu topic: -->
-					<div class="item item-talk mb-5">
-						<div class="meta">
-							<h4 class="time mb-3">14:30 - 14:55</h4>
-							<div class="profile">
-								<a target="_blank" href="#modal-speaker-31" data-bs-toggle="modal"
-									data-bs-target="#modal-speaker-31">
-									<img class="profile-image rounded-circle  mb-2"
-										src="assets/images/speakers/speaker-31.jpeg" alt="">
-								</a>
-								<div class="name">
-									<a target="_blank" class="theme-link" href="#modal-speaker-31"
-										data-bs-toggle="modal" data-bs-target="#modal-speaker-31">Prairna Sadhu</a>
-								</div>
-							</div>
-						</div>
-						<div class="content">
-							<h3 class="title mb-3">Journey from Product Sales Executive to running a Web Agency</h3>
-							<div class="desc">Prairna Sadhu is a Computer Science graduate hailing from the city of Chandigarh. I have gained diverse 
-								experience in sales by working with various companies in the fields of E-commerce, co-working spaces, and 
-								SaaS products. Apart from her professional interests, she has a passion for reading and gaining knowledge. 
-								She is passionate about her work and she strives to make a positive impact in everything she does.</div>
-						</div>
-					</div>
-
-					<!-- Vipula Sail topic: -->
-					<div class="item item-talk mb-5">
-						<div class="meta">
-							<h4 class="time mb-3">15:00 - 15:15</h4>
-							<div class="profile">
-								<a target="_blank" href="#modal-speaker-30" data-bs-toggle="modal"
-									data-bs-target="#modal-speaker-30">
-									<img class="profile-image rounded-circle  mb-2"
-										src="assets/images/speakers/speaker-30.jpg" alt="">
-								</a>
-								<div class="name">
-									<a target="_blank" class="theme-link" href="#modal-speaker-30"
-										data-bs-toggle="modal" data-bs-target="#modal-speaker-30">Vipula Sail</a>
-								</div>
-							</div>
-						</div>
-						<div class="content">
-							<h3 class="title mb-3">How to get Product Management experience for students</h3>
-							<div class="desc">Vipula Sail is a student and Incoming Mitacs GRI' 23 Intern @ Uni
-								Waterloo. <br>She is an Anchor and a Design Thinking Trainer</div><br>
-						</div>
-					</div>
-					<br>
-
-					<!-- Panel Discussion : (Pallavi Salgoankar, Siya Shaikh) -->
-					<div class="item item-talk mb-3">
-						<div class="meta">
-							<h4 class="time mb-3">15:20 - 16:00</h4>
-							<!-- Siya Shaikh -->
-							<div class="profile">
-								<a target="_blank" href="#modal-speaker-24" data-bs-toggle="modal"
-									data-bs-target="#modal-speaker-24">
-									<img class="profile-image rounded-circle  mb-2"
-										src="assets/images/speakers/speaker-24.jpg" alt="">
-								</a>
-								<div class="name">
-									<a target="_blank" class="theme-link" href="#modal-speaker-24"
-										data-bs-toggle="modal" data-bs-target="#modal-speaker-24">Siya Shaikh</a>
-								</div>
-							</div>
-							<br>
-							<div class="profile">
-								<a target="_blank" href="#modal-speaker-26" data-bs-toggle="modal"
-									data-bs-target="#modal-speaker-26">
-									<img class="profile-image rounded-circle  mb-2"
-										src="assets/images/speakers/speaker-26.jpg" alt="">
-								</a>
-								<div class="name">
-									<a target="_blank" class="theme-link" href="#modal-speaker-26"
-										data-bs-toggle="modal" data-bs-target="#modal-speaker-26">Pallavi Salgaocar</a>
-								</div>
-							</div>
-						</div>
-						<div class="content">
-							<h3 class="title mb-3">Panel Discussion</h3>
-							<div class="desc"><b>Speaker 1 : Siya Shaikh</b></div>
-							<div class="desc">Siya Shaikh is a Civil Engineer by profession, but an Entrepreneur by
-								passion.
-								She established ‘GO Womania GOA’, a community of native Goan women with the mission to
-								‘Build
-								Together, Grow Together’. She is the first woman to start Goa's first offline Business
-								networking
-								Platform called WEBN. She is also Founder Of Goas first Multibrand Multivendor
-								E-commerce platform
-								for Local products of Goa called 'Goenkart' and propietor at Goa Metal Composites, which
-								deals
-								into FRP doors and Allied products.</div>
-							<br>
-
-							<div class="desc"><b>Speaker 2 : Pallavi Salgaocar</b></div>
-							<div class="desc">Pallavi Salgaocar is a CA & finance director of Geno Pharmaceuticals pvt
-								Ltd.
-								She is the founder director of Desserts N More bakery chain in Goa. Also the chairperson
-								of
-								GCCI - Women s Wing and Women Empowerment chair - Assocham Goa.</div>
-						</div>
-					</div>
-					<br><br>
-
-					<!-- Closing Note -->
-					<div class="item item-other">
-						<div class="meta">
-							<h4 class="time mb-3">16:00 - 16:15</h4>
-						</div>
-						<div class="content">
-							<h3 class="title mb-3">Closing Note</h3>
-						</div>
-					</div>
-
-				</div>
-					<br>
-					<div class="schedule-cta text-center mx-auto">
-					<a target="_blank" href="https://www.townscript.com/e/International-Womens-Day-2023-Goa"
-						class="btn btn-secondary btn-lg d-block d-md-inline-block disabled" target="_blank">Buy Tickets</a>
-					</div>
-				</div>
-	</section>
-
-	<!-- Tickets -->
-	<section id="tickets-section" class="tickets-section section theme-bg-light">
-		<div class="container">
-			<h3 class="section-heading text-center mb-3">Tickets</h3>
-			<!-- <div class="section-intro single-col-max mx-auto text-center mb-4">You can use 3rd party platforms <a
-					class="theme-link" href="https://www.townscript.com/"
-					target="_blank">townscript</a> to buy your tickets.</div> -->
-			<div class="row pricing m-auto mb-5">
-				<div class="col-12 m-auto col-md-4 p-2 p-lg-4">
-					<div class="card card rounded-0 border-0">
-						<div class="card-body p-0">
-							<div class="heading text-center p-3">
-								<h4 class="text-white mb-0">Early Bird</h4>
-							</div>
-							<div class="info p-3">
-								<div class="price-figure text-center"><span class="currency">₹</span><span
-										class="number">200</span></div>
-								<div class="desc px-3">
-									Purchase before 26th April 2023. Only 70 tickets available.
-								</div>
-							</div>
-						</div>
-						<div class="card-footer text-center">
-							<a target="_blank" href="https://www.townscript.com/e/International-Womens-Day-2023-Goa"
-								class="btn btn-primary disabled" target="_blank">SOLD OUT</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-12 m-auto col-md-4 p-2 p-lg-4">
-					<div class="card card-special rounded-0 border-0">
-						<div class="card-body p-0">
-							<div class="heading text-center p-3">
-								<h4 class="text-white mb-0">Last Minute</h4>
-							</div>
-							<div class="info p-3">
-								<div class="price-figure text-center"><span class="currency">₹</span><span
-										class="number">300</span></div>
-								<div class="desc px-3">
-									Purchase before its too late. (After 26th April)
-								</div>
-							</div>
-						</div>
-						<div class="card-footer text-center">
-							<a target="_blank" href="https://www.townscript.com/e/International-Womens-Day-2023-Goa"
-								class="btn btn-primary disabled" target="_blank">SOLD OUT</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--//tickets-section-->
-
-	<!-- Venue -->
-	<section id="venue-section" class="venue-section section  theme-bg-primary text-white">
-		<div class="container">
-			<h3 class="section-heading text-center mb-5 text-white">Venue</h3>
-			<div class="row gx-5 py-lg-5">
-				<div class="col-12 col-lg-7 h-100">
-					<div class="desc">
-						<h4 class="text-white mb-3">About the Venue</h4>
-						<p>Padre Conceição College of Engineering (PCCE) is an engineering college in Verna, Goa, India,
-							established in 1997. The college is affiliated to Goa University, Taleigao, Goa, and the
-							programmes are approved by All India Council for Technical Education (AICTE), New Delhi. The
-							college is a part of Agnel Technical Education Complex, Verna, Goa. PCCE has 4 Bachelor
-							disciplines: Mechanical Engineering, Computer Engineering, Electronics and Telecommunication
-							Engineering and Information Technology and Masters in Information Technology</p>
-						<br>
-						<a target="_blank" class="btn btn-ghost" href="https://goo.gl/maps/FRHeFXjZTnjyJuUx6"
-							target="_blank"> <i class="fas fa-map-marker-alt mx-2"
-								style="text-decoration: none;"></i>Navigate</a>
-						<br>
-					</div>
-				</div>
-				<div class="col-12 col-xl-3 col-lg-4 offset-lg-1 position-relative h-100 mt-5 mt-lg-0">
-					<div class="figures-holder">
-						<div class="figure figure-1"><img class="shadow" src="assets/images/venue/venue.jpeg"
-								alt="PCCE">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- Sponcers -->
-	<section id="sponsors-section" class="sponsors-section section">
-		<div class="container">
-			<h3 class="section-heading text-center mb-3">Sponsors &amp; Partners</h3>
-			<div class="section-intro text-center single-col-max mx-auto mb-5">Here are the Sponsors of one of the
-				liveliest Developer Conferences yet in Goa. Want to sponsor us? Get in touch by writing to us at
-				teamgdggoa@gmail.com
-			</div>
-			<center>
-				<div class="row logos justify-content-center">
-					<div class="logo-item col-6 col-md-4 col-lg-2">
-						<img src="assets/images/sponcers/pcce-logo.jpg" alt="" style="height: 150px;">
-					</div>
-					<div class="logo-item col-6 col-md-4 col-lg-2">
-						<a href="https://orkes.io" target="_blank">
-							<img src="assets/images/sponcers/suit-logo.jpg" alt="" style="height: 150px;">
-						</a>
-					</div>
-				</div>
-			</center>
-		</div>
-	</section>
-
-	<!-- Volunteers -->
-	<section id="Volunteers-section" class="Volunteers-section section">
-		<div class="container">
-			<h3 class="section-heading text-center mb-3">Volunteers</h3>
-			<div class="section-intro text-center single-col-max mx-auto mb-5">Here's the list of Volunteers for the
-				Event</div>
-			<div class="volunteer-grid row mx-auto">
+				</div> -->
+				<!-- Abhinav Borde END -->
 
 				<!-- Siya Golatkar START -->
 				<div class="col-6 col-lg-4 mb-4">
@@ -1836,441 +918,176 @@ She is currently working on a "Global Citizens Program" - a comprehensive Commun
 					</div>
 				</div>
 				<!-- Siya Golatkar END -->
-
-				<!-- Aditi Kalangutkar START -->
-				<div class="col-6 col-lg-4 mb-4">
+				
+				<!-- Samarth Naik END -->
+				<!-- Shantaksh Kamat START -->
+				<!-- <div class="col-6 col-lg-4 mb-4">
 					<div class="card rounded-0 border-0 shadow">
-						<a target="_blank" href="#modal-volunteer-10" data-bs-toggle="modal"
-							data-bs-target="#modal-volunteer-10"><img src="assets/images/Volunteers/volunteer-10.png"
+						<a target="_blank" href="#modal-volunteer-5" data-bs-toggle="modal"
+							data-bs-target="#modal-volunteer-5"><img src="assets/images/Volunteers/volunteer-5.jpg"
 								class="card-img-top rounded-0" alt=""></a>
 						<div class="card-body">
-							<h5 class="card-title mb-2"><b>Aditi Kalangutkar</b></h5>
+							<h5 class="card-title mb-2"><b>Shantaksh Kamat</b></h5>
 							<div class="card-text mb-3">
 								<div class="meta">Frontend Developer</div>
-								<div class="meta">Technical Lead</div>
+								<div class="meta">Coordination and PR Lead</div>
 							</div>
-							<a target="_blank" href="#modal-volunteer-10" data-bs-toggle="modal"
-								data-bs-target="#modal-volunteer-10">Read
+							<a target="_blank" href="#modal-volunteer-5" data-bs-toggle="modal"
+								data-bs-target="#modal-volunteer-5">Read
 								more &rarr;</a>
 						</div>
 						<div class="card-footer text-muted">
 							<ul class="social-list list-inline mb-0">
-								<li class="list-inline-item"><a target="_blank" href="https://twitter.com/adyytyy/"><i
+								<li class="list-inline-item"><a target="_blank"
+										href="https://twitter.com/kamat_shantaksh/"><i
 											class="fab fa-twitter fa-fw"></i></a></li>
-								<li class="list-inline-item"><a target="_blank"
-										href="https://www.linkedin.com/in/aditik9/"><i
+								<li class="list-inline-item"><a
+										href="https://www.linkedin.com/in/shantaksh-kamat-58a109192/"><i
 											class="fab fa-linkedin-in fa-fw"></i></a></li>
-								<li class="list-inline-item"><a target="_blank" href="https://github.com/aditik9/"><i
-											class="fab fa-github fa-fw"></i></a></li>
 								<li class="list-inline-item"><a target="_blank"
-										href="https://www.instagram.com/adyytyy/"><i
+										href="https://github.com/ShantakshKamat"><i class="fab fa-github fa-fw"></i></a>
+								</li>
+								<li class="list-inline-item"><a target="_blank"
+										href="https://www.instagram.com/shantax_kam4t_02/"><i
 											class="fab fa-instagram fa-fw"></i></a></li>
 							</ul>
 						</div>
 					</div>
-					<div class="modal modal-speaker modal-speaker-1" id="modal-volunteer-10" tabindex="-1" role="dialog"
-						aria-labelledby="volunteer-10-ModalLabel" aria-hidden="true">
+					<div class="modal modal-speaker modal-speaker-1" id="modal-volunteer-5" tabindex="-1" role="dialog"
+						aria-labelledby="volunteer-5-ModalLabel" aria-hidden="true">
 						<div class="modal-dialog">
 							<div class="modal-content">
 								<div class="modal-header">
 									<button type="button" class="btn-close" data-bs-dismiss="modal"
 										aria-hidden="true">&times;</button>
-									<h4 id="volunteer-10-ModalLabel" class="modal-title sr-only">Aditi Kalangutkar</h4>
+									<h4 id="volunteer-5-ModalLabel" class="modal-title sr-only">Shantaksh Kamat</h4>
 								</div>
 								<div class="modal-body p-0">
 									<div class="theme-bg-light p-5">
 										<div class="row">
 											<div class="col-12 col-md-auto text-center">
 												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
-													src="assets/images/Volunteers/volunteer-10.png" alt="" />
+													src="assets/images/Volunteers/volunteer-5.jpg" alt="" />
 											</div>
 
 											<div class="col text-center text-md-start mx-auto">
-												<h2 class="name mb-2">Aditi Kalangutkar</h2>
-												<div class="meta">Frontend Developer</div>
-												<div class="meta mb-2">Technical Lead</div>
+												<h2 class="name mb-2">Shantaksh Kamat</h2>
+												<div class="meta">Coordination and PR Lead</div>
+												<div class="meta mb-2">Frontend Developer</div>
 												<ul class="social-list list-inline mb-0">
 													<li class="list-inline-item"><a
-															href="https://twitter.com/adyytyy/"><i
+															href="https://twitter.com/kamat_shantaksh/"><i
 																class="fab fa-twitter fa-fw"></i></a></li>
 													<li class="list-inline-item"><a
-															href="http://www.linkedin.com/in/aditik9/"><i
+															href="https://www.linkedin.com/in/shantaksh-kamat-58a109192/"><i
 																class="fab fa-linkedin-in fa-fw"></i></a></li>
 													<li class="list-inline-item"><a
-															href="https://www.instagram.com/adyytyy/"><i
+															href="https://www.instagram.com/shantax_kam4t_02/"><i
 																class="fab fa-instagram fa-fw"></i></a></li>
-													<li class="list-inline-item"><a target="_blank"
-															href="https://github.com/aditik9/"><i
-																class="fab fa-github fa-fw"></i></a></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div class="desc p-4 p-lg-5">
-										<p>I like creating things for the web and I'm passionate about every aspect
-											of the process, from designing to developing websites. Also as a graphic
-											design enthusiast, I bring a unique blend of coding expertise and creative
-											flair to every project. Whether it's designing illustrations or coding
-											responsive layouts, I'm always looking for ways to improve my skills and
-											create innovative web content.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Aditi Kalangutkar END -->
-
-				<!-- Kanchan Patil START -->
-				<div class="col-6 col-lg-4 mb-4">
-					<div class="card rounded-0 border-0 shadow">
-						<a target="_blank" href="#modal-volunteer-11" data-bs-toggle="modal"
-							data-bs-target="#modal-volunteer-11"><img src="assets/images/Volunteers/volunteer-11.png"
-								class="card-img-top rounded-0" alt=""></a>
-						<div class="card-body">
-							<h5 class="card-title mb-2"><b>Kanchan Patil</b></h5>
-							<div class="card-text mb-3">
-								<div class="meta">Graphic Designer</div>
-								<div class="meta">Creative Lead</div>
-							</div>
-							<a target="_blank" href="#modal-volunteer-11" data-bs-toggle="modal"
-								data-bs-target="#modal-volunteer-11">Read
-								more &rarr;</a>
-						</div>
-						<div class="card-footer text-muted">
-							<ul class="social-list list-inline mb-0">
-								<!--<li class="list-inline-item"><a target="_blank"
-										href=""><i
-											class="fab fa-twitter fa-fw"></i></a></li>-->
-								<li class="list-inline-item"><a target="_blank"
-										href="https://www.linkedin.com/in/kanchan-patil-a37087200/"><i
-											class="fab fa-linkedin-in fa-fw"></i></a></li>
-								<li class="list-inline-item"><a target="_blank" href="https://github.com/knchn08/"><i
-											class="fab fa-github fa-fw"></i></a></li>
-								<!--<li class="list-inline-item"><a target="_blank"
-										href=""><i
-											class="fab fa-instagram fa-fw"></i></a></li>-->
-							</ul>
-						</div>
-					</div>
-					<div class="modal modal-speaker modal-speaker-1" id="modal-volunteer-11" tabindex="-1" role="dialog"
-						aria-labelledby="volunteer-11-ModalLabel" aria-hidden="true">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="btn-close" data-bs-dismiss="modal"
-										aria-hidden="true">&times;</button>
-									<h4 id="volunteer-11-ModalLabel" class="modal-title sr-only">Kanchan Patil</h4>
-								</div>
-								<div class="modal-body p-0">
-									<div class="theme-bg-light p-5">
-										<div class="row">
-											<div class="col-12 col-md-auto text-center">
-												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
-													src="assets/images/Volunteers/volunteer-11.png" alt="" />
-											</div>
-
-											<div class="col text-center text-md-start mx-auto">
-												<h2 class="name mb-2">Kanchan Patil</h2>
-												<div class="meta">Graphic Designer</div>
-												<div class="meta mb-2">Creative Lead</div>
-												<ul class="social-list list-inline mb-0">
-													<!--<li class="list-inline-item"><a
-															href=""><i
-																class="fab fa-twitter fa-fw"></i></a></li>-->
 													<li class="list-inline-item"><a
-															href="https://www.linkedin.com/in/kanchan-patil-a37087200/"><i
-																class="fab fa-linkedin-in fa-fw"></i></a></li>
-													<!--<li class="list-inline-item"><a
-															href=""><i
-																class="fab fa-instagram fa-fw"></i></a></li>-->
-													<li class="list-inline-item"><a target="_blank"
-															href="https://github.com/knchn08/"><i
+															href="https://github.com/ShantakshKamat"><i
 																class="fab fa-github fa-fw"></i></a></li>
 												</ul>
 											</div>
 										</div>
 									</div>
 									<div class="desc p-4 p-lg-5">
-										<p>Hey! I'm a 3rd year computer engineering student who is interested in web
-											technologies.
-											I also like learning about the various technical fields and am currently
-											exploring ML.
-											I like helping in community activities and volunteering for technical and
-											non-technical events.</p>
+										<p>an aspiring web developer with a keen interest in front-end technologies.
+											always in search of opportunities to interact with fellow developers, learn
+											more, and upskill. At the moment, exploring new technologies</p>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<!-- Kanchan Patil END -->
-
-				<!-- Shruti Patil START -->
-				<div class="col-6 col-lg-4 mb-4">
+				</div> -->
+				<!-- Shantaksh Kamat END -->
+				<!-- Abner Mascarenhas START -->
+				<!-- <div class="col-6 col-lg-4 mb-4">
 					<div class="card rounded-0 border-0 shadow">
-						<a target="_blank" href="#modal-volunteer-12" data-bs-toggle="modal"
-							data-bs-target="#modal-volunteer-12"><img src="assets/images/Volunteers/volunteer-12.png"
+						<a target="_blank" href="#modal-volunteer-9" data-bs-toggle="modal"
+							data-bs-target="#modal-volunteer-9"><img src="assets/images/Volunteers/volunteer-9.jpg"
 								class="card-img-top rounded-0" alt=""></a>
 						<div class="card-body">
-							<h5 class="card-title mb-2"><b>Shruti Patil</b></h5>
+							<h5 class="card-title mb-2"><b>Abner Mascarenhas</b></h5>
 							<div class="card-text mb-3">
-								<div class="meta">Android developer | Designer</div>
+								<div class="meta">Graphics Designer | Photographer</div>
 								<div class="meta">Creative Lead</div>
 							</div>
-							<a target="_blank" href="#modal-volunteer-12" data-bs-toggle="modal"
-								data-bs-target="#modal-volunteer-12">Read
+							<a target="_blank" href="#modal-volunteer-9" data-bs-toggle="modal"
+								data-bs-target="#modal-volunteer-9">Read
 								more &rarr;</a>
 						</div>
 						<div class="card-footer text-muted">
 							<ul class="social-list list-inline mb-0">
 								<li class="list-inline-item"><a target="_blank"
-										href="https://twitter.com/Aprendiza299703?t=ZBlj1tbblYWTssTAGwffbg&s=09"><i
-											class="fab fa-twitter fa-fw"></i></a></li>
-								<li class="list-inline-item"><a target="_blank"
-										href="https://www.linkedin.com/in/shruti-p-0724b0207"><i
+										href="https://www.behance.net/fabrizomasc1"><i
+											class="fab fa-behance fa-fw"></i></a></li>
+								<li class="list-inline-item"><a
+										href="https://www.linkedin.com/in/king-fabrizo-595599197/"><i
 											class="fab fa-linkedin-in fa-fw"></i></a></li>
-								<li class="list-inline-item"><a target="_blank" href="https://github.com/Shruti-lab"><i
-											class="fab fa-github fa-fw"></i></a></li>
 								<li class="list-inline-item"><a target="_blank"
-										href="https://instagram.com/tuumamicum?igshid=ZDdkNTZiNTM="><i
+										href="https://www.instagram.com/fabiofreeze/"><i
 											class="fab fa-instagram fa-fw"></i></a></li>
 							</ul>
 						</div>
 					</div>
-					<div class="modal modal-speaker modal-speaker-1" id="modal-volunteer-12" tabindex="-1" role="dialog"
-						aria-labelledby="volunteer-12-ModalLabel" aria-hidden="true">
+					<div class="modal modal-speaker modal-speaker-1" id="modal-volunteer-9" tabindex="-1" role="dialog"
+						aria-labelledby="volunteer-9-ModalLabel" aria-hidden="true">
 						<div class="modal-dialog">
 							<div class="modal-content">
 								<div class="modal-header">
 									<button type="button" class="btn-close" data-bs-dismiss="modal"
 										aria-hidden="true">&times;</button>
-									<h4 id="volunteer-12-ModalLabel" class="modal-title sr-only">Shruti Patil</h4>
+									<h4 id="volunteer-9-ModalLabel" class="modal-title sr-only">Abner Mascarenhas</h4>
 								</div>
 								<div class="modal-body p-0">
 									<div class="theme-bg-light p-5">
 										<div class="row">
 											<div class="col-12 col-md-auto text-center">
 												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
-													src="assets/images/Volunteers/volunteer-12.png" alt="" />
+													src="assets/images/Volunteers/volunteer-9.jpg" alt="" />
 											</div>
 
 											<div class="col text-center text-md-start mx-auto">
-												<h2 class="name mb-2">Shruti Patil</h2>
-												<div class="meta">Android developer | Designer</div>
+												<h2 class="name mb-2">Abner Mascarenhas</h2>
+												<div class="meta">Graphics Designer | Photographer | Drone Pilot</div>
 												<div class="meta mb-2">Creative Lead</div>
 												<ul class="social-list list-inline mb-0">
 													<li class="list-inline-item"><a
-															href="https://twitter.com/Aprendiza299703?t=ZBlj1tbblYWTssTAGwffbg&s=09"><i
-																class="fab fa-twitter fa-fw"></i></a></li>
+															href="https://www.behance.net/fabrizomasc1"><i
+																class="fab fa-behance fa-fw"></i></a></li>
 													<li class="list-inline-item"><a
-															href="https://www.linkedin.com/in/shruti-p-0724b0207"><i
+															href="https://www.linkedin.com/in/king-fabrizo-595599197/"><i
 																class="fab fa-linkedin-in fa-fw"></i></a></li>
 													<li class="list-inline-item"><a
-															href="https://instagram.com/tuumamicum?igshid=ZDdkNTZiNTM="><i
+															href="https://www.instagram.com/fabiofreeze/"><i
 																class="fab fa-instagram fa-fw"></i></a></li>
-													<li class="list-inline-item"><a target="_blank"
-															href="https://github.com/Shruti-lab"><i
-																class="fab fa-github fa-fw"></i></a></li>
 												</ul>
 											</div>
 										</div>
 									</div>
 									<div class="desc p-4 p-lg-5">
-										<p>A budding Android developer that has great passion for design and technology.
-											I am open source enthusiast and have strong desire to grow as a community.
-											Currently exploring into UI UX design and cloud computing.</p>
+										<p>Creative thinker who likes to express himself through the medium of
+											Photography,Art and Graphic design.</p>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<!-- Shruti Patil END -->
-
-				<!-- Abdul Baasit Shaikh START -->
-				<div class="col-6 col-lg-4 mb-4">
-					<div class="card rounded-0 border-0 shadow">
-						<a target="_blank" href="#modal-volunteer-14" data-bs-toggle="modal"
-							data-bs-target="#modal-volunteer-14"><img src="assets/images/Volunteers/volunteer-14.png"
-								class="card-img-top rounded-0" alt=""></a>
-						<div class="card-body">
-							<h5 class="card-title mb-2"><b>Abdul Baasit Shaikh</b></h5>
-							<div class="card-text mb-3">
-								<div class="meta">MERN Stack Developer</div>
-								<div class="meta">Technical Lead</div>
-							</div>
-							<a target="_blank" href="#modal-volunteer-14" data-bs-toggle="modal"
-								data-bs-target="#modal-volunteer-14">Read
-								more &rarr;</a>
-						</div>
-						<div class="card-footer text-muted">
-							<ul class="social-list list-inline mb-0">
-								<li class="list-inline-item"><a target="_blank"
-										href="https://twitter.com/AbdulBa36592882"><i
-											class="fab fa-twitter fa-fw"></i></a></li>
-								<li class="list-inline-item"><a target="_blank"
-										href="https://www.linkedin.com/in/abdul-baasit-shaikh/"><i
-											class="fab fa-linkedin-in fa-fw"></i></a></li>
-								<li class="list-inline-item"><a target="_blank"
-										href="https://github.com/abdulbaasithere/"><i
-											class="fab fa-github fa-fw"></i></a></li>
-								<li class="list-inline-item"><a target="_blank"
-										href="https://www.instagram.com/abdul_baasit_shaikh/"><i
-											class="fab fa-instagram fa-fw"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="modal modal-speaker modal-speaker-1" id="modal-volunteer-14" tabindex="-1" role="dialog"
-						aria-labelledby="volunteer-14-ModalLabel" aria-hidden="true">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="btn-close" data-bs-dismiss="modal"
-										aria-hidden="true">&times;</button>
-									<h4 id="volunteer-14-ModalLabel" class="modal-title sr-only">Abdul Baasit Shaikh
-									</h4>
-								</div>
-								<div class="modal-body p-0">
-									<div class="theme-bg-light p-5">
-										<div class="row">
-											<div class="col-12 col-md-auto text-center">
-												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
-													src="assets/images/Volunteers/volunteer-14.png" alt="" />
-											</div>
-
-											<div class="col text-center text-md-start mx-auto">
-												<h2 class="name mb-2">Abdul Baasit Shaikh</h2>
-												<div class="meta">MERN Stack Developer</div>
-												<div class="meta mb-2">Technical Lead</div>
-												<ul class="social-list list-inline mb-0">
-													<li class="list-inline-item"><a
-															href="https://twitter.com/AbdulBa36592882"><i
-																class="fab fa-twitter fa-fw"></i></a></li>
-													<li class="list-inline-item"><a
-															href="https://www.linkedin.com/in/abdul-baasit-shaikh/"><i
-																class="fab fa-linkedin-in fa-fw"></i></a></li>
-													<li class="list-inline-item"><a
-															href="https://www.instagram.com/abdul_baasit_shaikh/"><i
-																class="fab fa-instagram fa-fw"></i></a></li>
-													<li class="list-inline-item"><a target="_blank"
-															href="https://github.com/abdulbaasithere/"><i
-																class="fab fa-github fa-fw"></i></a></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div class="desc p-4 p-lg-5">
-										<p>I am an enthusiastic student with robust problem-solving skills and ability
-											to perform good at teams. Passionate about coding and enjoys learning new
-											skills while tackling the challenges. I also tend to have skills like
-											leadership, and time management.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Abdul Baasit Shaikh END -->
-
-				<!-- Pranav Madkaikar START -->
-				<div class="col-6 col-lg-4 mb-4">
-					<div class="card rounded-0 border-0 shadow">
-						<a target="_blank" href="#modal-volunteer-13" data-bs-toggle="modal"
-							data-bs-target="#modal-volunteer-13"><img src="assets/images/Volunteers/volunteer-13.png"
-								class="card-img-top rounded-0" alt=""></a>
-						<div class="card-body">
-							<h5 class="card-title mb-2"><b>Pranav Madkaikar</b></h5>
-							<div class="card-text mb-3">
-								<div class="meta">Web Developer</div>
-								<div class="meta">Creative Lead</div>
-							</div>
-							<a target="_blank" href="#modal-volunteer-13" data-bs-toggle="modal"
-								data-bs-target="#modal-volunteer-13">Read
-								more &rarr;</a>
-						</div>
-						<div class="card-footer text-muted">
-							<ul class="social-list list-inline mb-0">
-								<!--<li class="list-inline-item"><a target="_blank"
-										href=""><i
-											class="fab fa-twitter fa-fw"></i></a></li>-->
-								<li class="list-inline-item"><a target="_blank"
-										href="https://www.linkedin.com/in/pranav-madkaikar-b927131b7"><i
-											class="fab fa-linkedin-in fa-fw"></i></a></li>
-								<li class="list-inline-item"><a target="_blank"
-										href="https://github.com/pranavmadkaikar"><i
-											class="fab fa-github fa-fw"></i></a></li>
-								<li class="list-inline-item"><a target="_blank"
-										href="https://www.instagram.com/pranav_madkaiker/"><i
-											class="fab fa-instagram fa-fw"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="modal modal-speaker modal-speaker-1" id="modal-volunteer-13" tabindex="-1" role="dialog"
-						aria-labelledby="volunteer-13-ModalLabel" aria-hidden="true">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="btn-close" data-bs-dismiss="modal"
-										aria-hidden="true">&times;</button>
-									<h4 id="volunteer-13-ModalLabel" class="modal-title sr-only">Pranav Madkaikar</h4>
-								</div>
-								<div class="modal-body p-0">
-									<div class="theme-bg-light p-5">
-										<div class="row">
-											<div class="col-12 col-md-auto text-center">
-												<img class="profile-image mb-3 mb-md-0 me-md-4 rounded-circle mx-auto"
-													src="assets/images/Volunteers/volunteer-13.png" alt="" />
-											</div>
-
-											<div class="col text-center text-md-start mx-auto">
-												<h2 class="name mb-2">Pranav Madkaikar</h2>
-												<div class="meta">Web Developer</div>
-												<div class="meta mb-2">Creative Lead</div>
-												<ul class="social-list list-inline mb-0">
-													<!--<li class="list-inline-item"><a
-															href=""><i
-																class="fab fa-twitter fa-fw"></i></a></li>-->
-													<li class="list-inline-item"><a
-															href="https://www.linkedin.com/in/pranav-madkaikar-b927131b7"><i
-																class="fab fa-linkedin-in fa-fw"></i></a></li>
-													<li class="list-inline-item"><a
-															href="https://www.instagram.com/pranav_madkaiker/"><i
-																class="fab fa-instagram fa-fw"></i></a></li>
-													<li class="list-inline-item"><a target="_blank"
-															href="https://github.com/pranavmadkaikar"><i
-																class="fab fa-github fa-fw"></i></a></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-									<div class="desc p-4 p-lg-5">
-										<p>As a beginner web developer, I am eager to learn and grow in the field of web
-											development.
-											I am working on expanding my knowledge of programming languages and
-											frameworks. My focus
-											is on creating functional and visually appealing websites that meet client
-											needs and user
-											expectations. I am dedicated to continuous learning and improvement, and I
-											am excited to
-											take on new challenges and projects.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Pranav Madkaikar END -->
-
+				</div> -->
+				<!-- Abner Mascarenhas END -->
+				<!-- VOLUNTEERS_END -->
 			</div>
 			<div class="Volunteers-cta text-center py-3"><a target="_blank"
-					class="btn btn-warning btn-lg text-decoration-none disabled"
-					href="https://www.townscript.com/e/International-Womens-Day-2023-Goa" target="_blank">Get
-					Tickets</a></div>
+					class="btn btn-warning btn-lg text-decoration-none"
+					href="https://www.townscript.com/e/devfest-goa-2023" target="_blank">Get Tickets</a></div>
 		</div>
+		<!--//container-->
 	</section>
+	<!--//Volunteers-section-->
 
-	<!-- Footer -->
+
 	<footer class="footer py-5 theme-bg-primary">
 		<div class="container text-center">
 			<ul class="social-list list-inline mb-4">
@@ -2283,17 +1100,18 @@ She is currently working on a "Global Citizens Program" - a comprehensive Commun
 				<li class="list-inline-item me-0"><a target="_blank" href="https://www.youtube.com/@gdggoa1322"><i
 							class="fab fa-youtube fa-fw"></i></a></li>
 			</ul>
+			<!--//social-list-->
 
 			<!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
 			<small class="copyright">Designed by <a target="_blank" href="http://themes.3rdwavemedia.com">Xiaoying
 					Riley</a> for developers.</small>
 			<small class="copyright">Edited by <a target="_blank" href="https://github.com/atharvparkhe">Atharva
-					Parkhe</a>, <a target="_blank" href="https://github.com/Greeshma2903" target="_blank">M Greeshma
-				</a> and <a href="https://github.com/aditik9" target="_blank">Aditi Kalangutkar</a> for
-				International Women’s Day - WTM</small>
+					Parkhe</a> and <a target="_blank" href="https://github.com/Greeshma2903" target="_blank">M Greeshma
+				</a> for DevFest23</small>
 		</div>
+		<!--//container-->
 	</footer>
-
+	<!-- Javascript -->
 	<script src="assets/plugins/popper.min.js"></script>
 	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 	<script src="assets/plugins/smoothscroll.min.js"></script>
