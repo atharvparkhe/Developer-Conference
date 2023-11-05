@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GDG Devfest 2023 Badge Generator</title>
+  <link rel="icon" href="image\logo.png" type="image/icon type">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/d90af38b7c.js" crossorigin="anonymous"></script>
+  <style>
+    .btn-secondary {
+      background: #EC645E;
+      text-decoration: none;
+      color: #fff;
+      border-radius: 5%;
+    }
+
+    .btn {
+      font-weight: 700;
+      padding: 0.6rem 1.25rem;
+      transition: all 0.4s ease-in-out;
+      border: none;
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      color: #fff;
+    }
+
+    .btn:hover {
+      background-color: #c13028;
+      border-color: #c13028;
+      cursor:pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="header-flex-wrapper">
+      <div class="title"><a href="../index.html"><img class="logo-icon" src="image/logo.png" alt="devfest logo"></a>
+        <span style="position:relative;bottom:9px;">GDG Devfest 2023 Badge Generator</span>
+      </div>
+      
+      <ul class="social-media" style="margin-left:auto; margin-right:3%;">
+        <li class="sm">
+          <a href="https://www.instagram.com/gdggoa/" target="_blank" title="Instagram"><i class="fab fa-instagram"
+              aria-hidden="true"></i></a>
+        </li>
+        <li class="sm">
+          <a href="https://www.linkedin.com/company/gdgoa/" target="_blank" title="Linkedin"><i
+              class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+        </li>
+        <li class="sm">
+          <a href="mailto:teamgdggoa@gmail.com" target="_blank" title="Mail"><i class="far fa-envelope"
+              aria-hidden="true"></i></a>
+        </li>
+        <li class="sm">
+          <a href="https://twitter.com/GDG_Goa" target="_blank" title="Twitter/X"><i class="fab fa-twitter"
+              aria-hidden="true"></i></a>
+        </li>
+        <li class="sm">
+          <a href="https://www.youtube.com/@gdggoa1322" target="_blank" title="YouTube"><i class="fab fa-youtube"
+              aria-hidden="true"></i></a>
+        </li>
+
+      </ul>
+      <div >
+        <a href="../index.html"><button class="btn btn-secondary" style="margin-left: auto;">Home</button></a>
+      </div>
+    </div>
+  </header>
+
+  <div class="main-container">
+    <div class="input-panel">
+      <p><b>Thank You for Registering for Devfest 2023! Generate your Attendee badge in two simple steps:</b></p>
+      <div class="input">
+        <label><b>Upload your Profile Picture</b></label>
+        <button class="button" onclick="uploadImage()"> Upload Image</button>
+        <input class="profile-input" type="file" accept="image/*" onchange="upload(event)" hidden />
+      </div>
+      <div class="input">
+        <label><b>Select image shape of your choice</b></label>
+        <div class="select-container">
+          <div class="select" id="original" selected onclick="changeShape('original')">
+            Original
+          </div>
+          <div class="select" id="square" onclick="changeShape('square')">
+            Square
+          </div>
+        </div>
+      </div>
+      <p>Download your generated Badge by clicking on the ⬇️ icon</p>
+      <p>Follow us & show us your enthusiasm by posting your badges on your favourite social media.</p>
+      <ul class="social-media">
+        <li class="sm">
+          <a href="https://www.instagram.com/gdggoa/" target="_blank" title="Instagram"><i class="fab fa-instagram"
+              aria-hidden="true"></i></a>
+        </li>
+        <li class="sm">
+          <a href="https://www.linkedin.com/company/gdgoa/" target="_blank" title="Linkedin"><i
+              class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+        </li>
+        <li class="sm">
+          <a href="https://twitter.com/GDG_Goa" target="_blank" title="Twitter/X"><i class="fab fa-twitter"
+              aria-hidden="true"></i></a>
+        </li>
+      </ul>
+      <p>And don't forget to tag us :) we will repost your badges on our official social media pages</p><br>
+      <p>
+        Inspired by <i>DevFest India.</i> <br>Made by <a href="https://www.linkedin.com/in/kaustubh-athalekar/"
+          target="_blank">Kaustubh Athalekar</a> and <a href="https://www.linkedin.com/in/m-greeshma/"
+          target="_blank">Medam Greeshma</a>
+      </p>
+    </div>
+
+    <div class="preview-panel">
+      <canvas></canvas>
+      <div class="download-fab" onclick="download()" id="download">
+        <svg xmlns="http://www.w3.org/2000/svg" height="23" viewBox="0 0 24 24" width="24" fill="#fff">
+          <path d="M0 0h24v24H0V0z" fill="none" />
+          <path
+            d="M16.59 9H15V4c0-.55-.45-1-1-1h-4c-.55 0-1 .45-1 1v5H7.41c-.89 0-1.34 1.08-.71 1.71l4.59 4.59c.39.39 1.02.39 1.41 0l4.59-4.59c.63-.63.19-1.71-.7-1.71zM5 19c0 .55.45 1 1 1h12c.55 0 1-.45 1-1s-.45-1-1-1H6c-.55 0-1 .45-1 1z" />
+        </svg>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="main.js"></script>
+
+</html>
