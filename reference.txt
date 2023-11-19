@@ -1,4 +1,4 @@
-// SPEAKERs section
+// SPEAKERs section -----------------------------------------------
 
 <section id="speakers-section" class="speakers-section section">
 		<div class="container">
@@ -1545,7 +1545,8 @@
 	</section>
 
     ------------------------
-// Schedule
+
+// Schedule -------------------------------------------------------
 
 <section id="schedule-section" class="schedule-section section">
 		<div class="container">
